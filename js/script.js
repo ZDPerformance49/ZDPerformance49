@@ -258,3 +258,16 @@ TERMIN BUCHEN
 `;
 
 }
+if(vehicle.performance){
+
+Preis = "449 €";
+
+}else if(vehicle.year <= 2020){
+
+Preis = "349 €";
+
+}else{
+
+Preis = "Preis auf Anfrage";
+
+}
