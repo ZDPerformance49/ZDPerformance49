@@ -271,3 +271,14 @@ Preis = "349 €";
 Preis = "Preis auf Anfrage";
 
 }
+
+// Premium Header beim Scrollen
+const premiumHeader = document.querySelector("header");
+
+window.addEventListener("scroll", () => {
+    if(window.scrollY > 40){
+        premiumHeader.classList.add("scrolled");
+    } else {
+        premiumHeader.classList.remove("scrolled");
+    }
+});
