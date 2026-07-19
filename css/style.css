@@ -1,6 +1,6 @@
 /* ==========================================
    ZD PERFORMANCE49
-   Version 1.0
+   PREMIUM STYLE V2
 ========================================== */
 
 *{
@@ -10,172 +10,102 @@ box-sizing:border-box;
 }
 
 html{
-
 scroll-behavior:smooth;
-
 }
 
 body{
 
-font-family:'Poppins',sans-serif;
+font-family:'Inter',sans-serif;
 
-background:#080808;
+background:#070707;
 
 color:#ffffff;
 
 overflow-x:hidden;
 
+line-height:1.6;
+
 }
 
 img{
 
+display:block;
+
 max-width:100%;
 
-display:block;
+}
+
+a{
+
+text-decoration:none;
+
+color:inherit;
+
+transition:.35s;
 
 }
 
 .container{
 
-width:90%;
-
-max-width:1400px;
+width:min(92%,1400px);
 
 margin:auto;
 
 }
 
-
-/* ==========================================
-   PREMIUM HEADER & NAVIGATION
-========================================== */
+/*========================================*/
 
 header{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:88px;
-    padding:0 6%;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    background:rgba(5,5,5,.45);
-    backdrop-filter:blur(18px);
-    -webkit-backdrop-filter:blur(18px);
-    border-bottom:1px solid rgba(255,255,255,.06);
-    z-index:9999;
-    transition:all .35s ease;
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+z-index:9999;
+
+background:rgba(10,10,10,.55);
+
+backdrop-filter:blur(18px);
+
+border-bottom:1px solid rgba(255,255,255,.08);
+
 }
 
-header.scrolled{
-    height:74px;
-    background:rgba(5,5,5,.92);
-    box-shadow:0 10px 30px rgba(0,0,0,.45);
+.nav{
+
+height:90px;
+
+display:flex;
+
+align-items:center;
+
+justify-content:space-between;
+
 }
 
 .logo{
-    display:flex;
-    align-items:center;
-    gap:14px;
-    text-decoration:none;
-    cursor:pointer;
+
+display:flex;
+
+align-items:center;
+
+gap:18px;
+
 }
 
-.logo-mark{
-    width:42px;
-    height:42px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    border:1px solid rgba(255,255,255,.12);
-    border-radius:12px;
-    background:linear-gradient(145deg,#d60000,#8a0000);
-    box-shadow:0 0 25px rgba(214,0,0,.35);
-    font-family:'Bebas Neue',sans-serif;
-    font-size:24px;
-    color:#fff;
-    letter-spacing:1px;
-}
+.logo-box{
 
-.logo-name{
-    display:flex;
-    align-items:center;
-    gap:8px;
-    font-family:'Bebas Neue',sans-serif;
-    letter-spacing:2px;
-}
+width:62px;
 
-.logo-zd{
-    font-size:34px;
-    color:#d60000;
-}
+height:62px;
 
-.logo-performance{
-    font-size:28px;
-    color:#ffffff;
-}
+border-radius:18px;
 
-nav{
-    display:flex;
-    gap:42px;
-}
-
-nav a{
-    color:#ffffff;
-    text-decoration:none;
-    font-weight:600;
-    font-size:14px;
-    letter-spacing:2px;
-    position:relative;
-    transition:color .3s ease;
-}
-
-nav a::after{
-    content:"";
-    position:absolute;
-    left:0;
-    bottom:-8px;
-    width:0;
-    height:2px;
-    background:#d60000;
-    transition:width .3s ease;
-}
-
-nav a:hover{
-    color:#d60000;
-}
-
-nav a:hover::after{
-    width:100%;
-}
-
-.book-button{
-    padding:15px 28px;
-    background:linear-gradient(135deg,#d60000,#8a0000);
-    border-radius:50px;
-    text-decoration:none;
-    color:#ffffff;
-    font-weight:700;
-    letter-spacing:1px;
-    transition:all .35s ease;
-    box-shadow:0 0 28px rgba(214,0,0,.35);
-}
-
-.book-button:hover{
-    transform:translateY(-3px);
-    box-shadow:0 0 42px rgba(214,0,0,.55);
-}
-
-/* ==========================================
-HERO
-========================================== */
-
-.hero{
-
-height:100vh;
-
-background:url("../images/hero.jpg") center center/cover no-repeat;
+background:linear-gradient(135deg,#ff0000,#730000);
 
 display:flex;
 
@@ -183,9 +113,132 @@ align-items:center;
 
 justify-content:center;
 
+font-size:28px;
+
+font-weight:800;
+
+color:#fff;
+
+box-shadow:0 0 35px rgba(255,0,0,.45);
+
+}
+
+.logo-text h2{
+
+font-size:22px;
+
+letter-spacing:2px;
+
+}
+
+.logo-text span{
+
+font-size:13px;
+
+color:#bdbdbd;
+
+letter-spacing:2px;
+
+text-transform:uppercase;
+
+}
+
+nav{
+
+display:flex;
+
+gap:45px;
+
+}
+
+nav a{
+
+font-size:15px;
+
+font-weight:600;
+
+position:relative;
+
+}
+
+nav a::after{
+
+content:"";
+
+position:absolute;
+
+left:0;
+
+bottom:-8px;
+
+width:0;
+
+height:2px;
+
+background:#ff1a1a;
+
+transition:.3s;
+
+}
+
+nav a:hover::after{
+
+width:100%;
+
+}
+
+.nav-button{
+
+padding:14px 30px;
+
+background:#e10000;
+
+border-radius:50px;
+
+font-weight:700;
+
+box-shadow:0 0 30px rgba(255,0,0,.35);
+
+}
+
+.nav-button:hover{
+
+transform:translateY(-3px);
+
+background:#ff1c1c;
+
+}
+
+/*========================================*/
+
+.hero{
+
+min-height:100vh;
+
+display:flex;
+
+align-items:center;
+
 position:relative;
 
 overflow:hidden;
+
+padding-top:120px;
+
+}
+
+.hero::before{
+
+content:"";
+
+position:absolute;
+
+inset:0;
+
+background:
+radial-gradient(circle at right,
+rgba(255,0,0,.15),
+transparent 45%);
 
 }
 
@@ -196,48 +249,33 @@ position:absolute;
 inset:0;
 
 background:linear-gradient(
-
 90deg,
-
-rgba(0,0,0,.90),
-
-rgba(0,0,0,.55),
-
-rgba(0,0,0,.85)
-
+rgba(5,5,5,.88),
+rgba(5,5,5,.45),
+rgba(5,5,5,.15)
 );
 
 }
 
-.hero-gradient{
+.hero-grid{
 
-position:absolute;
+display:grid;
 
-bottom:0;
+grid-template-columns:1.05fr .95fr;
 
-left:0;
+gap:70px;
 
-width:100%;
-
-height:250px;
-
-background:linear-gradient(transparent,#080808);
-
-}
-
-.hero-content{
+align-items:center;
 
 position:relative;
 
 z-index:2;
 
-max-width:900px;
+}
 
-text-align:center;
+.hero-left{
 
-padding:20px;
-
-animation:heroFade 1.2s ease;
+animation:fadeUp .9s ease;
 
 }
 
@@ -245,33 +283,33 @@ animation:heroFade 1.2s ease;
 
 display:inline-block;
 
-padding:10px 22px;
+padding:11px 22px;
 
-border:1px solid rgba(255,255,255,.15);
+border-radius:40px;
 
-background:rgba(255,255,255,.06);
+background:rgba(255,255,255,.05);
 
-backdrop-filter:blur(12px);
-
-border-radius:50px;
-
-letter-spacing:3px;
+border:1px solid rgba(255,255,255,.08);
 
 font-size:13px;
 
-margin-bottom:30px;
+letter-spacing:3px;
+
+margin-bottom:35px;
+
+backdrop-filter:blur(10px);
 
 }
 
 .hero h1{
 
-font-family:"Bebas Neue",sans-serif;
+font-family:'Bebas Neue',sans-serif;
 
 font-size:120px;
 
-line-height:.9;
+line-height:.88;
 
-letter-spacing:3px;
+letter-spacing:4px;
 
 margin-bottom:25px;
 
@@ -279,21 +317,164 @@ margin-bottom:25px;
 
 .hero p{
 
-max-width:700px;
+font-size:21px;
 
-margin:auto;
+color:#d0d0d0;
 
-font-size:22px;
-
-line-height:1.8;
-
-color:#d4d4d4;
+max-width:640px;
 
 margin-bottom:45px;
 
 }
 
-@keyframes heroFade{
+.hero-buttons{
+
+display:flex;
+
+gap:18px;
+
+margin-bottom:60px;
+
+}
+
+.btn-red{
+
+padding:18px 34px;
+
+background:#e00000;
+
+border-radius:60px;
+
+font-weight:700;
+
+box-shadow:0 0 35px rgba(255,0,0,.4);
+
+}
+
+.btn-red:hover{
+
+transform:translateY(-4px);
+
+}
+
+.btn-white{
+
+padding:18px 34px;
+
+border:1px solid rgba(255,255,255,.2);
+
+border-radius:60px;
+
+background:rgba(255,255,255,.05);
+
+backdrop-filter:blur(12px);
+
+}
+
+.btn-white:hover{
+
+background:rgba(255,255,255,.12);
+
+}
+
+.hero-facts{
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:18px;
+
+}
+
+.fact{
+
+padding:24px;
+
+border-radius:24px;
+
+background:#101010;
+
+border:1px solid rgba(255,255,255,.05);
+
+transition:.35s;
+
+}
+
+.fact:hover{
+
+transform:translateY(-8px);
+
+border-color:#ff2020;
+
+}
+
+.fact h3{
+
+font-size:34px;
+
+margin-bottom:8px;
+
+}
+
+.fact span{
+
+color:#bfbfbf;
+
+font-size:14px;
+
+}
+
+.hero-right{
+
+display:flex;
+
+justify-content:center;
+
+animation:fadeRight 1.2s ease;
+
+}
+
+.hero-right img{
+
+width:100%;
+
+max-width:760px;
+
+filter:
+drop-shadow(0 35px 60px rgba(0,0,0,.7));
+
+}
+
+.scroll-indicator{
+
+position:absolute;
+
+bottom:35px;
+
+left:50%;
+
+transform:translateX(-50%);
+
+}
+
+.scroll-indicator span{
+
+display:block;
+
+width:3px;
+
+height:50px;
+
+background:linear-gradient(#ff0000,transparent);
+
+border-radius:20px;
+
+animation:scroll 1.8s infinite;
+
+}
+
+@keyframes fadeUp{
 
 from{
 
@@ -312,121 +493,61 @@ transform:translateY(0);
 }
 
 }
-/* ==========================================
-LEISTUNGEN
-========================================== */
 
-.leistungen{
+@keyframes fadeRight{
 
-padding:120px 0;
+from{
 
-background:#0d0d0d;
+opacity:0;
 
-}
-
-.leistungen h2{
-
-text-align:center;
-
-font-family:'Bebas Neue',sans-serif;
-
-font-size:60px;
-
-letter-spacing:3px;
-
-margin-bottom:60px;
+transform:translateX(80px);
 
 }
 
-.cards{
+to{
 
-display:grid;
+opacity:1;
 
-grid-template-columns:repeat(2,1fr);
-
-gap:30px;
+transform:translateX(0);
 
 }
 
-.card{
+}
 
-background:#151515;
+@keyframes scroll{
 
-padding:40px;
+0%{
 
-border-radius:20px;
+transform:translateY(0);
 
-border:1px solid rgba(255,255,255,.05);
-
-transition:.35s;
+opacity:0;
 
 }
 
-.card:hover{
+50%{
 
-transform:translateY(-10px);
-
-border-color:#d60000;
-
-box-shadow:0 0 40px rgba(214,0,0,.25);
+opacity:1;
 
 }
 
-.card h3{
+100%{
 
-font-family:'Bebas Neue',sans-serif;
+transform:translateY(22px);
 
-font-size:36px;
-
-letter-spacing:2px;
-
-color:#d60000;
-
-margin-bottom:20px;
+opacity:0;
 
 }
 
-.card p{
-
-color:#d7d7d7;
-
-line-height:1.8;
-
 }
+/* ==================================================
+   SERVICES
+================================================== */
 
-.software ul{
+section{
 
-margin-top:20px;
+padding:110px 0;
 
-padding-left:18px;
-
-line-height:2;
-
-color:#e4e4e4;
-
-}
-
-.software small{
-
-display:block;
-
-margin-top:25px;
-
-color:#8f8f8f;
-
-font-size:13px;
-
-}
-
-/* ==========================================
-DATENBANK
-========================================== */
-
-.datenbank{
-
-padding:120px 0;
-
-background:#090909;
+position:relative;
 
 }
 
@@ -434,494 +555,199 @@ background:#090909;
 
 text-align:center;
 
-margin-bottom:50px;
+max-width:760px;
+
+margin:0 auto 70px;
 
 }
 
-.section-title p{
+.section-title span{
 
-color:#d60000;
+display:inline-block;
 
-letter-spacing:5px;
+padding:10px 20px;
 
-font-size:14px;
+border-radius:40px;
 
-margin-bottom:10px;
+background:rgba(255,255,255,.05);
+
+border:1px solid rgba(255,255,255,.08);
+
+letter-spacing:3px;
+
+font-size:12px;
+
+margin-bottom:22px;
+
+color:#ff3a3a;
 
 }
 
 .section-title h2{
 
-font-family:'Bebas Neue',sans-serif;
-
-font-size:58px;
-
-letter-spacing:2px;
-
-}
-
-.search-box{
-
-max-width:850px;
-
-margin:0 auto 35px;
-
-}
-
-.search-box input{
-
-width:100%;
-
-padding:22px;
-
-border:none;
-
-border-radius:14px;
-
-background:#171717;
-
-color:white;
-
-font-size:17px;
-
-outline:none;
-
-}
-
-.manual-title{
-
-text-align:center;
-
-margin-bottom:30px;
-
-color:#a8a8a8;
-
-}
-
-.database-selects{
-
-display:grid;
-
-grid-template-columns:repeat(4,1fr);
-
-gap:20px;
-
-}
-
-.database-selects select{
-
-padding:18px;
-
-background:#171717;
-
-border:none;
-
-border-radius:12px;
-
-color:white;
-
-font-size:15px;
-
-outline:none;
-
-}
-
-.database-button{
-
-text-align:center;
-
-margin-top:35px;
-
-}
-
-.database-button button{
-
-background:#d60000;
-
-border:none;
-
-padding:18px 45px;
-
-border-radius:50px;
-
-font-size:16px;
-
-font-weight:600;
-
-color:white;
-
-cursor:pointer;
-
-transition:.35s;
-
-}
-
-.database-button button:hover{
-
-transform:translateY(-4px);
-
-box-shadow:0 0 35px rgba(214,0,0,.45);
-
-}
-
-/* ==========================================
-ERGEBNISKARTE
-========================================== */
-
-.result-section{
-
-padding:100px 0;
-
-background:#101010;
-
-}
-
-.vehicle-card{
-
-display:grid;
-
-grid-template-columns:320px 1fr 330px;
-
-gap:35px;
-
-background:#151515;
-
-border-radius:22px;
-
-padding:35px;
-
-border:1px solid rgba(255,255,255,.06);
-
-}
-
-.vehicle-image img{
-
-border-radius:16px;
-
-width:100%;
-
-height:100%;
-
-object-fit:cover;
-
-}
-
-.vehicle-info h2{
+font-size:54px;
 
 font-family:'Bebas Neue',sans-serif;
 
-font-size:46px;
+letter-spacing:3px;
 
-margin-bottom:5px;
-
-}
-
-.vehicle-info p{
-
-color:#bdbdbd;
-
-margin-bottom:25px;
+margin-bottom:18px;
 
 }
 
-.vehicle-info table{
+.section-title p{
 
-width:100%;
-
-border-collapse:collapse;
-
-}
-
-.vehicle-info td{
-
-padding:14px 0;
-
-border-bottom:1px solid rgba(255,255,255,.06);
-
-}
-
-.vehicle-info td:first-child{
-
-color:#999;
-
-}
-
-.power-box{
-
-display:flex;
-
-justify-content:space-around;
-
-align-items:center;
-
-margin-top:35px;
-
-padding-top:25px;
-
-border-top:1px solid rgba(255,255,255,.08);
-
-}
-
-.power{
-
-text-align:center;
-
-}
-
-.power h4{
-
-color:#999;
-
-margin-bottom:10px;
-
-}
-
-.power h2{
-
-font-size:44px;
-
-font-family:'Bebas Neue',sans-serif;
-
-}
-
-.power p{
+color:#bfbfbf;
 
 font-size:18px;
 
-margin-top:8px;
+line-height:1.8;
 
 }
 
-.stage span{
-
-display:block;
-
-color:#d60000;
-
-font-weight:700;
-
-margin-top:6px;
-
-}
-
-.arrow{
-
-font-size:40px;
-
-color:#d60000;
-
-}
-
-.price-box{
-
-display:flex;
-
-flex-direction:column;
-
-justify-content:center;
-
-align-items:center;
-
-background:#111111;
-
-border-radius:20px;
-
-padding:35px;
-
-}
-
-.price-box h3{
-
-font-family:'Bebas Neue',sans-serif;
-
-font-size:34px;
-
-letter-spacing:2px;
-
-}
-
-.price-box h1{
-
-font-size:62px;
-
-font-family:'Bebas Neue',sans-serif;
-
-color:#d60000;
-
-margin:20px 0;
-
-}
-
-.price-box p{
-
-color:#bdbdbd;
-
-margin-bottom:30px;
-
-}
-
-.price-box a{
-
-display:inline-block;
-
-padding:18px 35px;
-
-background:#d60000;
-
-border-radius:50px;
-
-text-decoration:none;
-
-color:white;
-
-font-weight:600;
-
-transition:.35s;
-
-}
-
-.price-box a:hover{
-
-transform:translateY(-4px);
-
-box-shadow:0 0 35px rgba(214,0,0,.45);
-
-}
-
-/* ==========================================
-ABLAUF
-========================================== */
-
-.ablauf{
-
-padding:120px 0;
+.services{
 
 background:#090909;
 
 }
 
-.ablauf h2{
-
-text-align:center;
-
-font-family:'Bebas Neue',sans-serif;
-
-font-size:58px;
-
-letter-spacing:3px;
-
-margin-bottom:70px;
-
-}
-
-.steps{
+.services-grid{
 
 display:grid;
 
 grid-template-columns:repeat(4,1fr);
 
-gap:30px;
+gap:28px;
 
 }
 
-.step{
+.service-card{
 
-background:#151515;
+background:#111;
 
-border:1px solid rgba(255,255,255,.05);
+border:1px solid rgba(255,255,255,.06);
 
-border-radius:20px;
+border-radius:24px;
 
-padding:45px 30px;
+padding:35px;
 
-text-align:center;
+transition:.35s;
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+.service-card::before{
+
+content:"";
+
+position:absolute;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+height:4px;
+
+background:#e00000;
+
+transform:scaleX(0);
 
 transition:.35s;
 
 }
 
-.step:hover{
+.service-card:hover::before{
 
-transform:translateY(-10px);
-
-border-color:#d60000;
-
-box-shadow:0 0 35px rgba(214,0,0,.25);
+transform:scaleX(1);
 
 }
 
-.number{
+.service-card:hover{
 
-width:80px;
+transform:translateY(-10px);
 
-height:80px;
+border-color:#ff1c1c;
 
-margin:auto;
+box-shadow:0 20px 40px rgba(0,0,0,.45);
 
-border-radius:50%;
+}
 
-background:#d60000;
+.service-card h3{
 
-display:flex;
+font-size:28px;
 
-justify-content:center;
-
-align-items:center;
+margin-bottom:18px;
 
 font-family:'Bebas Neue',sans-serif;
 
-font-size:34px;
+letter-spacing:1px;
+
+}
+
+.service-card p{
+
+color:#bdbdbd;
+
+font-size:15px;
+
+line-height:1.8;
+
+}
+
+.motorsport-note{
+
+margin-top:50px;
+
+padding:28px;
+
+border-left:4px solid #e00000;
+
+background:#111;
+
+border-radius:18px;
+
+color:#d8d8d8;
+
+line-height:1.8;
+
+}
+
+/* ==================================================
+   DATENBANK
+================================================== */
+
+.database{
+
+background:#070707;
+
+}
+
+.search-wrapper{
 
 margin-bottom:25px;
 
 }
 
-.step h3{
+.search-wrapper input{
 
-font-size:22px;
+width:100%;
 
-}
+padding:22px 28px;
 
-/* ==========================================
-KONTAKT
-========================================== */
-
-.kontakt{
-
-padding:120px 0;
-
-background:#101010;
-
-}
-
-.contact-form{
-
-max-width:850px;
-
-margin:auto;
-
-display:flex;
-
-flex-direction:column;
-
-gap:20px;
-
-}
-
-.contact-form input,
-.contact-form textarea{
-
-padding:20px;
-
-background:#181818;
+background:#111;
 
 border:1px solid rgba(255,255,255,.08);
 
-border-radius:12px;
+border-radius:60px;
 
-color:white;
+font-size:17px;
 
-font-size:16px;
+color:#fff;
 
 outline:none;
 
@@ -929,54 +755,541 @@ transition:.3s;
 
 }
 
-.contact-form input:focus,
-.contact-form textarea:focus{
+.search-wrapper input:focus{
 
-border-color:#d60000;
+border-color:#e00000;
+
+box-shadow:0 0 25px rgba(255,0,0,.25);
 
 }
 
-.contact-form button{
+.search-or{
+
+text-align:center;
+
+margin:35px 0;
+
+color:#888;
+
+letter-spacing:2px;
+
+font-size:13px;
+
+}
+
+.selector-grid{
+
+display:grid;
+
+grid-template-columns:repeat(5,1fr);
+
+gap:18px;
+
+margin-bottom:45px;
+
+}
+
+.selector-grid select{
+
+padding:18px;
+
+background:#111;
+
+border-radius:16px;
+
+border:1px solid rgba(255,255,255,.08);
+
+color:#fff;
+
+font-size:15px;
+
+outline:none;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.selector-grid select:hover{
+
+border-color:#e00000;
+
+}
+
+.vehicle-placeholder{
+
+padding:70px;
+
+border-radius:24px;
+
+background:#101010;
+
+border:2px dashed rgba(255,255,255,.08);
+
+text-align:center;
+
+}
+
+.vehicle-placeholder h3{
+
+font-size:34px;
+
+margin-bottom:15px;
+
+}
+
+.vehicle-placeholder p{
+
+color:#bdbdbd;
+
+max-width:650px;
+
+margin:auto;
+
+line-height:1.8;
+
+}
+/* ==========================================
+   PREMIUM FAHRZEUGKARTE
+========================================== */
+
+.vehicle-card{
+
+display:grid;
+
+grid-template-columns:520px 1fr;
+
+gap:45px;
+
+background:#101010;
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:30px;
+
+padding:35px;
+
+margin-top:40px;
+
+box-shadow:0 35px 80px rgba(0,0,0,.45);
+
+transition:.35s;
+
+overflow:hidden;
+
+}
+
+.vehicle-card:hover{
+
+border-color:#e00000;
+
+transform:translateY(-6px);
+
+}
+
+.vehicle-image{
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+background:linear-gradient(180deg,#181818,#0d0d0d);
+
+border-radius:24px;
+
+padding:25px;
+
+min-height:340px;
+
+}
+
+.vehicle-image img{
+
+width:100%;
+
+max-width:500px;
+
+transition:.4s;
+
+}
+
+.vehicle-card:hover .vehicle-image img{
+
+transform:scale(1.04);
+
+}
+
+.vehicle-header{
+
+margin-bottom:30px;
+
+}
+
+.vehicle-brand{
+
+display:inline-block;
+
+padding:8px 18px;
+
+border-radius:30px;
+
+background:#1b1b1b;
+
+color:#ff2a2a;
+
+letter-spacing:2px;
+
+font-size:12px;
+
+margin-bottom:15px;
+
+}
+
+.vehicle-header h2{
+
+font-size:48px;
+
+font-family:'Bebas Neue',sans-serif;
+
+letter-spacing:2px;
+
+margin-bottom:10px;
+
+}
+
+.vehicle-header p{
+
+font-size:18px;
+
+color:#c5c5c5;
+
+}
+
+.vehicle-specs{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:18px;
+
+margin-bottom:35px;
+
+}
+
+.spec{
+
+background:#171717;
+
+padding:18px;
+
+border-radius:18px;
+
+border:1px solid rgba(255,255,255,.05);
+
+}
+
+.spec span{
+
+display:block;
+
+font-size:12px;
+
+color:#999;
+
+text-transform:uppercase;
+
+margin-bottom:8px;
+
+letter-spacing:1px;
+
+}
+
+.spec strong{
+
+font-size:18px;
+
+font-weight:700;
+
+}
+
+.power-wrapper{
+
+display:grid;
+
+grid-template-columns:1fr 90px 1fr;
+
+gap:20px;
+
+align-items:center;
+
+margin:40px 0;
+
+}
+
+.power-box{
+
+background:#171717;
+
+padding:25px;
+
+border-radius:22px;
+
+text-align:center;
+
+}
+
+.power-box span{
+
+color:#999;
+
+text-transform:uppercase;
+
+font-size:12px;
+
+letter-spacing:2px;
+
+}
+
+.power-box h3{
+
+font-size:46px;
+
+margin:12px 0;
+
+font-family:'Bebas Neue',sans-serif;
+
+}
+
+.power-box p{
+
+font-size:20px;
+
+color:#d5d5d5;
+
+}
+
+.stage{
+
+border:2px solid #e00000;
+
+box-shadow:0 0 30px rgba(255,0,0,.18);
+
+}
+
+.power-arrow{
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+font-size:48px;
+
+font-weight:700;
+
+color:#ff2a2a;
+
+}
+
+.price-area{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+margin-top:25px;
+
+padding-top:25px;
+
+border-top:1px solid rgba(255,255,255,.08);
+
+}
+
+.price-area small{
+
+display:block;
+
+color:#999;
+
+text-transform:uppercase;
+
+letter-spacing:1px;
+
+margin-bottom:8px;
+
+}
+
+.price-area h2{
+
+font-size:42px;
+
+color:#ff2a2a;
+
+font-family:'Bebas Neue',sans-serif;
+
+}
+
+.price-area h3{
+
+font-size:24px;
+
+}
+
+.vehicle-button{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+margin-top:35px;
 
 padding:20px;
 
-background:#d60000;
+border-radius:18px;
 
-border:none;
+background:#e00000;
 
-border-radius:50px;
+font-weight:700;
 
 font-size:17px;
 
-font-weight:600;
+letter-spacing:1px;
 
-color:white;
+transition:.3s;
 
-cursor:pointer;
+}
+
+.vehicle-button:hover{
+
+background:#ff1c1c;
+
+transform:translateY(-3px);
+
+box-shadow:0 15px 35px rgba(255,0,0,.35);
+
+}
+/* ==========================================
+   KONTAKT
+========================================== */
+
+.contact{
+
+background:#090909;
+
+position:relative;
+
+}
+
+.contact::before{
+
+content:"";
+
+position:absolute;
+
+top:0;
+
+left:50%;
+
+transform:translateX(-50%);
+
+width:220px;
+
+height:3px;
+
+background:#e00000;
+
+border-radius:30px;
+
+}
+
+.contact-grid{
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:25px;
+
+margin-top:60px;
+
+}
+
+.contact-card{
+
+background:#111;
+
+border:1px solid rgba(255,255,255,.06);
+
+border-radius:24px;
+
+padding:35px;
+
+text-align:center;
 
 transition:.35s;
 
 }
 
-.contact-form button:hover{
+.contact-card:hover{
 
-transform:translateY(-4px);
+transform:translateY(-8px);
 
-box-shadow:0 0 35px rgba(214,0,0,.45);
+border-color:#e00000;
+
+}
+
+.contact-card h3{
+
+font-size:26px;
+
+margin-bottom:18px;
+
+font-family:'Bebas Neue',sans-serif;
+
+letter-spacing:2px;
+
+}
+
+.contact-card p{
+
+color:#bdbdbd;
+
+line-height:1.8;
+
+}
+
+.contact-buttons{
+
+display:flex;
+
+justify-content:center;
+
+gap:25px;
+
+margin-top:55px;
 
 }
 
 /* ==========================================
-FOOTER
+   FOOTER
 ========================================== */
 
 footer{
 
 background:#050505;
 
-padding:80px 0 30px;
+border-top:1px solid rgba(255,255,255,.06);
 
-border-top:1px solid rgba(255,255,255,.08);
+padding:90px 0 35px;
 
 }
 
@@ -986,47 +1299,57 @@ display:grid;
 
 grid-template-columns:2fr 1fr 1fr 1fr;
 
-gap:50px;
+gap:45px;
 
-margin-bottom:40px;
+margin-bottom:60px;
 
 }
 
 .footer-logo{
 
+margin-bottom:25px;
+
+}
+
+footer h4{
+
+font-size:22px;
+
+margin-bottom:22px;
+
 font-family:'Bebas Neue',sans-serif;
 
-font-size:42px;
-
-margin-bottom:15px;
+letter-spacing:2px;
 
 }
 
-.footer-grid h4{
-
-margin-bottom:20px;
-
-font-size:18px;
-
-}
-
-.footer-grid a{
+footer a{
 
 display:block;
 
-margin-bottom:12px;
+margin-bottom:14px;
 
 color:#bdbdbd;
-
-text-decoration:none;
 
 transition:.3s;
 
 }
 
-.footer-grid a:hover{
+footer a:hover{
 
-color:#d60000;
+color:#ff2a2a;
+
+padding-left:8px;
+
+}
+
+footer p{
+
+color:#9e9e9e;
+
+line-height:1.9;
+
+margin-bottom:12px;
 
 }
 
@@ -1034,68 +1357,66 @@ color:#d60000;
 
 text-align:center;
 
-padding-top:25px;
+padding-top:35px;
 
 border-top:1px solid rgba(255,255,255,.05);
 
-color:#777;
+color:#7d7d7d;
 
 font-size:14px;
 
-}
+letter-spacing:1px;
 
+}
 /* ==========================================
-SCROLL ANIMATIONEN
+   RESPONSIVE
 ========================================== */
 
-.card,
-.vehicle-card,
-.step,
-.contact-form{
+@media (max-width:1200px){
 
-opacity:0;
+.hero-grid{
 
-transform:translateY(50px);
+grid-template-columns:1fr;
 
-animation:fadeUp .8s forwards;
+text-align:center;
 
 }
 
-.card:nth-child(2){
+.hero-left{
 
-animation-delay:.15s;
-
-}
-
-.card:nth-child(3){
-
-animation-delay:.3s;
+order:2;
 
 }
 
-.card:nth-child(4){
+.hero-right{
 
-animation-delay:.45s;
-
-}
-
-@keyframes fadeUp{
-
-to{
-
-opacity:1;
-
-transform:translateY(0);
+order:1;
 
 }
 
+.hero-buttons{
+
+justify-content:center;
+
 }
 
-/* ==========================================
-RESPONSIVE
-========================================== */
+.hero-facts{
 
-@media(max-width:1200px){
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.services-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.selector-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
 
 .vehicle-card{
 
@@ -1103,99 +1424,69 @@ grid-template-columns:1fr;
 
 }
 
-.database-selects{
-
-grid-template-columns:repeat(2,1fr);
-
-}
-
 .footer-grid{
 
-grid-template-columns:1fr 1fr;
-
-}
-
-.steps{
-
 grid-template-columns:repeat(2,1fr);
 
 }
 
-.cards{
-
-grid-template-columns:1fr;
-
 }
 
-}
-
-@media(max-width:768px){
+@media (max-width:768px){
 
 header{
 
-height:auto;
+padding:0;
 
-padding:20px;
+}
 
-flex-direction:column;
+.nav{
 
-gap:20px;
+height:80px;
+
+}
+
+.logo-text{
+
+display:none;
 
 }
 
 nav{
 
-flex-wrap:wrap;
-
-justify-content:center;
-
-gap:20px;
+display:none;
 
 }
 
-.book-button{
+.nav-button{
 
-width:100%;
+padding:12px 22px;
 
-text-align:center;
+font-size:14px;
+
+}
+
+.hero{
+
+padding-top:100px;
+
+min-height:auto;
+
+padding-bottom:60px;
 
 }
 
 .hero h1{
 
-font-size:64px;
+font-size:68px;
+
+line-height:.95;
 
 }
 
-.hero-text{
+.hero p{
 
 font-size:17px;
-
-}
-
-.database-selects{
-
-grid-template-columns:1fr;
-
-}
-
-.steps{
-
-grid-template-columns:1fr;
-
-}
-
-.footer-grid{
-
-grid-template-columns:1fr;
-
-text-align:center;
-
-}
-
-.logo{
-
-justify-content:center;
 
 }
 
@@ -1214,43 +1505,206 @@ text-align:center;
 
 }
 
-.leistungen h2,
-.section-title h2,
-.ablauf h2{
+.hero-facts{
+
+grid-template-columns:1fr;
+
+}
+
+.fact{
+
+text-align:center;
+
+}
+
+.section-title h2{
 
 font-size:42px;
 
 }
 
-.power-box{
+.section-title p{
 
-flex-direction:column;
-
-gap:25px;
+font-size:16px;
 
 }
 
-.arrow{
+.services-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.service-card{
+
+padding:28px;
+
+}
+
+.selector-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.search-wrapper input{
+
+font-size:16px;
+
+padding:18px 22px;
+
+}
+
+.vehicle-card{
+
+padding:20px;
+
+}
+
+.vehicle-image{
+
+min-height:220px;
+
+}
+
+.vehicle-header h2{
+
+font-size:36px;
+
+}
+
+.vehicle-specs{
+
+grid-template-columns:1fr;
+
+}
+
+.power-wrapper{
+
+grid-template-columns:1fr;
+
+}
+
+.power-arrow{
 
 transform:rotate(90deg);
 
-}
-
-}
-.hidden{
-
-opacity:0;
-
-transform:translateY(60px);
-
-transition:all .8s ease;
+font-size:38px;
 
 }
 
-.show{
+.price-area{
 
-opacity:1;
+flex-direction:column;
 
-transform:translateY(0);
+align-items:flex-start;
+
+gap:20px;
+
+}
+
+.vehicle-button{
+
+width:100%;
+
+}
+
+.contact-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.contact-buttons{
+
+flex-direction:column;
+
+}
+
+.contact-buttons a{
+
+width:100%;
+
+text-align:center;
+
+}
+
+.footer-grid{
+
+grid-template-columns:1fr;
+
+text-align:center;
+
+}
+
+footer a:hover{
+
+padding-left:0;
+
+}
+
+}
+
+@media (max-width:480px){
+
+.container{
+
+width:94%;
+
+}
+
+.hero h1{
+
+font-size:54px;
+
+}
+
+.hero-badge{
+
+font-size:11px;
+
+letter-spacing:2px;
+
+}
+
+.logo-box{
+
+width:52px;
+
+height:52px;
+
+font-size:22px;
+
+}
+
+.fact h3{
+
+font-size:28px;
+
+}
+
+.section-title h2{
+
+font-size:34px;
+
+}
+
+.vehicle-header h2{
+
+font-size:30px;
+
+}
+
+.power-box h3{
+
+font-size:34px;
+
+}
+
+.price-area h2{
+
+font-size:34px;
+
+}
 
 }
