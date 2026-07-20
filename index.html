@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>ZD PERFORMANCE49 | Chiptuning & Softwareoptimierung</title>
+<title>ZD Performance49 | Professionelle Softwareoptimierung</title>
 
-<meta name="description" content="Professionelle Softwareoptimierung, Stage 1-3, Getriebeoptimierung und individuelle Motorsoftware.">
+<meta name="description"
+content="Professionelle Softwareoptimierung für moderne Benzin- und Dieselmotoren. Mehr Leistung. Mehr Emotion. Fahrzeugdatenbank mit Stage-1 Leistungsdaten.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
 
-<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="css/style.css">
 
 </head>
 
@@ -26,35 +36,28 @@
 
 <a href="#" class="logo">
 
-<div class="logo-box">
-
-ZD
-
-</div>
-
-<div class="logo-text">
-
-<h2>ZD PERFORMANCE49</h2>
-
-<span>Software Performance</span>
-
-</div>
+<img src="images/logo.png"
+alt="ZD Performance49 Logo">
 
 </a>
 
 <nav>
 
-<a href="#">Home</a>
+<a class="active" href="#">Home</a>
 
 <a href="#leistungen">Leistungen</a>
 
 <a href="#datenbank">Datenbank</a>
 
+<a href="#ueberuns">Über uns</a>
+
+<a href="#kontakt">Kontakt</a>
+
 </nav>
 
-<a href="#kontakt" class="nav-button">
+<a href="#kontakt" class="nav-btn">
 
-Termin buchen
+Anfrage stellen
 
 </a>
 
@@ -62,34 +65,34 @@ Termin buchen
 
 </header>
 
+<!-- ================================= -->
+
 <section class="hero">
 
 <div class="hero-overlay"></div>
 
-<div class="container hero-grid">
+<img
+class="hero-car"
+src="images/hero.png"
+alt="Audi RS6">
+
+<div class="container hero-content">
 
 <div class="hero-left">
 
-<div class="hero-badge">
-
-GERMAN ENGINE SOFTWARE
-
-</div>
+<div class="hero-line"></div>
 
 <h1>
 
-PERFORMANCE<br>
+MEHR LEISTUNG.<br>
 
-OHNE<br>
-
-KOMPROMISSE.
+<span>MEHR EMOTION.</span>
 
 </h1>
 
 <p>
 
-Professionelle Softwareoptimierung für BMW, Audi, Mercedes-Benz,
-Volkswagen, Porsche und viele weitere Hersteller.
+Professionelle Softwareoptimierung für Straße und Alltag.
 
 </p>
 
@@ -97,89 +100,326 @@ Volkswagen, Porsche und viele weitere Hersteller.
 
 <a href="#datenbank" class="btn-red">
 
-Fahrzeug finden
-
-</a>
-
-<a href="#kontakt" class="btn-white">
-
-Termin buchen
+Zur Fahrzeugdatenbank
 
 </a>
 
 </div>
 
-<div class="hero-facts">
-
-<div class="fact">
-
-<h3>1000+</h3>
-
-<span>Fahrzeuge</span>
-
 </div>
-
-<div class="fact">
-
-<h3>Stage 1-3</h3>
-
-<span>Performance</span>
-
-</div>
-
-<div class="fact">
-
-<h3>DSG</h3>
-
-<span>Optimierung</span>
-
-</div>
-
-<div class="fact">
-
-<h3>Motor</h3>
-
-<span>Software</span>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="hero-right">
-
-<img src="images/hero.jpg" alt="Audi RS6">
-
-</div>
-
-</div>
-
-<div class="scroll-indicator">
-
-<span></span>
 
 </div>
 
 </section>
-<!-- ===========================
-LEISTUNGEN
-=========================== -->
 
-<section class="services" id="leistungen">
+<!-- ================================= -->
+
+<section class="facts">
 
 <div class="container">
 
-<div class="section-title">
+<div class="facts-grid">
 
-<span>UNSERE LEISTUNGEN</span>
+<div class="fact">
 
-<h2>Professionelle Softwarelösungen</h2>
+<h2>500+</h2>
+
+<p>Zufriedene Kunden</p>
+
+</div>
+
+<div class="fact">
+
+<h2>+30%</h2>
+
+<p>Mehr Leistung möglich</p>
+
+</div>
+
+<div class="fact">
+
+<h2>100%</h2>
+
+<p>Made in Germany</p>
+
+</div>
+
+<div class="fact">
+
+<h2>Seit 2025</h2>
+
+<p>Für euch da</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ==========================================
+FAHRZEUGDATENBANK
+========================================== -->
+
+<section id="datenbank" class="database">
+
+<div class="container">
+
+<div class="database-head">
+
+<span>FAHRZEUGDATENBANK</span>
+
+<h2>FINDE DEIN FAHRZEUG.<br>IN SEKUNDEN.</h2>
+
+</div>
+
+<div class="search-box">
+
+<input
+type="text"
+id="searchInput"
+placeholder="Fahrzeug suchen... (z. B. RS6, M340i, C63, Golf GTI)">
+
+<button id="searchButton">
+
+Suchen
+
+</button>
+
+</div>
+
+<div class="database-filter">
+
+<select id="brandSelect">
+
+<option value="">Marke</option>
+
+</select>
+
+<select id="seriesSelect">
+
+<option value="">Modellreihe</option>
+
+</select>
+
+<select id="modelSelect">
+
+<option value="">Modell</option>
+
+</select>
+
+<select id="engineSelect">
+
+<option value="">Motorisierung</option>
+
+</select>
+
+<select id="yearSelect">
+
+<option value="">Baujahr</option>
+
+</select>
+
+</div>
+
+<!-- ===========================
+ERGEBNIS
+=========================== -->
+
+<div
+id="vehicleCard"
+class="vehicle-card"
+style="display:none;">
+
+<div class="vehicle-image">
+
+<img
+id="vehicleImage"
+src=""
+alt="Fahrzeug">
+
+</div>
+
+<div class="vehicle-content">
+
+<div class="vehicle-top">
+
+<span id="vehicleBrand">
+
+BMW
+
+</span>
+
+<h2 id="vehicleName">
+
+M340i xDrive
+
+</h2>
+
+<p id="vehicleEngine">
+
+3.0 Turbo • B58B30
+
+</p>
+
+</div>
+
+<div class="spec-grid">
+
+<div>
+
+<span>Motorcode</span>
+
+<strong id="specMotorcode">
+
+B58B30
+
+</strong>
+
+</div>
+
+<div>
+
+<span>Hubraum</span>
+
+<strong id="specHubraum">
+
+2998 cm³
+
+</strong>
+
+</div>
+
+<div>
+
+<span>Steuergerät</span>
+
+<strong id="specECU">
+
+Bosch MG1
+
+</strong>
+
+</div>
+
+<div>
+
+<span>Baujahr</span>
+
+<strong id="specYear">
+
+ab 2020
+
+</strong>
+
+</div>
+
+</div>
+
+<div class="power-grid">
+
+<div class="power-box">
+
+<h5>Serie</h5>
+
+<h3 id="seriesPower">
+
+374 PS
+
+</h3>
+
+<p id="seriesTorque">
+
+500 Nm
+
+</p>
+
+</div>
+
+<div class="power-arrow">
+
+→
+
+</div>
+
+<div class="power-box stage">
+
+<h5>Stage 1</h5>
+
+<h3 id="stagePower">
+
+430 PS
+
+</h3>
+
+<p id="stageTorque">
+
+650 Nm
+
+</p>
+
+</div>
+
+</div>
+
+<div class="price-box">
+
+<div>
+
+<span>Stage 1</span>
+
+<h2 id="price">
+
+349 €
+
+</h2>
+
+</div>
+
+<div>
+
+<span>Stage 2</span>
+
+<h3>
+
+Auf Anfrage
+
+</h3>
+
+</div>
+
+</div>
+
+<a href="#kontakt" class="vehicle-btn">
+
+Jetzt anfragen
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ==========================================
+LEISTUNGEN
+========================================== -->
+
+<section id="leistungen" class="services">
+
+<div class="container">
+
+<div class="section-heading">
+
+<span>LEISTUNGEN</span>
+
+<h2>PROFESSIONELLE SOFTWARELÖSUNGEN</h2>
 
 <p>
 
-Mehr Leistung, besseres Ansprechverhalten und individuelle
-Softwareanpassungen – professionell entwickelt.
+Leistungssteigerung und Softwarefunktionen – abgestimmt auf das jeweilige Fahrzeug und Steuergerät.
 
 </p>
 
@@ -188,225 +428,132 @@ Softwareanpassungen – professionell entwickelt.
 <div class="services-grid">
 
 <div class="service-card">
-
+<div class="service-icon">🚀</div>
 <h3>Stage 1</h3>
-
-<p>
-
-Mehr Leistung und Drehmoment bei serienmäßiger Hardware.
-
-</p>
-
+<p>Mehr Leistung und Drehmoment bei serienmäßiger Hardware.</p>
 </div>
 
 <div class="service-card">
-
+<div class="service-icon">⚙️</div>
 <h3>Stage 2</h3>
-
-<p>
-
-Optimierung mit Hardwareänderungen.
-
-Preis auf Anfrage.
-
-</p>
-
+<p>Optimierung für Fahrzeuge mit Hardwareänderungen. Preis auf Anfrage.</p>
 </div>
 
 <div class="service-card">
-
+<div class="service-icon">🔄</div>
 <h3>Getriebeoptimierung</h3>
-
-<p>
-
-Optimierte Schaltzeiten, höhere Drehmomentbegrenzung und besseres
-Fahrverhalten.
-
-</p>
-
+<p>Optimierte Schaltzeiten, Schaltpunkte und Drehmomentbegrenzungen.</p>
 </div>
 
 <div class="service-card">
-
-<h3>Pop & Bang</h3>
-
-<p>
-
-Individuell abstimmbares Schubknallen.
-
-</p>
-
+<div class="service-icon">🔥</div>
+<h3>Pop & Bangs</h3>
+<p>Individuell abstimmbare Schubabschaltung – soweit technisch möglich.</p>
 </div>
 
 <div class="service-card">
-
-<h3>Launch Control</h3>
-
-<p>
-
-Optimierung oder Anpassung der Launch-Control.
-
-</p>
-
-</div>
-
-<div class="service-card">
-
+<div class="service-icon">🏁</div>
 <h3>VMAX-Aufhebung</h3>
-
-<p>
-
-Entfernung der serienmäßigen Geschwindigkeitsbegrenzung.
-
-</p>
-
+<p>Entfernung der werkseitigen Geschwindigkeitsbegrenzung.</p>
 </div>
 
 <div class="service-card">
-
-<h3>Start-Stop deaktivieren</h3>
-
-<p>
-
-Dauerhafte Deaktivierung der Start-Stopp-Automatik.
-
-</p>
-
+<div class="service-icon">⏻</div>
+<h3>Start-Stopp OFF</h3>
+<p>Dauerhafte Deaktivierung der Start-Stopp-Automatik.</p>
 </div>
 
 <div class="service-card">
-
+<div class="service-icon">🛠️</div>
 <h3>Softwarefunktionen</h3>
+<p>AGR · DPF · OPF · AdBlue · NOx · Gaspedalkennlinie und weitere softwareseitige Anpassungen – je nach Fahrzeug.</p>
+</div>
 
-<p>
-
-AGR · DPF · OPF · AdBlue · NOx · Kaltstart · Schubabschaltung ·
-Gaspedalkennlinie · Drehmomentbegrenzung und viele weitere Funktionen.
-
-</p>
-
+<div class="service-card">
+<div class="service-icon">🚗</div>
+<h3>Launch Control</h3>
+<p>Optimierung oder Anpassung der Launch-Control, sofern vom Fahrzeug unterstützt.</p>
 </div>
 
 </div>
 
-<div class="motorsport-note">
+<div class="legal-note">
 
-<strong>Hinweis:</strong>
-
-Einige Softwarefunktionen sind nicht im Bereich der StVZO zulässig und
-ausschließlich für Motorsport- bzw. Exportfahrzeuge bestimmt.
+<strong>Hinweis:</strong> Einige Softwarefunktionen sind ausschließlich für Fahrzeuge außerhalb der StVZO bzw. für den Einsatz auf nicht öffentlichen Straßen bestimmt. Die Verfügbarkeit ist abhängig vom jeweiligen Fahrzeug und Steuergerät.
 
 </div>
 
 </div>
 
 </section>
-<!-- ===========================
-FAHRZEUGDATENBANK
-=========================== -->
+<!-- ==========================================
+ÜBER ZD PERFORMANCE49
+========================================== -->
 
-<section class="database" id="datenbank">
+<section id="ueberuns" class="about">
 
 <div class="container">
 
-<div class="section-title">
+<div class="about-grid">
 
-<span>FAHRZEUGDATENBANK</span>
+<div class="about-left">
 
-<h2>Fahrzeug auswählen</h2>
+<span>ÜBER ZD PERFORMANCE49</span>
 
-<p>
+<h2>
 
-Suche nach Marke, Modell oder Motorcode und finde innerhalb weniger
-Sekunden die passende Softwareoptimierung.
+PRÄZISION.<br>
 
-</p>
+LEIDENSCHAFT.<br>
 
-</div>
+PERFORMANCE.
 
-<div class="search-wrapper">
-
-<input
-type="text"
-id="searchInput"
-placeholder="z.B. BMW M3 Competition, RS6 C8, Golf GTI, B58, S58..."
-autocomplete="off">
-
-</div>
-
-<div class="search-or">
-
-<span>oder manuell auswählen</span>
-
-</div>
-
-<div class="selector-grid">
-
-<select id="brandSelect">
-
-<option>Marke wählen</option>
-
-<option>BMW</option>
-
-<option>Audi</option>
-
-<option>Mercedes-Benz</option>
-
-<option>Volkswagen</option>
-
-<option>Porsche</option>
-
-<option>Cupra</option>
-
-<option>Seat</option>
-
-<option>Skoda</option>
-
-<option>Ford</option>
-
-<option>Opel</option>
-
-</select>
-
-<select id="seriesSelect">
-
-<option>Baureihe wählen</option>
-
-</select>
-
-<select id="modelSelect">
-
-<option>Modell wählen</option>
-
-</select>
-
-<select id="engineSelect">
-
-<option>Motor wählen</option>
-
-</select>
-
-<select id="yearSelect">
-
-<option>Baujahr wählen</option>
-
-</select>
-
-</div>
-
-<div id="vehicleResult">
-
-<div class="vehicle-placeholder">
-
-<h3>🚗 Fahrzeug suchen</h3>
+</h2>
 
 <p>
 
-Gib oben dein Fahrzeug ein oder nutze die manuelle Auswahl.
-Anschließend werden Leistung, Motorcode, Steuergerät,
-Hubraum und der passende Preis angezeigt.
+Seit <strong>2025</strong> steht ZD PERFORMANCE49 für professionelle
+Softwareoptimierung moderner Benzin- und Dieselfahrzeuge.
+
+Unser Ziel ist eine saubere, zuverlässige und auf das jeweilige
+Steuergerät abgestimmte Softwarelösung – für mehr Leistung,
+besseres Ansprechverhalten und ein optimiertes Fahrerlebnis.
 
 </p>
+
+<div class="about-stats">
+
+<div>
+
+<h3>2025</h3>
+
+<p>Gegründet</p>
+
+</div>
+
+<div>
+
+<h3>100 %</h3>
+
+<p>Softwareoptimierung</p>
+
+</div>
+
+<div>
+
+<h3>BMW • Audi • Mercedes</h3>
+
+<p>u. v. m.</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="about-right">
+
+<img src="images/about.png" alt="ZD Performance49">
 
 </div>
 
@@ -415,133 +562,30 @@ Hubraum und der passende Preis angezeigt.
 </div>
 
 </section>
-<!-- ===========================
-FAHRZEUGERGEBNIS
-=========================== -->
 
-<div class="vehicle-card" id="vehicleCard" style="display:none;">
-
-    <div class="vehicle-image">
-
-        <img id="vehicleImage" src="images/hero.jpg" alt="Fahrzeug">
-
-    </div>
-
-    <div class="vehicle-content">
-
-        <div class="vehicle-header">
-
-            <span class="vehicle-brand" id="vehicleBrand">BMW</span>
-
-            <h2 id="vehicleName">M3 Competition (G80)</h2>
-
-            <p id="vehicleEngine">
-                3.0 BiTurbo • S58B30
-            </p>
-
-        </div>
-
-        <div class="vehicle-specs">
-
-            <div class="spec">
-                <span>Motorcode</span>
-                <strong id="specMotorcode">S58B30</strong>
-            </div>
-
-            <div class="spec">
-                <span>Hubraum</span>
-                <strong id="specHubraum">2993 cm³</strong>
-            </div>
-
-            <div class="spec">
-                <span>Steuergerät</span>
-                <strong id="specEcu">Bosch MG1CS201</strong>
-            </div>
-
-            <div class="spec">
-                <span>Baujahr</span>
-                <strong id="specYear">ab 2021</strong>
-            </div>
-
-        </div>
-
-        <div class="power-wrapper">
-
-            <div class="power-box">
-
-                <span>Serie</span>
-
-                <h3 id="seriesPs">510 PS</h3>
-
-                <p id="seriesNm">650 Nm</p>
-
-            </div>
-
-            <div class="power-arrow">
-
-                →
-
-            </div>
-
-            <div class="power-box stage">
-
-                <span>Stage 1</span>
-
-                <h3 id="stagePs">600 PS</h3>
-
-                <p id="stageNm">750 Nm</p>
-
-            </div>
-
-        </div>
-
-        <div class="price-area">
-
-            <div>
-
-                <small>Stage 1</small>
-
-                <h2 id="vehiclePrice">449 €</h2>
-
-            </div>
-
-            <div>
-
-                <small>Stage 2</small>
-
-                <h3>Auf Anfrage</h3>
-
-            </div>
-
-        </div>
-
-        <a href="#kontakt" class="vehicle-button">
-
-            TERMIN ANFRAGEN
-
-        </a>
-
-    </div>
-
-</div>
-<!-- ===========================
+<!-- ==========================================
 KONTAKT
-=========================== -->
+========================================== -->
 
-<section class="contact" id="kontakt">
+<section id="kontakt" class="contact">
 
 <div class="container">
 
-<div class="section-title">
+<div class="section-heading">
 
 <span>KONTAKT</span>
 
-<h2>Termin anfragen</h2>
+<h2>
+
+TERMIN ANFRAGEN
+
+</h2>
 
 <p>
 
-Du möchtest eine Softwareoptimierung oder hast Fragen?
-Schreibe uns einfach – wir melden uns schnellstmöglich.
+Du hast Fragen oder möchtest einen Termin vereinbaren?
+
+Dann kontaktiere uns unkompliziert über den gewünschten Weg.
 
 </p>
 
@@ -549,51 +593,35 @@ Schreibe uns einfach – wir melden uns schnellstmöglich.
 
 <div class="contact-grid">
 
-<div class="contact-card">
+<a href="#" class="contact-card">
+
+<h3>WhatsApp</h3>
+
+<p>Schnell & unkompliziert</p>
+
+</a>
+
+<a href="#" class="contact-card">
 
 <h3>Telefon</h3>
 
-<p>+49 XXX XXXXXXX</p>
+<p>Auf Anfrage</p>
 
-</div>
+</a>
 
-<div class="contact-card">
+<a href="#" class="contact-card">
 
 <h3>E-Mail</h3>
 
 <p>info@zdperformance49.de</p>
 
-</div>
+</a>
 
-<div class="contact-card">
-
-<h3>WhatsApp</h3>
-
-<p>Terminvereinbarung schnell & unkompliziert</p>
-
-</div>
-
-<div class="contact-card">
+<a href="#" class="contact-card">
 
 <h3>Instagram</h3>
 
 <p>@zdperformance49</p>
-
-</div>
-
-</div>
-
-<div class="contact-buttons">
-
-<a href="#" class="btn-red">
-
-WhatsApp öffnen
-
-</a>
-
-<a href="#" class="btn-white">
-
-E-Mail senden
 
 </a>
 
@@ -603,9 +631,9 @@ E-Mail senden
 
 </section>
 
-<!-- ===========================
+<!-- ==========================================
 FOOTER
-=========================== -->
+========================================== -->
 
 <footer>
 
@@ -613,27 +641,12 @@ FOOTER
 
 <div>
 
-<div class="logo footer-logo">
-
-<div class="logo-box">
-
-ZD
-
-</div>
-
-<div class="logo-text">
-
-<h2>ZD PERFORMANCE49</h2>
-
-<span>Software Performance</span>
-
-</div>
-
-</div>
+<img src="images/logo.png" class="footer-logo" alt="ZD Performance49">
 
 <p>
 
-Professionelle Softwareoptimierung für moderne Benzin- und Dieselmotoren.
+Professionelle Softwareoptimierung für moderne Benzin-
+und Dieselfahrzeuge.
 
 </p>
 
@@ -644,9 +657,24 @@ Professionelle Softwareoptimierung für moderne Benzin- und Dieselmotoren.
 <h4>Navigation</h4>
 
 <a href="#">Home</a>
+
+<a href="#datenbank">Fahrzeugdatenbank</a>
+
 <a href="#leistungen">Leistungen</a>
-<a href="#datenbank">Datenbank</a>
+
 <a href="#kontakt">Kontakt</a>
+
+</div>
+
+<div>
+
+<h4>Social Media</h4>
+
+<a href="#">Instagram</a>
+
+<a href="#">TikTok</a>
+
+<a href="#">Facebook <small>(demnächst)</small></a>
 
 </div>
 
@@ -655,19 +683,8 @@ Professionelle Softwareoptimierung für moderne Benzin- und Dieselmotoren.
 <h4>Rechtliches</h4>
 
 <a href="#">Impressum</a>
+
 <a href="#">Datenschutz</a>
-
-</div>
-
-<div>
-
-<h4>Kontakt</h4>
-
-<p>Deutschland</p>
-
-<p>info@zdperformance49.de</p>
-
-<p>Termin nach Vereinbarung</p>
 
 </div>
 
@@ -684,5 +701,4 @@ Professionelle Softwareoptimierung für moderne Benzin- und Dieselmotoren.
 <script src="js/script.js"></script>
 
 </body>
-
-</html>    
+</html>
