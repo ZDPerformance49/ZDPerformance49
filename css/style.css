@@ -245,19 +245,22 @@ transparent 45%);
 
 position:absolute;
 
-right:-3%;
+right:-8%;
 
-bottom:0;
+bottom:-30px;
 
-width:980px;
+width:min(78vw,1250px);
 
 max-width:none;
 
-z-index:2;
+z-index:5;
 
 filter:
+drop-shadow(0 50px 90px rgba(0,0,0,.65));
 
-drop-shadow(0 45px 70px rgba(0,0,0,.6));
+pointer-events:none;
+
+user-select:none;
 
 }
 
