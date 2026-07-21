@@ -694,17 +694,15 @@ animation:fadeUp .45s ease;
 .vehicle-image{
 
 background:
-linear-gradient(135deg,#252525,#181818);
 
-display:flex;
+linear-gradient(
+90deg,
+rgba(8,8,8,.90) 0%,
+rgba(8,8,8,.55) 40%,
+rgba(8,8,8,.08) 100%
+),
 
-justify-content:center;
-
-align-items:center;
-
-padding:40px;
-
-min-height:420px;
+url("../images/hero-bg.jpg") center center/cover no-repeat;
 
 }
 
