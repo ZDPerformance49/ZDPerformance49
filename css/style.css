@@ -296,7 +296,7 @@ border-radius:30px;
 
 font-family:'Bebas Neue',sans-serif;
 
-font-size:120px;
+font-size:clamp(70px,9vw,145px);
 
 line-height:.9;
 
