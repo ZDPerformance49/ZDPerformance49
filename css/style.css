@@ -336,17 +336,13 @@ gap:18px;
 
 .btn-red{
 
-padding:18px 38px;
+padding:20px 46px;
 
-border-radius:50px;
+font-size:17px;
 
-background:var(--red);
+letter-spacing:.4px;
 
-font-weight:700;
-
-transition:.35s;
-
-box-shadow:0 15px 35px rgba(217,4,41,.35);
+border-radius:60px;
 
 }
 
