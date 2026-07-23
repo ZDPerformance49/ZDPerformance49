@@ -196,29 +196,22 @@ HERO
 ==========================================*/
 
 .hero{
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
 
-position:relative;
+    min-height: 100svh;
+    padding: 130px 0 70px;
 
-height:100vh;
-
-min-height:850px;
-
-display:flex;
-
-align-items:center;
-
-overflow:hidden;
-
-background:
-linear-gradient(
-90deg,
-rgba(10,10,10,.92) 0%,
-rgba(10,10,10,.55) 45%,
-rgba(10,10,10,.18) 100%
-),
-
-url("../images/hero-bg.PNG") center center / cover no-repeat;
-
+    background:
+        linear-gradient(
+            90deg,
+            rgba(10,10,10,.92) 0%,
+            rgba(10,10,10,.62) 45%,
+            rgba(10,10,10,.18) 100%
+        ),
+        url("../images/hero-bg.PNG") center center / cover no-repeat;
 }
 
 .hero::before{
@@ -266,9 +259,17 @@ user-select:none;
 
 .hero-content{
 
-position:relative;
+    position:relative;
 
-z-index:5;
+    z-index:5;
+
+    max-width:700px;
+
+    margin:auto;
+
+    text-align:center;
+
+    padding:0 24px;
 
 }
 
