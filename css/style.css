@@ -1889,24 +1889,46 @@ background-position:center;
 
 .hero{
 
-padding:110px 20px 260px;
+min-height:100svh;
+
+padding:100px 20px 230px;
 
 text-align:center;
 
 }
 
-.hero-title{
+.hero-buttons{
 
-font-size:60px;
+display:flex;
+
+flex-direction:column;
+
+gap:16px;
+
+align-items:center;
+
+width:100%;
 
 }
 
-.hero-description{
+.hero-buttons a{
 
+width:100%;
+
+max-width:330px;
+
+} 
+
+.hero h1{
+font-size:56px;
+line-height:.9;
+}
+
+.hero p{
 font-size:18px;
-
-line-height:1.6;
-
+line-height:1.7;
+max-width:100%;
+margin:25px auto 35px;
 }
 
 .hero-car{
@@ -1917,13 +1939,13 @@ bottom:0;
 
 left:50%;
 
-right:auto;
-
 transform:translateX(-50%);
 
-width:120%;
+width:95%;
 
-max-width:520px;
+max-width:470px;
+
+right:auto;
 
 }
 
