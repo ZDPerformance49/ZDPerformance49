@@ -238,22 +238,17 @@ transparent 45%);
 
 position:absolute;
 
-right:-8%;
+bottom:0;
 
-bottom:-30px;
+right:-60px;
 
-width:min(78vw,1250px);
+width:820px;
 
-max-width:none;
+max-width:75%;
 
-z-index:5;
-
-filter:
-drop-shadow(0 50px 90px rgba(0,0,0,.65));
+z-index:2;
 
 pointer-events:none;
-
-user-select:none;
 
 }
 
@@ -1885,6 +1880,62 @@ drop-shadow(0 25px 40px rgba(0,0,0,.45));
 .hero{
 
 background-position:center;
+
+}
+
+}
+
+@media (max-width:768px){
+
+.hero{
+
+padding:110px 20px 260px;
+
+text-align:center;
+
+}
+
+.hero-title{
+
+font-size:60px;
+
+}
+
+.hero-description{
+
+font-size:18px;
+
+line-height:1.6;
+
+}
+
+.hero-car{
+
+position:absolute;
+
+bottom:0;
+
+left:50%;
+
+right:auto;
+
+transform:translateX(-50%);
+
+width:120%;
+
+max-width:520px;
+
+}
+
+.hero-buttons{
+
+width:100%;
+
+}
+
+.hero-buttons a{
+
+max-width:100%;
 
 }
 
