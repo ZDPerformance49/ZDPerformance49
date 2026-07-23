@@ -1569,14 +1569,17 @@ margin-top:0;
 
 }
 
-.facts-grid,
+.facts-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+gap:15px;
+
+}
 
 .services-grid,
-
 .database-filter,
-
 .contact-grid,
-
 .footer-grid{
 
 grid-template-columns:1fr;
