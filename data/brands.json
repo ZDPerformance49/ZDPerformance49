@@ -1,25 +1,77 @@
 [
-  { "name": "Alfa Romeo", "slug": "alfa-romeo", "datei": "alfa-romeo.json", "aktiv": false },
-  { "name": "Audi", "slug": "audi", "datei": "audi.json", "aktiv": false },
-  { "name": "BMW", "slug": "bmw", "datei": "bmw.json", "aktiv": true },
-  { "name": "Cupra", "slug": "cupra", "datei": "cupra.json", "aktiv": false },
-  { "name": "Fiat", "slug": "fiat", "datei": "fiat.json", "aktiv": false },
-  { "name": "Ford", "slug": "ford", "datei": "ford.json", "aktiv": false },
-  { "name": "Hyundai", "slug": "hyundai", "datei": "hyundai.json", "aktiv": false },
-  { "name": "Jaguar", "slug": "jaguar", "datei": "jaguar.json", "aktiv": false },
-  { "name": "Jeep", "slug": "jeep", "datei": "jeep.json", "aktiv": false },
-  { "name": "Kia", "slug": "kia", "datei": "kia.json", "aktiv": false },
-  { "name": "Land Rover", "slug": "land-rover", "datei": "land-rover.json", "aktiv": false },
-  { "name": "Mercedes-Benz", "slug": "mercedes-benz", "datei": "mercedes-benz.json", "aktiv": false },
-  { "name": "MINI", "slug": "mini", "datei": "mini.json", "aktiv": false },
-  { "name": "Nissan", "slug": "nissan", "datei": "nissan.json", "aktiv": false },
-  { "name": "Opel", "slug": "opel", "datei": "opel.json", "aktiv": false },
-  { "name": "Peugeot", "slug": "peugeot", "datei": "peugeot.json", "aktiv": false },
-  { "name": "Porsche", "slug": "porsche", "datei": "porsche.json", "aktiv": false },
-  { "name": "Renault", "slug": "renault", "datei": "renault.json", "aktiv": false },
-  { "name": "SEAT", "slug": "seat", "datei": "seat.json", "aktiv": false },
-  { "name": "Skoda", "slug": "skoda", "datei": "skoda.json", "aktiv": false },
-  { "name": "Toyota", "slug": "toyota", "datei": "toyota.json", "aktiv": false },
-  { "name": "Volkswagen", "slug": "volkswagen", "datei": "volkswagen.json", "aktiv": false },
-  { "name": "Volvo", "slug": "volvo", "datei": "volvo.json", "aktiv": false }
+  {
+    "name": "Audi",
+    "datei": "audi.json",
+    "aktiv": true
+  },
+  {
+    "name": "BMW",
+    "datei": "bmw.json",
+    "aktiv": true
+  },
+  {
+    "name": "Mercedes-Benz",
+    "datei": "mercedes.json",
+    "aktiv": true
+  },
+  {
+    "name": "Volkswagen",
+    "datei": "volkswagen.json",
+    "aktiv": true
+  },
+  {
+    "name": "SEAT",
+    "datei": "seat.json",
+    "aktiv": true
+  },
+  {
+    "name": "Škoda",
+    "datei": "skoda.json",
+    "aktiv": true
+  },
+  {
+    "name": "Cupra",
+    "datei": "cupra.json",
+    "aktiv": true
+  },
+  {
+    "name": "Porsche",
+    "datei": "porsche.json",
+    "aktiv": true
+  },
+  {
+    "name": "MINI",
+    "datei": "mini.json",
+    "aktiv": true
+  },
+  {
+    "name": "Opel",
+    "datei": "opel.json",
+    "aktiv": true
+  },
+  {
+    "name": "Ford",
+    "datei": "ford.json",
+    "aktiv": true
+  },
+  {
+    "name": "Peugeot",
+    "datei": "peugeot.json",
+    "aktiv": true
+  },
+  {
+    "name": "Renault",
+    "datei": "renault.json",
+    "aktiv": true
+  },
+  {
+    "name": "Fiat",
+    "datei": "fiat.json",
+    "aktiv": true
+  },
+  {
+    "name": "Alfa Romeo",
+    "datei": "alfaromeo.json",
+    "aktiv": true
+  }
 ]
