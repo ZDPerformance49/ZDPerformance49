@@ -17,7 +17,16 @@
     "leistungStage1NM": 480,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e82-e87-e88-123d-204-bosch-edc17cp02-tc1766",
@@ -37,7 +46,16 @@
     "leistungStage1NM": 470,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e82-e87-e88-lci-120d-177",
@@ -57,7 +75,16 @@
     "leistungStage1NM": 430,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e82-e87-e88-lci-120d-184",
@@ -77,7 +104,16 @@
     "leistungStage1NM": 450,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-116d-116",
@@ -97,7 +133,16 @@
     "leistungStage1NM": 330,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-116i-115-bosch-me17-2-1-tc1796",
@@ -117,7 +162,13 @@
     "leistungStage1NM": 165,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-116i-115",
@@ -137,7 +188,13 @@
     "leistungStage1NM": 165,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-116i-115-bosch-me9-2-mpc555",
@@ -157,7 +214,13 @@
     "leistungStage1NM": 165,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-116i-115-zf-6hp-mpc562-tcu",
@@ -177,7 +240,14 @@
     "leistungStage1NM": 150,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-118d-122-bosch-edc16c1-mpc556",
@@ -197,27 +267,16 @@
     "leistungStage1NM": 340,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
-  },
-  {
-    "id": "bmw-1er-e81-e87-118d-122",
-    "marke": "BMW",
-    "baureihe": "1er",
-    "generation": "E81/E87",
-    "modell": "118d",
-    "motorcode": "M47D20TU2",
-    "baujahr": "2004-2007",
-    "hubraum": "1995",
-    "kraftstoff": "Diesel",
-    "ecu": "Bosch EDC16C35",
-    "getriebe": "Schaltgetriebe / Automatik",
-    "leistungSeriePS": 122,
-    "leistungSerieNM": 280,
-    "leistungStage1PS": 155,
-    "leistungStage1NM": 350,
-    "preis": 399,
-    "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-118d-122-bosch-edc16c35-mpc562",
@@ -237,7 +296,16 @@
     "leistungStage1NM": 340,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-118d-122-bosch-edc16c35-mpc564",
@@ -257,7 +325,45 @@
     "leistungStage1NM": 340,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF"
+    ]
+  },
+  {
+    "id": "bmw-1er-e81-e87-118d-122",
+    "marke": "BMW",
+    "baureihe": "1er",
+    "generation": "E81/E87",
+    "modell": "118d",
+    "motorcode": "M47D20TU2",
+    "baujahr": "2004-2007",
+    "hubraum": "1995",
+    "kraftstoff": "Diesel",
+    "ecu": "Bosch EDC16C35",
+    "getriebe": "Schaltgetriebe / Automatik",
+    "leistungSeriePS": 122,
+    "leistungSerieNM": 280,
+    "leistungStage1PS": 155,
+    "leistungStage1NM": 350,
+    "preis": 399,
+    "hinweis": "",
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-118i-129-bosch-me9-2-mpc555",
@@ -277,7 +383,13 @@
     "leistungStage1NM": 195,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-118i-129-bosch-mev17-2-1-tc1796",
@@ -297,7 +409,13 @@
     "leistungStage1NM": 195,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-118i-129",
@@ -317,7 +435,13 @@
     "leistungStage1NM": 195,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-118i-129-siemens-msd81-tc1796",
@@ -337,7 +461,13 @@
     "leistungStage1NM": 195,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-118i-129-siemens-msv70-mpc563",
@@ -357,7 +487,13 @@
     "leistungStage1NM": 195,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-118i-129-zf-6hp-mpc562-tcu",
@@ -377,7 +513,14 @@
     "leistungStage1NM": 180,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-118i-136-bosch-me9-2-mpc555",
@@ -397,7 +540,13 @@
     "leistungStage1NM": 195,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-118i-136-bosch-mev17-2-1-tc1796",
@@ -417,7 +566,13 @@
     "leistungStage1NM": 195,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-118i-136-siemens-msd81-tc1796",
@@ -437,7 +592,13 @@
     "leistungStage1NM": 195,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-120d-163-bosch-edc16c1-mpc556",
@@ -457,27 +618,16 @@
     "leistungStage1NM": 410,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
-  },
-  {
-    "id": "bmw-1er-e81-e87-120d-163",
-    "marke": "BMW",
-    "baureihe": "1er",
-    "generation": "E81/E87",
-    "modell": "120d",
-    "motorcode": "M47D20TU2",
-    "baujahr": "2004-2007",
-    "hubraum": "1995",
-    "kraftstoff": "Diesel",
-    "ecu": "Bosch EDC16C35",
-    "getriebe": "Schaltgetriebe / Automatik",
-    "leistungSeriePS": 163,
-    "leistungSerieNM": 340,
-    "leistungStage1PS": 195,
-    "leistungStage1NM": 410,
-    "preis": 399,
-    "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-120d-163-bosch-edc16c35-mpc562",
@@ -497,7 +647,16 @@
     "leistungStage1NM": 410,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-120d-163-bosch-edc16c35-mpc564",
@@ -517,7 +676,16 @@
     "leistungStage1NM": 410,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-120d-163-bosch-edc17c41-tc1797",
@@ -537,7 +705,16 @@
     "leistungStage1NM": 410,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-120d-163-bosch-edc17cp02-tc1766",
@@ -557,47 +734,45 @@
     "leistungStage1NM": 410,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF"
+    ]
   },
   {
-    "id": "bmw-1er-e81-e87-120i-150-bosch-me9-2-mpc555",
+    "id": "bmw-1er-e81-e87-120d-163",
     "marke": "BMW",
     "baureihe": "1er",
     "generation": "E81/E87",
-    "modell": "120i",
-    "motorcode": "N46B20 / N43B20",
-    "baujahr": "2004-2011",
+    "modell": "120d",
+    "motorcode": "M47D20TU2",
+    "baujahr": "2004-2007",
     "hubraum": "1995",
-    "kraftstoff": "Benzin",
-    "ecu": "Bosch ME9.2 MPC555",
-    "getriebe": "Schaltgetriebe / ZF 6HP Automatik",
-    "leistungSeriePS": 150,
-    "leistungSerieNM": 200,
-    "leistungStage1PS": 160,
-    "leistungStage1NM": 215,
+    "kraftstoff": "Diesel",
+    "ecu": "Bosch EDC16C35",
+    "getriebe": "Schaltgetriebe / Automatik",
+    "leistungSeriePS": 163,
+    "leistungSerieNM": 340,
+    "leistungStage1PS": 195,
+    "leistungStage1NM": 410,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
-  },
-  {
-    "id": "bmw-1er-e81-e87-120i-150-bosch-mev17-2-1-tc1796",
-    "marke": "BMW",
-    "baureihe": "1er",
-    "generation": "E81/E87",
-    "modell": "120i",
-    "motorcode": "N46B20 / N43B20",
-    "baujahr": "2004-2011",
-    "hubraum": "1995",
-    "kraftstoff": "Benzin",
-    "ecu": "Bosch MEV17.2.1 TC1796",
-    "getriebe": "Schaltgetriebe / ZF 6HP Automatik",
-    "leistungSeriePS": 150,
-    "leistungSerieNM": 200,
-    "leistungStage1PS": 160,
-    "leistungStage1NM": 215,
-    "preis": 399,
-    "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-120i-150",
@@ -617,7 +792,65 @@
     "leistungStage1NM": 218,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
+  },
+  {
+    "id": "bmw-1er-e81-e87-120i-150-bosch-me9-2-mpc555",
+    "marke": "BMW",
+    "baureihe": "1er",
+    "generation": "E81/E87",
+    "modell": "120i",
+    "motorcode": "N46B20 / N43B20",
+    "baujahr": "2004-2011",
+    "hubraum": "1995",
+    "kraftstoff": "Benzin",
+    "ecu": "Bosch ME9.2 MPC555",
+    "getriebe": "Schaltgetriebe / ZF 6HP Automatik",
+    "leistungSeriePS": 150,
+    "leistungSerieNM": 200,
+    "leistungStage1PS": 160,
+    "leistungStage1NM": 215,
+    "preis": 399,
+    "hinweis": "",
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
+  },
+  {
+    "id": "bmw-1er-e81-e87-120i-150-bosch-mev17-2-1-tc1796",
+    "marke": "BMW",
+    "baureihe": "1er",
+    "generation": "E81/E87",
+    "modell": "120i",
+    "motorcode": "N46B20 / N43B20",
+    "baujahr": "2004-2011",
+    "hubraum": "1995",
+    "kraftstoff": "Benzin",
+    "ecu": "Bosch MEV17.2.1 TC1796",
+    "getriebe": "Schaltgetriebe / ZF 6HP Automatik",
+    "leistungSeriePS": 150,
+    "leistungSerieNM": 200,
+    "leistungStage1PS": 160,
+    "leistungStage1NM": 215,
+    "preis": 399,
+    "hinweis": "",
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-120i-150-zf-6hp-mpc562-tcu",
@@ -637,7 +870,14 @@
     "leistungStage1NM": 200,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-120i-156-bosch-mev17-2-1-tc1796",
@@ -657,7 +897,13 @@
     "leistungStage1NM": 225,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-120i-156-siemens-msv80-tc1796",
@@ -677,7 +923,13 @@
     "leistungStage1NM": 225,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-120i-170-bosch-mev17-2-1-tc1796",
@@ -697,7 +949,13 @@
     "leistungStage1NM": 225,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-120i-170-siemens-ms45-mpc555",
@@ -717,7 +975,13 @@
     "leistungStage1NM": 225,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-120i-170-siemens-msd80-tc1796",
@@ -737,7 +1001,13 @@
     "leistungStage1NM": 225,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-130i-258-siemens-mss70-mpc563",
@@ -757,7 +1027,13 @@
     "leistungStage1NM": 318,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-130i-258",
@@ -777,7 +1053,13 @@
     "leistungStage1NM": 320,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-130i-258-siemens-msv80-tc1796",
@@ -797,7 +1079,13 @@
     "leistungStage1NM": 318,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-130i-265-siemens-msd80-tc1796",
@@ -817,7 +1105,13 @@
     "leistungStage1NM": 333,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-130i-265-siemens-msv70-mpc563",
@@ -837,7 +1131,13 @@
     "leistungStage1NM": 333,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-130i-265-zf-6hp-mpc562-tcu",
@@ -857,7 +1157,14 @@
     "leistungStage1NM": 315,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-lci-116d-115-bosch-edc17c41-tc1797",
@@ -877,7 +1184,16 @@
     "leistungStage1NM": 330,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-lci-116i-122",
@@ -897,7 +1213,14 @@
     "leistungStage1NM": 175,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-lci-116i-122-siemens-msd81-tc1796",
@@ -917,7 +1240,14 @@
     "leistungStage1NM": 200,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-lci-118d-143-bosch-edc17c41-tc1797",
@@ -937,7 +1267,16 @@
     "leistungStage1NM": 380,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-lci-118d-143",
@@ -957,7 +1296,16 @@
     "leistungStage1NM": 390,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-lci-118i-143-bosch-me9-2-mpc555",
@@ -977,7 +1325,14 @@
     "leistungStage1NM": 205,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-lci-118i-143",
@@ -997,7 +1352,14 @@
     "leistungStage1NM": 210,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-lci-120d-177-bosch-edc17cp02-tc1766",
@@ -1017,7 +1379,16 @@
     "leistungStage1NM": 430,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-lci-120d-197-bosch-edc17cp02-tc1766",
@@ -1037,7 +1408,16 @@
     "leistungStage1NM": 460,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-lci-120i-170-bosch-mev17-2-1-tc1796",
@@ -1057,7 +1437,14 @@
     "leistungStage1NM": 225,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-lci-120i-170",
@@ -1077,7 +1464,14 @@
     "leistungStage1NM": 228,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-lci-120i-170-siemens-msd80-tc1796",
@@ -1097,7 +1491,14 @@
     "leistungStage1NM": 225,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-lci-130i-265",
@@ -1117,7 +1518,13 @@
     "leistungStage1NM": 335,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e81-e87-lci-135i-306-temic-dkg436-gen1-tc1766-tcu",
@@ -1137,7 +1544,14 @@
     "leistungStage1NM": 400,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-e82-1m-coup-340",
@@ -1157,7 +1571,14 @@
     "leistungStage1NM": 580,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-e82-1m-coup-340-siemens-msd81-tc1796",
@@ -1177,7 +1598,14 @@
     "leistungStage1NM": 560,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-e82-e88-120i-170",
@@ -1197,7 +1625,14 @@
     "leistungStage1NM": 228,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-e82-e88-125i-218-siemens-msd80-tc1796",
@@ -1217,7 +1652,13 @@
     "leistungStage1NM": 275,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e82-e88-125i-218-siemens-msd81-tc1796",
@@ -1237,7 +1678,13 @@
     "leistungStage1NM": 275,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e82-e88-125i-218",
@@ -1257,7 +1704,13 @@
     "leistungStage1NM": 310,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ]
   },
   {
     "id": "bmw-1er-e82-e88-135i-306",
@@ -1277,7 +1730,14 @@
     "leistungStage1NM": 520,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-e82-e88-135i-306-siemens-msd80-tc1796",
@@ -1297,7 +1757,14 @@
     "leistungStage1NM": 520,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-e82-e88-135i-306-siemens-msd81-tc1796",
@@ -1317,7 +1784,14 @@
     "leistungStage1NM": 520,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-e82-e88-lci-135i-306",
@@ -1337,7 +1811,14 @@
     "leistungStage1NM": 500,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-e82-e88-lci-135i-306-bosch-mevd17-2-tc1797",
@@ -1357,27 +1838,14 @@
     "leistungStage1NM": 500,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
-  },
-  {
-    "id": "bmw-1er-f20-f21-114d-95-bosch-edc17c41-tc1797",
-    "marke": "BMW",
-    "baureihe": "1er",
-    "generation": "F20/F21",
-    "modell": "114d",
-    "motorcode": "N47D16K1",
-    "baujahr": "2012-2015",
-    "hubraum": "1598",
-    "kraftstoff": "Diesel",
-    "ecu": "Bosch EDC17C41 TC1797",
-    "getriebe": "6-Gang Schaltgetriebe",
-    "leistungSeriePS": 95,
-    "leistungSerieNM": 235,
-    "leistungStage1PS": 125,
-    "leistungStage1NM": 290,
-    "preis": 399,
-    "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-114d-95",
@@ -1397,7 +1865,47 @@
     "leistungStage1NM": 320,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
+  },
+  {
+    "id": "bmw-1er-f20-f21-114d-95-bosch-edc17c41-tc1797",
+    "marke": "BMW",
+    "baureihe": "1er",
+    "generation": "F20/F21",
+    "modell": "114d",
+    "motorcode": "N47D16K1",
+    "baujahr": "2012-2015",
+    "hubraum": "1598",
+    "kraftstoff": "Diesel",
+    "ecu": "Bosch EDC17C41 TC1797",
+    "getriebe": "6-Gang Schaltgetriebe",
+    "leistungSeriePS": 95,
+    "leistungSerieNM": 235,
+    "leistungStage1PS": 125,
+    "leistungStage1NM": 290,
+    "preis": 399,
+    "hinweis": "",
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-114i-102",
@@ -1417,7 +1925,14 @@
     "leistungStage1NM": 270,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-114i-102-bosch-mevd17-2-5-tc1797",
@@ -1437,7 +1952,14 @@
     "leistungStage1NM": 300,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-116d-115-bosch-edc17c41-tc1797",
@@ -1457,7 +1979,17 @@
     "leistungStage1NM": 330,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-116d-115-bosch-edc17c50-tc1797",
@@ -1477,7 +2009,17 @@
     "leistungStage1NM": 330,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-116d-115-bosch-edc17c56-tc1797",
@@ -1497,7 +2039,17 @@
     "leistungStage1NM": 330,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-116d-116",
@@ -1517,7 +2069,17 @@
     "leistungStage1NM": 340,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-116d-efficientdynamics-115-bosch-edc17c41-tc1797",
@@ -1537,7 +2099,17 @@
     "leistungStage1NM": 320,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-116i-136",
@@ -1557,7 +2129,14 @@
     "leistungStage1NM": 285,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-116i-136-bosch-mevd17-2-5-tc1797",
@@ -1577,27 +2156,14 @@
     "leistungStage1NM": 300,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
-  },
-  {
-    "id": "bmw-1er-f20-f21-118d-143-bosch-edc17c41-tc1797",
-    "marke": "BMW",
-    "baureihe": "1er",
-    "generation": "F20/F21",
-    "modell": "118d",
-    "motorcode": "N47D20U1",
-    "baujahr": "2011-2015",
-    "hubraum": "1995",
-    "kraftstoff": "Diesel",
-    "ecu": "Bosch EDC17C41 TC1797",
-    "getriebe": "6-Gang Schaltgetriebe / ZF 8HP Automatik",
-    "leistungSeriePS": 143,
-    "leistungSerieNM": 320,
-    "leistungStage1PS": 185,
-    "leistungStage1NM": 390,
-    "preis": 399,
-    "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-118d-143",
@@ -1617,7 +2183,47 @@
     "leistungStage1NM": 400,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
+  },
+  {
+    "id": "bmw-1er-f20-f21-118d-143-bosch-edc17c41-tc1797",
+    "marke": "BMW",
+    "baureihe": "1er",
+    "generation": "F20/F21",
+    "modell": "118d",
+    "motorcode": "N47D20U1",
+    "baujahr": "2011-2015",
+    "hubraum": "1995",
+    "kraftstoff": "Diesel",
+    "ecu": "Bosch EDC17C41 TC1797",
+    "getriebe": "6-Gang Schaltgetriebe / ZF 8HP Automatik",
+    "leistungSeriePS": 143,
+    "leistungSerieNM": 320,
+    "leistungStage1PS": 185,
+    "leistungStage1NM": 390,
+    "preis": 399,
+    "hinweis": "",
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-118d-143-bosch-edc17c50-tc1797",
@@ -1637,7 +2243,17 @@
     "leistungStage1NM": 390,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-118d-143-bosch-edc17c56-tc1797",
@@ -1657,7 +2273,17 @@
     "leistungStage1NM": 390,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-118i-170",
@@ -1677,7 +2303,14 @@
     "leistungStage1NM": 310,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-118i-170-bosch-mevd17-2-5-tc1797",
@@ -1697,7 +2330,14 @@
     "leistungStage1NM": 300,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-118i-170-bosch-mevd17-2-9-tc1797",
@@ -1717,27 +2357,14 @@
     "leistungStage1NM": 300,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
-  },
-  {
-    "id": "bmw-1er-f20-f21-120d-184-bosch-edc17c41-tc1797",
-    "marke": "BMW",
-    "baureihe": "1er",
-    "generation": "F20/F21",
-    "modell": "120d",
-    "motorcode": "N47D20O1",
-    "baujahr": "2011-2015",
-    "hubraum": "1995",
-    "kraftstoff": "Diesel",
-    "ecu": "Bosch EDC17C41 TC1797",
-    "getriebe": "6-Gang Schaltgetriebe / ZF 8HP Automatik",
-    "leistungSeriePS": 184,
-    "leistungSerieNM": 380,
-    "leistungStage1PS": 220,
-    "leistungStage1NM": 450,
-    "preis": 399,
-    "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-120d-184",
@@ -1757,7 +2384,47 @@
     "leistungStage1NM": 450,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
+  },
+  {
+    "id": "bmw-1er-f20-f21-120d-184-bosch-edc17c41-tc1797",
+    "marke": "BMW",
+    "baureihe": "1er",
+    "generation": "F20/F21",
+    "modell": "120d",
+    "motorcode": "N47D20O1",
+    "baujahr": "2011-2015",
+    "hubraum": "1995",
+    "kraftstoff": "Diesel",
+    "ecu": "Bosch EDC17C41 TC1797",
+    "getriebe": "6-Gang Schaltgetriebe / ZF 8HP Automatik",
+    "leistungSeriePS": 184,
+    "leistungSerieNM": 380,
+    "leistungStage1PS": 220,
+    "leistungStage1NM": 450,
+    "preis": 399,
+    "hinweis": "",
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-120d-184-bosch-edc17c50-tc1797",
@@ -1777,7 +2444,17 @@
     "leistungStage1NM": 450,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-120d-184-bosch-edc17c56-tc1797",
@@ -1797,7 +2474,17 @@
     "leistungStage1NM": 450,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-120d-184-bosch-edc17cp45-tc1797",
@@ -1817,7 +2504,17 @@
     "leistungStage1NM": 450,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-120d-performance-200-bosch-edc17c41-tc1797",
@@ -1837,7 +2534,17 @@
     "leistungStage1NM": 460,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-120d-performance-200-bosch-edc17c50-tc1797",
@@ -1857,7 +2564,17 @@
     "leistungStage1NM": 460,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-120d-performance-200-bosch-edc17c56-tc1797",
@@ -1877,7 +2594,17 @@
     "leistungStage1NM": 460,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-120i-177-bosch-mevd17-2-9-tc1797",
@@ -1897,7 +2624,14 @@
     "leistungStage1NM": 310,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-120i-184-bosch-mevd17-2-9-tc1797",
@@ -1917,7 +2651,14 @@
     "leistungStage1NM": 400,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-125d-218",
@@ -1937,7 +2678,17 @@
     "leistungStage1NM": 520,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-125d-218-bosch-edc17cp45-tc1797",
@@ -1957,7 +2708,17 @@
     "leistungStage1NM": 520,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-125i-218",
@@ -1977,7 +2738,14 @@
     "leistungStage1NM": 420,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-125i-218-bosch-mevd17-2-9-tc1797",
@@ -1997,7 +2765,14 @@
     "leistungStage1NM": 420,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-m135i-320",
@@ -2017,7 +2792,14 @@
     "leistungStage1NM": 560,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-m135i-320-bosch-mevd17-2-6-tc1797",
@@ -2037,7 +2819,14 @@
     "leistungStage1NM": 550,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-m135i-320-bosch-mevd17-2-g-tc1797",
@@ -2057,7 +2846,14 @@
     "leistungStage1NM": 550,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-m135i-326",
@@ -2077,7 +2873,14 @@
     "leistungStage1NM": 570,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-efficientdynamics-116d-ed-116",
@@ -2097,7 +2900,17 @@
     "leistungStage1NM": 340,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-lci-116d-116",
@@ -2117,7 +2930,17 @@
     "leistungStage1NM": 340,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21 lci-116d-116-bosch-md1cs001-tc298",
@@ -2137,7 +2960,17 @@
     "leistungStage1NM": 330,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-lci-116i-109",
@@ -2157,7 +2990,15 @@
     "leistungStage1NM": 240,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang",
+      "OPF OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-lci-118d-150",
@@ -2177,7 +3018,17 @@
     "leistungStage1NM": 410,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21 lci-118d-150-bosch-md1cs001-tc298",
@@ -2197,7 +3048,17 @@
     "leistungStage1NM": 400,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-lci-118i-136",
@@ -2217,7 +3078,15 @@
     "leistungStage1NM": 280,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang",
+      "OPF OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21 lci-118i-136-bosch-mevd17-2-3-tc1793",
@@ -2237,7 +3106,15 @@
     "leistungStage1NM": 280,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang",
+      "OPF OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-lci-120d-190",
@@ -2257,7 +3134,17 @@
     "leistungStage1NM": 480,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21 lci-120d-190-bosch-md1cs001-spc5777m",
@@ -2277,7 +3164,17 @@
     "leistungStage1NM": 470,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21 lci-120d-190-bosch-md1cs001-tc298",
@@ -2297,7 +3194,17 @@
     "leistungStage1NM": 470,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-lci-120i-184",
@@ -2317,7 +3224,15 @@
     "leistungStage1NM": 400,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang",
+      "OPF OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21 lci-120i-184-bosch-mg1cs003-spc5777m",
@@ -2337,7 +3252,15 @@
     "leistungStage1NM": 400,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang",
+      "OPF OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21 lci-125d-224-bosch-edc17cp45-tc1797",
@@ -2357,7 +3280,17 @@
     "leistungStage1NM": 520,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21 lci-125d-224-bosch-md1cp002-spc5777m",
@@ -2377,7 +3310,17 @@
     "leistungStage1NM": 520,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-lci-125d-224",
@@ -2397,7 +3340,17 @@
     "leistungStage1NM": 540,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-lci-125i-224",
@@ -2417,7 +3370,15 @@
     "leistungStage1NM": 450,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang",
+      "OPF OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21 lci-125i-224-bosch-mg1cs201-tc298",
@@ -2437,7 +3398,15 @@
     "leistungStage1NM": 450,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang",
+      "OPF OFF"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21 lci-m135i-326-bosch-mevd17-2-g-tc1797",
@@ -2457,7 +3426,14 @@
     "leistungStage1NM": 560,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21-lci-m140i-340",
@@ -2477,7 +3453,14 @@
     "leistungStage1NM": 620,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21 lci-m140i-340-bosch-mg1cs003-spc5777m",
@@ -2497,7 +3480,14 @@
     "leistungStage1NM": 620,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-f20-f21 lci-m140i-340-bosch-mg1cs201-tc298",
@@ -2517,7 +3507,14 @@
     "leistungStage1NM": 620,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang"
+    ]
   },
   {
     "id": "bmw-1er-f40-116d-116",
@@ -2537,7 +3534,17 @@
     "leistungStage1NM": 340,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f40-116i-109",
@@ -2557,7 +3564,15 @@
     "leistungStage1NM": 250,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang",
+      "OPF OFF"
+    ]
   },
   {
     "id": "bmw-1er-f40-118d-150",
@@ -2577,7 +3592,17 @@
     "leistungStage1NM": 430,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f40-118i-140",
@@ -2597,7 +3622,15 @@
     "leistungStage1NM": 285,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang",
+      "OPF OFF"
+    ]
   },
   {
     "id": "bmw-1er-f40-120d-xdrive-190",
@@ -2617,7 +3650,17 @@
     "leistungStage1NM": 480,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "EGR OFF",
+      "DPF OFF",
+      "FLAPS OFF",
+      "AdBlue OFF"
+    ]
   },
   {
     "id": "bmw-1er-f40-120i-178",
@@ -2637,7 +3680,15 @@
     "leistungStage1NM": 380,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang",
+      "OPF OFF"
+    ]
   },
   {
     "id": "bmw-1er-f40-128ti-265",
@@ -2657,7 +3708,15 @@
     "leistungStage1NM": 480,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang",
+      "OPF OFF"
+    ]
   },
   {
     "id": "bmw-1er-f40-m135i-xdrive-306",
@@ -2677,7 +3736,15 @@
     "leistungStage1NM": 520,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang",
+      "OPF OFF"
+    ]
   },
   {
     "id": "bmw-1er-f40-lci-116i-122",
@@ -2697,7 +3764,15 @@
     "leistungStage1NM": 280,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang",
+      "OPF OFF"
+    ]
   },
   {
     "id": "bmw-1er-f40-lci-120-170",
@@ -2717,7 +3792,15 @@
     "leistungStage1NM": 360,
     "preis": 399,
     "hinweis": "",
-    "bild": "images/bmw-1er.png"
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang",
+      "OPF OFF"
+    ]
   },
   {
     "id": "bmw-1er-f40-lci-m135-xdrive-300",
@@ -2732,3 +3815,19 @@
     "ecu": "Bosch MG1CS201",
     "getriebe": "7-Gang DKG",
     "leistungSeriePS": 300,
+    "leistungSerieNM": 400,
+    "leistungStage1PS": 350,
+    "leistungStage1NM": 480,
+    "preis": 399,
+    "hinweis": "",
+    "bild": "images/bmw-1er.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pop & Bang",
+      "OPF OFF"
+    ]
+  }
+]
