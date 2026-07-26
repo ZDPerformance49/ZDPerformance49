@@ -55,7 +55,7 @@ function initialisiereMarken() {
 
     const marken = [...new Set(fahrzeuge.map(f => f.marke))].sort();
 
-    markeSelect.innerHTML = '<option value="">Marke wählen</option>';
+    markeSelect.innerHTML = '<option value="">Marke wÃ¤hlen</option>';
 
     marken.forEach(marke => {
 
@@ -87,13 +87,13 @@ markeSelect.addEventListener("change", () => {
     )].sort();
 
     baureiheSelect.innerHTML =
-        '<option value="">Baureihe wählen</option>';
+        '<option value="">Baureihe wÃ¤hlen</option>';
 
     modellSelect.innerHTML =
-        '<option value="">Modell wählen</option>';
+        '<option value="">Modell wÃ¤hlen</option>';
 
     motorSelect.innerHTML =
-        '<option value="">Motor wählen</option>';
+        '<option value="">Motor wÃ¤hlen</option>';
 
     baureihen.forEach(baureihe => {
 
@@ -129,10 +129,10 @@ baureiheSelect.addEventListener("change", () => {
     )].sort();
 
     modellSelect.innerHTML =
-        '<option value="">Modell wählen</option>';
+        '<option value="">Modell wÃ¤hlen</option>';
 
     motorSelect.innerHTML =
-        '<option value="">Motor wählen</option>';
+        '<option value="">Motor wÃ¤hlen</option>';
 
     modelle.forEach(modell => {
 
@@ -164,7 +164,7 @@ modellSelect.addEventListener("change", () => {
     );
 
     motorSelect.innerHTML =
-        '<option value="">Motor wählen</option>';
+        '<option value="">Motor wÃ¤hlen</option>';
 
     motoren.forEach(fahrzeug => {
 
@@ -202,7 +202,7 @@ motorSelect.addEventListener("change", () => {
 });
 
 /*==================================================
- FAHRZEUGKARTE FÜLLEN
+ FAHRZEUGKARTE FÃLLEN
 ==================================================*/
 
 function zeigeFahrzeug(fahrzeug){
@@ -303,30 +303,30 @@ function auswahlZuruecksetzen(abEbene) {
         case "marke":
 
             baureiheSelect.innerHTML =
-                '<option value="">Baureihe wählen</option>';
+                '<option value="">Baureihe wÃ¤hlen</option>';
 
             modellSelect.innerHTML =
-                '<option value="">Modell wählen</option>';
+                '<option value="">Modell wÃ¤hlen</option>';
 
             motorSelect.innerHTML =
-                '<option value="">Motor wählen</option>';
+                '<option value="">Motor wÃ¤hlen</option>';
 
             break;
 
         case "baureihe":
 
             modellSelect.innerHTML =
-                '<option value="">Modell wählen</option>';
+                '<option value="">Modell wÃ¤hlen</option>';
 
             motorSelect.innerHTML =
-                '<option value="">Motor wählen</option>';
+                '<option value="">Motor wÃ¤hlen</option>';
 
             break;
 
         case "modell":
 
             motorSelect.innerHTML =
-                '<option value="">Motor wählen</option>';
+                '<option value="">Motor wÃ¤hlen</option>';
 
             break;
 
