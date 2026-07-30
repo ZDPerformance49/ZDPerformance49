@@ -87,7 +87,31 @@
     "name": "Mercedes-Benz",
     "slug": "mercedes-benz",
     "datei": "mercedes-benz.json",
-    "aktiv": false
+    "aktiv": true,
+    "dateien": [
+      "mercedes/mercedes_a_klasse.json",
+      "mercedes/mercedes_amg_gt_sls.json",
+      "mercedes/mercedes_b_klasse.json",
+      "mercedes/mercedes_c_klasse.json",
+      "mercedes/mercedes_citan_t_x.json",
+      "mercedes/mercedes_cla.json",
+      "mercedes/mercedes_clc_clk_cle.json",
+      "mercedes/mercedes_cls.json",
+      "mercedes/mercedes_e_klasse.json",
+      "mercedes/mercedes_g_klasse.json",
+      "mercedes/mercedes_gl_gls.json",
+      "mercedes/mercedes_gla.json",
+      "mercedes/mercedes_glb.json",
+      "mercedes/mercedes_glc_glk.json",
+      "mercedes/mercedes_ml_gle.json",
+      "mercedes/mercedes_r_klasse.json",
+      "mercedes/mercedes_s_klasse_maybach.json",
+      "mercedes/mercedes_sl.json",
+      "mercedes/mercedes_slk_slc.json",
+      "mercedes/mercedes_sprinter.json",
+      "mercedes/mercedes_vaneo_viano_v_klasse.json",
+      "mercedes/mercedes_vito.json"
+    ]
   },
   {
     "name": "MINI",
