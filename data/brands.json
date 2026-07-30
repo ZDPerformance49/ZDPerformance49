@@ -18,7 +18,21 @@
     "aktiv": true,
     "dateien": [
       "bmw/bmw_1er.json",
-      "bmw/bmw_2er.json"
+      "bmw/bmw_2er.json",
+      "bmw/bmw_3er.json",
+      "bmw/bmw_4er.json",
+      "bmw/bmw_5er.json",
+      "bmw/bmw_6er.json",
+      "bmw/bmw_7er.json",
+      "bmw/bmw_8er.json",
+      "bmw/bmw_x1.json",
+      "bmw/bmw_x2.json",
+      "bmw/bmw_x3.json",
+      "bmw/bmw_x4.json",
+      "bmw/bmw_x5.json",
+      "bmw/bmw_x6.json",
+      "bmw/bmw_x7.json",
+      "bmw/bmw_z4.json"
     ]
   },
   {
@@ -133,7 +147,37 @@
     "name": "Volkswagen",
     "slug": "volkswagen",
     "datei": "volkswagen.json",
-    "aktiv": false
+    "aktiv": true,
+    "dateien": [
+      "volkswagen/vw_amarok.json",
+      "volkswagen/vw_arteon.json",
+      "volkswagen/vw_beetle.json",
+      "volkswagen/vw_bora.json",
+      "volkswagen/vw_caddy.json",
+      "volkswagen/vw_california.json",
+      "volkswagen/vw_cc.json",
+      "volkswagen/vw_crafter.json",
+      "volkswagen/vw_eos.json",
+      "volkswagen/vw_fox.json",
+      "volkswagen/vw_golf.json",
+      "volkswagen/vw_jetta.json",
+      "volkswagen/vw_lupo.json",
+      "volkswagen/vw_multivan_caravelle_transporter.json",
+      "volkswagen/vw_new_beetle.json",
+      "volkswagen/vw_passat.json",
+      "volkswagen/vw_phaeton.json",
+      "volkswagen/vw_polo.json",
+      "volkswagen/vw_scirocco.json",
+      "volkswagen/vw_sharan.json",
+      "volkswagen/vw_t_cross.json",
+      "volkswagen/vw_t_roc.json",
+      "volkswagen/vw_taigo.json",
+      "volkswagen/vw_tiguan.json",
+      "volkswagen/vw_touareg.json",
+      "volkswagen/vw_touran.json",
+      "volkswagen/vw_up.json",
+      "volkswagen/vw_vento.json"
+    ]
   },
   {
     "name": "Volvo",
