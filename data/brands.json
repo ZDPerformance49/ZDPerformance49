@@ -9,7 +9,26 @@
     "name": "Audi",
     "slug": "audi",
     "datei": "audi.json",
-    "aktiv": false
+    "aktiv": true,
+    "dateien": [
+      "audi/audi_a1_s1.json",
+      "audi/audi_a2.json",
+      "audi/audi_a3_s3_rs3.json",
+      "audi/audi_a4_s4_rs4.json",
+      "audi/audi_a5_s5_rs5.json",
+      "audi/audi_a6_s6_rs6.json",
+      "audi/audi_a7_s7_rs7.json",
+      "audi/audi_a8_s8.json",
+      "audi/audi_allroad.json",
+      "audi/audi_classic_turbo.json",
+      "audi/audi_q2_sq2.json",
+      "audi/audi_q3_rsq3.json",
+      "audi/audi_q5_sq5.json",
+      "audi/audi_q7_sq7.json",
+      "audi/audi_q8_sq8_rsq8.json",
+      "audi/audi_r8.json",
+      "audi/audi_tt_tts_ttrs.json"
+    ]
   },
   {
     "name": "BMW",
@@ -141,7 +160,22 @@
     "name": "Porsche",
     "slug": "porsche",
     "datei": "porsche.json",
-    "aktiv": false
+    "aktiv": true,
+    "dateien": [
+      "porsche/porsche_911_964_993.json",
+      "porsche/porsche_911_991.json",
+      "porsche/porsche_911_992.json",
+      "porsche/porsche_911_996.json",
+      "porsche/porsche_911_997.json",
+      "porsche/porsche_boxster_cayman_981_718.json",
+      "porsche/porsche_boxster_cayman_986_987.json",
+      "porsche/porsche_cayenne_955_957.json",
+      "porsche/porsche_cayenne_958_9y0.json",
+      "porsche/porsche_classic_special.json",
+      "porsche/porsche_macan.json",
+      "porsche/porsche_panamera_970.json",
+      "porsche/porsche_panamera_971_976.json"
+    ]
   },
   {
     "name": "Renault",
@@ -153,7 +187,22 @@
     "name": "SEAT",
     "slug": "seat",
     "datei": "seat.json",
-    "aktiv": false
+    "aktiv": true,
+    "dateien": [
+      "seat/seat_alhambra.json",
+      "seat/seat_altea.json",
+      "seat/seat_arona.json",
+      "seat/seat_arosa.json",
+      "seat/seat_ateca.json",
+      "seat/seat_cordoba.json",
+      "seat/seat_exeo.json",
+      "seat/seat_ibiza.json",
+      "seat/seat_inca.json",
+      "seat/seat_leon.json",
+      "seat/seat_mii.json",
+      "seat/seat_tarraco.json",
+      "seat/seat_toledo.json"
+    ]
   },
   {
     "name": "Skoda",
