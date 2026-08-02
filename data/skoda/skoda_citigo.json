@@ -1,0 +1,83 @@
+[
+  {
+    "id": "skoda-citigo-2012-1-0i-60-95",
+    "marke": "Skoda",
+    "baureihe": "Citigo",
+    "generation": "2012+",
+    "modell": "1.0i",
+    "motorcode": "Auf Anfrage",
+    "baujahr": "2012+",
+    "hubraum": "",
+    "kraftstoff": "Benzin",
+    "ecu": "Bosch ME17.5.26 TC1724 / Bosch ME17.5.24 TC1724",
+    "getriebe": "Auf Anfrage",
+    "leistungSeriePS": 60,
+    "leistungSerieNM": 95,
+    "leistungStage1PS": 0,
+    "leistungStage1NM": 0,
+    "preis": 449,
+    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "bild": "images/hero.png",
+    "optionen": [
+      "Stage 1"
+    ],
+    "datenstatusStage1": "Auf Anfrage",
+    "quelle": "AutoTuner Tool Compatibility List",
+    "quelleUrl": "https://us.autotuner.com/pages/manufacturer/35-skoda",
+    "autotunerKompatibel": true
+  },
+  {
+    "id": "skoda-citigo-2012-1-0i-75-95",
+    "marke": "Skoda",
+    "baureihe": "Citigo",
+    "generation": "2012+",
+    "modell": "1.0i",
+    "motorcode": "Auf Anfrage",
+    "baujahr": "2012+",
+    "hubraum": "",
+    "kraftstoff": "Benzin",
+    "ecu": "Bosch ME17.5.26 TC1724 / Bosch ME17.5.24 TC1724",
+    "getriebe": "Auf Anfrage",
+    "leistungSeriePS": 75,
+    "leistungSerieNM": 95,
+    "leistungStage1PS": 0,
+    "leistungStage1NM": 0,
+    "preis": 449,
+    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "bild": "images/hero.png",
+    "optionen": [
+      "Stage 1"
+    ],
+    "datenstatusStage1": "Auf Anfrage",
+    "quelle": "AutoTuner Tool Compatibility List",
+    "quelleUrl": "https://us.autotuner.com/pages/manufacturer/35-skoda",
+    "autotunerKompatibel": true
+  },
+  {
+    "id": "skoda-citigo-2012-1-0i-cng-68-90",
+    "marke": "Skoda",
+    "baureihe": "Citigo",
+    "generation": "2012+",
+    "modell": "1.0i CNG",
+    "motorcode": "Auf Anfrage",
+    "baujahr": "2012+",
+    "hubraum": "",
+    "kraftstoff": "Benzin",
+    "ecu": "Bosch ME17.5.20 TC1767 / Continental Simos11.1 TC1738",
+    "getriebe": "Auf Anfrage",
+    "leistungSeriePS": 68,
+    "leistungSerieNM": 90,
+    "leistungStage1PS": 0,
+    "leistungStage1NM": 0,
+    "preis": 449,
+    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "bild": "images/hero.png",
+    "optionen": [
+      "Stage 1"
+    ],
+    "datenstatusStage1": "Auf Anfrage",
+    "quelle": "AutoTuner Tool Compatibility List",
+    "quelleUrl": "https://us.autotuner.com/pages/manufacturer/35-skoda",
+    "autotunerKompatibel": true
+  }
+]
