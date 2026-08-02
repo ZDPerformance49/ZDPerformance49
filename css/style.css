@@ -1,6 +1,6 @@
 /* ==================================================
    ZD PERFORMANCE49
-   Premium Website + Fahrzeug-Finder
+   KORRIGIERTE STYLE.CSS
 ================================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Bebas+Neue&display=swap');
@@ -9,16 +9,12 @@
     --bg: #0d0d0d;
     --bg2: #171717;
     --card: #1d1d1d;
-
     --red: #d90429;
     --redHover: #ef233c;
-
     --white: #ffffff;
     --text: #d8d8d8;
     --grey: #9d9d9d;
-
     --radius: 24px;
-
     --shadow: 0 20px 60px rgba(0, 0, 0, .45);
 }
 
@@ -82,7 +78,6 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-
     width: 100%;
     z-index: 999;
 
@@ -241,21 +236,6 @@ nav a:hover::after {
     padding: 0 24px;
 }
 
-.hero-left {
-    max-width: 620px;
-}
-
-.hero-line {
-    width: 90px;
-    height: 4px;
-
-    background: var(--red);
-
-    margin-bottom: 28px;
-
-    border-radius: 30px;
-}
-
 .hero h1 {
     font-family: 'Bebas Neue', sans-serif;
 
@@ -313,7 +293,6 @@ nav a:hover::after {
 
 .btn-red {
     background: var(--red);
-
     color: #fff;
 
     box-shadow: 0 12px 35px rgba(217, 4, 41, .30);
@@ -321,7 +300,6 @@ nav a:hover::after {
 
 .btn-red:hover {
     background: var(--redHover);
-
     transform: translateY(-3px);
 }
 
@@ -335,32 +313,13 @@ nav a:hover::after {
 
 .btn-dark:hover {
     background: #fff;
-
     color: #111;
 
     transform: translateY(-3px);
 }
 
-.hero-buttons .primary {
-    background: var(--red);
-    color: #fff;
-}
-
-.hero-buttons .primary:hover {
-    background: var(--redHover);
-}
-
-.hero-buttons .secondary {
-    border: 2px solid #fff;
-    color: #fff;
-}
-
-.hero-buttons .secondary:hover {
-    background: #fff;
-    color: #000;
-}
-
 @keyframes floatCar {
+
     0% {
         transform: translateY(0);
     }
@@ -372,6 +331,19 @@ nav a:hover::after {
     100% {
         transform: translateY(0);
     }
+}
+
+
+/* ==================================================
+   NORMALE HAUPTSEKTIONEN
+
+   WICHTIG:
+   NICHT global "section" verwenden.
+   Sonst werden die Finder-Schritte ebenfalls betroffen.
+================================================== */
+
+main > section:not(.hero) {
+    padding: 120px 0;
 }
 
 
@@ -439,12 +411,8 @@ nav a:hover::after {
 
 
 /* ==================================================
-   ALLGEMEINE SECTIONS
+   SECTION HEADINGS
 ================================================== */
-
-section {
-    padding: 120px 0;
-}
 
 .section-heading {
     text-align: center;
@@ -502,143 +470,28 @@ section {
     background: #111;
 }
 
-.database-head {
-    text-align: center;
-
-    margin-bottom: 60px;
-}
-
-.database-head span {
-    display: inline-block;
-
-    padding: 10px 22px;
-
-    background: rgba(217, 4, 41, .12);
-
-    color: var(--red);
-
-    border-radius: 30px;
-
-    font-size: 13px;
-    font-weight: 700;
-
-    letter-spacing: 2px;
-
-    margin-bottom: 22px;
-}
-
-.database-head h2 {
-    font-family: 'Bebas Neue', sans-serif;
-
-    font-size: 72px;
-
-    line-height: .9;
-
-    letter-spacing: 2px;
-}
-
-.search-box {
-    display: flex;
-
-    gap: 18px;
-
-    margin-bottom: 28px;
-}
-
-.search-box input {
-    flex: 1;
-
-    height: 68px;
-
-    padding: 0 28px;
-
-    background: #1a1a1a;
-
-    border: 1px solid rgba(255, 255, 255, .08);
-
-    border-radius: 18px;
-
-    color: #fff;
-
-    font-size: 17px;
-
-    transition: .3s;
-}
-
-.search-box input:focus {
-    border-color: var(--red);
-
-    box-shadow: 0 0 25px rgba(217, 4, 41, .25);
-}
-
-.search-box button {
-    padding: 0 34px;
-
-    border-radius: 18px;
-
-    background: var(--red);
-
-    color: #fff;
-
-    font-size: 16px;
-    font-weight: 700;
-
-    transition: .3s;
-}
-
-.search-box button:hover {
-    background: var(--redHover);
-}
-
-.database-filter {
-    display: grid;
-
-    grid-template-columns: repeat(5, 1fr);
-
-    gap: 18px;
-
-    margin-bottom: 50px;
-}
-
-.database-filter select {
-    height: 62px;
-
-    padding: 0 18px;
-
-    background: #1a1a1a;
-
-    border: 1px solid rgba(255, 255, 255, .08);
-
-    border-radius: 16px;
-
-    color: #fff;
-
-    font-size: 15px;
-
-    cursor: pointer;
-
-    transition: .3s;
-}
-
-.database-filter select:focus {
-    border-color: var(--red);
-}
-
 
 /* ==================================================
    FAHRZEUG-FINDER
 ================================================== */
 
 .vehicle-finder {
-    margin-top: 42px;
+    width: 100%;
+
+    max-width: 1200px;
+
+    margin: 42px auto 0;
 }
+
+
+/* Suche oben */
 
 .finder-search {
     display: grid;
 
     grid-template-columns:
-        minmax(240px, .8fr)
-        minmax(320px, 1.4fr)
+        minmax(220px, .8fr)
+        minmax(300px, 1.4fr)
         auto;
 
     gap: 18px;
@@ -708,6 +561,9 @@ section {
     color: #777;
 }
 
+
+/* Reset / Ändern */
+
 .finder-reset,
 .finder-edit {
     background: transparent;
@@ -748,7 +604,16 @@ section {
     gap: 14px;
 }
 
+
+/*
+   WICHTIG:
+   finder-step ist ein <section>.
+   Deshalb explizit padding 0.
+*/
+
 .finder-step {
+    padding: 0;
+
     background: #181818;
 
     border: 1px solid rgba(255, 255, 255, .08);
@@ -760,7 +625,8 @@ section {
     transition:
         border-color .25s ease,
         background .25s ease,
-        opacity .25s ease;
+        opacity .25s ease,
+        box-shadow .25s ease;
 }
 
 .finder-step.active {
@@ -772,7 +638,7 @@ section {
 }
 
 .finder-step.locked {
-    opacity: .5;
+    opacity: .45;
 }
 
 .finder-step-head {
@@ -866,7 +732,7 @@ section {
 
 
 /* ==================================================
-   FINDER OPTIONEN
+   AUSWAHLKARTEN
 ================================================== */
 
 .finder-options {
@@ -879,11 +745,16 @@ section {
     padding: 0 22px 22px;
 }
 
+
+/* Nur aktuelle Ebene öffnen */
+
 .finder-step:not(.active) .finder-options {
     display: none;
 }
 
 .finder-option {
+    width: 100%;
+
     min-height: 72px;
 
     padding: 15px 16px;
@@ -904,6 +775,12 @@ section {
     border-radius: 16px;
 
     color: #fff;
+
+    transition:
+        transform .2s ease,
+        background .2s ease,
+        border-color .2s ease,
+        box-shadow .2s ease;
 }
 
 .finder-option:hover {
@@ -997,6 +874,9 @@ section {
     font-size: 11px;
     font-weight: 650;
 }
+
+
+/* Keine Treffer */
 
 .finder-empty {
     grid-column: 1 / -1;
@@ -1255,6 +1135,7 @@ section {
 }
 
 @keyframes fadeUp {
+
     from {
         opacity: 0;
         transform: translateY(40px);
@@ -1273,8 +1154,6 @@ section {
 
 .services {
     background: #101010;
-
-    position: relative;
 }
 
 .services-grid {
@@ -1530,7 +1409,6 @@ footer p {
 
     .hero-car {
         width: 760px;
-
         right: -8%;
     }
 
@@ -1539,10 +1417,6 @@ footer p {
     }
 
     .services-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .database-filter {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -1605,6 +1479,9 @@ footer p {
         display: none;
     }
 
+
+    /* Hero */
+
     .hero {
         min-height: 100svh;
 
@@ -1651,7 +1528,6 @@ footer p {
 
     .hero-buttons a {
         width: 100%;
-
         max-width: 100%;
     }
 
@@ -1671,6 +1547,18 @@ footer p {
         animation: none;
     }
 
+
+    /*
+       Auch hier NICHT "section" benutzen.
+    */
+
+    main > section:not(.hero) {
+        padding: 85px 0;
+    }
+
+
+    /* Facts */
+
     .facts {
         margin-top: 0;
     }
@@ -1689,16 +1577,14 @@ footer p {
         font-size: 38px;
     }
 
-    section {
-        padding: 85px 0;
-    }
+
+    /* Überschriften */
 
     .section-heading {
         margin-bottom: 45px;
     }
 
     .section-heading h2,
-    .database-head h2,
     .about-left h2 {
         font-size: 48px;
     }
@@ -1707,11 +1593,16 @@ footer p {
         font-size: 16px;
     }
 
+
+    /* Grids */
+
     .services-grid,
-    .database-filter,
     .contact-grid {
         grid-template-columns: 1fr;
     }
+
+
+    /* Fahrzeugkarte */
 
     .vehicle-card {
         border-radius: 22px;
@@ -1769,6 +1660,10 @@ footer p {
         width: 100%;
     }
 
+    .finder-step {
+        padding: 0;
+    }
+
     .finder-step-head {
         min-height: 76px;
 
@@ -1779,7 +1674,7 @@ footer p {
         width: 40px;
         height: 40px;
 
-        flex-basis: 40px;
+        flex: 0 0 40px;
     }
 
     .finder-step-head h3 {
