@@ -59,7 +59,8 @@
 </header>
 
 <main>
-  <!-- ==========================================
+
+<!-- ==========================================
 HERO
 ========================================== -->
 
@@ -79,13 +80,12 @@ HERO
 
         </h1>
 
-<p>
+        <p>
 
-Professionelle Softwareoptimierung für PKW und Transporter.
-Über 35.000 Fahrzeuge verfügbar – transparente Leistungsdaten und faire Preise.
+            Professionelle Softwareoptimierung für PKW und Transporter.
+            Über 35.000 Fahrzeuge verfügbar – transparente Leistungsdaten und faire Preise.
 
-</p>
-          
+        </p>
 
         <div class="hero-buttons">
 
@@ -154,6 +154,7 @@ STATISTIK
     </div>
 
 </section>
+
 <!-- ==========================================
 FAHRZEUGDATENBANK
 ========================================== -->
@@ -169,36 +170,245 @@ FAHRZEUGDATENBANK
             <h2>SOFTWAREOPTIMIERUNG FINDEN</h2>
 
             <p>
-                Wähle Marke, Baureihe, Modell und Motor oder nutze die Suche,
-                um die passende Softwareoptimierung zu finden.
+                Finde dein Fahrzeug Schritt für Schritt: Marke, Modellreihe,
+                Generation und anschließend die passende Motorisierung.
             </p>
 
         </div>
 
-        <div class="database-filter">
+        <div class="vehicle-finder" id="vehicleFinder">
 
-            <input
-                type="text"
-                id="searchInput"
-                placeholder="Fahrzeug oder Motor suchen...">
+            <div class="finder-search">
 
-            <select id="marke">
-                <option value="">Marke wählen</option>
-            </select>
+                <div class="finder-search-copy">
 
-            <select id="baureihe">
-                <option value="">Baureihe wählen</option>
-            </select>
+                    <span id="finderEyebrow">
+                        SCHRITT 1 VON 4
+                    </span>
 
-            <select id="modell">
-                <option value="">Modell wählen</option>
-            </select>
+                    <strong id="finderPrompt">
+                        Welche Marke fährst du?
+                    </strong>
 
-            <select id="motor">
-                <option value="">Motor wählen</option>
-            </select>
+                </div>
+
+                <input
+                    type="search"
+                    id="searchInput"
+                    placeholder="Marke suchen, z. B. Mercedes"
+                    autocomplete="off">
+
+                <button
+                    type="button"
+                    class="finder-reset"
+                    id="finderReset"
+                    hidden>
+
+                    Auswahl zurücksetzen
+
+                </button>
+
+            </div>
+
+            <div class="finder-steps">
+
+                <!-- MARKE -->
+
+                <section
+                    class="finder-step active"
+                    id="brandStep"
+                    data-step="brand">
+
+                    <div class="finder-step-head">
+
+                        <div>
+
+                            <span class="finder-step-number">
+                                01
+                            </span>
+
+                            <div>
+
+                                <small>Marke</small>
+
+                                <h3 id="brandSummary">
+                                    Marke auswählen
+                                </h3>
+
+                            </div>
+
+                        </div>
+
+                        <button
+                            type="button"
+                            class="finder-edit"
+                            data-edit="brand"
+                            hidden>
+
+                            Ändern
+
+                        </button>
+
+                    </div>
+
+                    <div
+                        class="finder-options"
+                        id="brandOptions">
+                    </div>
+
+                </section>
+
+                <!-- MODELLREIHE -->
+
+                <section
+                    class="finder-step locked"
+                    id="seriesStep"
+                    data-step="series">
+
+                    <div class="finder-step-head">
+
+                        <div>
+
+                            <span class="finder-step-number">
+                                02
+                            </span>
+
+                            <div>
+
+                                <small>Modellreihe</small>
+
+                                <h3 id="seriesSummary">
+                                    z. B. E-Klasse
+                                </h3>
+
+                            </div>
+
+                        </div>
+
+                        <button
+                            type="button"
+                            class="finder-edit"
+                            data-edit="series"
+                            hidden>
+
+                            Ändern
+
+                        </button>
+
+                    </div>
+
+                    <div
+                        class="finder-options"
+                        id="seriesOptions">
+                    </div>
+
+                </section>
+
+                <!-- GENERATION -->
+
+                <section
+                    class="finder-step locked"
+                    id="generationStep"
+                    data-step="generation">
+
+                    <div class="finder-step-head">
+
+                        <div>
+
+                            <span class="finder-step-number">
+                                03
+                            </span>
+
+                            <div>
+
+                                <small>Generation / Baureihe</small>
+
+                                <h3 id="generationSummary">
+                                    z. B. W213
+                                </h3>
+
+                            </div>
+
+                        </div>
+
+                        <button
+                            type="button"
+                            class="finder-edit"
+                            data-edit="generation"
+                            hidden>
+
+                            Ändern
+
+                        </button>
+
+                    </div>
+
+                    <div
+                        class="finder-options"
+                        id="generationOptions">
+                    </div>
+
+                </section>
+
+                <!-- MOTORISIERUNG -->
+
+                <section
+                    class="finder-step locked"
+                    id="engineStep"
+                    data-step="engine">
+
+                    <div class="finder-step-head">
+
+                        <div>
+
+                            <span class="finder-step-number">
+                                04
+                            </span>
+
+                            <div>
+
+                                <small>Motorisierung</small>
+
+                                <h3 id="engineSummary">
+                                    Motor auswählen
+                                </h3>
+
+                            </div>
+
+                        </div>
+
+                        <button
+                            type="button"
+                            class="finder-edit"
+                            data-edit="engine"
+                            hidden>
+
+                            Ändern
+
+                        </button>
+
+                    </div>
+
+                    <div
+                        class="finder-options engine-options"
+                        id="engineOptions">
+                    </div>
+
+                </section>
+
+            </div>
+
+            <p
+                class="finder-status"
+                id="finderStatus"
+                aria-live="polite">
+            </p>
 
         </div>
+
+        <!-- ==========================================
+        FAHRZEUG DETAILKARTE
+        ========================================== -->
 
         <div class="vehicle-card" id="vehicleCard">
 
@@ -215,7 +425,9 @@ FAHRZEUGDATENBANK
 
                 <div class="vehicle-top">
 
-                    <span>SOFTWAREOPTIMIERUNG</span>
+                    <span>
+                        SOFTWAREOPTIMIERUNG
+                    </span>
 
                     <h2 id="vehicleTitle">
                         Audi RS6 Avant
@@ -231,33 +443,49 @@ FAHRZEUGDATENBANK
 
                     <div>
 
-                        <span>Serienleistung</span>
+                        <span>
+                            Serienleistung
+                        </span>
 
-                        <strong id="seriePs">600 PS</strong>
-
-                    </div>
-
-                    <div>
-
-                        <span>Seriendrehmoment</span>
-
-                        <strong id="serieNm">800 Nm</strong>
+                        <strong id="seriePs">
+                            600 PS
+                        </strong>
 
                     </div>
 
                     <div>
 
-                        <span>Optimierte Leistung</span>
+                        <span>
+                            Seriendrehmoment
+                        </span>
 
-                        <strong id="stagePs">720 PS</strong>
+                        <strong id="serieNm">
+                            800 Nm
+                        </strong>
 
                     </div>
 
                     <div>
 
-                        <span>Optimiertes Drehmoment</span>
+                        <span>
+                            Optimierte Leistung
+                        </span>
 
-                        <strong id="stageNm">950 Nm</strong>
+                        <strong id="stagePs">
+                            720 PS
+                        </strong>
+
+                    </div>
+
+                    <div>
+
+                        <span>
+                            Optimiertes Drehmoment
+                        </span>
+
+                        <strong id="stageNm">
+                            950 Nm
+                        </strong>
 
                     </div>
 
@@ -269,7 +497,9 @@ FAHRZEUGDATENBANK
 
                         <span>Preis</span>
 
-                        <h2 id="price">349 €</h2>
+                        <h2 id="price">
+                            349 €
+                        </h2>
 
                     </div>
 
@@ -285,7 +515,9 @@ FAHRZEUGDATENBANK
 
                 </div>
 
-                <a href="#contact" class="vehicle-btn">
+                <a
+                    href="#contact"
+                    class="vehicle-btn">
 
                     Jetzt anfragen
 
@@ -298,6 +530,7 @@ FAHRZEUGDATENBANK
     </div>
 
 </section>
+
 <!-- ==========================================
 LEISTUNGEN
 ========================================== -->
@@ -318,48 +551,68 @@ LEISTUNGEN
 
             <div class="service-card">
 
-                <div class="service-icon">⚡</div>
+                <div class="service-icon">
+                    ⚡
+                </div>
 
-                <h3>Softwareoptimierung</h3>
+                <h3>
+                    Softwareoptimierung
+                </h3>
 
                 <p>
-                    Individuelle Leistungsoptimierung für Benzin- und Dieselmotoren mit Fokus auf Leistung, Drehmoment und Fahrbarkeit.
+                    Individuelle Leistungsoptimierung für Benzin- und Dieselmotoren
+                    mit Fokus auf Leistung, Drehmoment und Fahrbarkeit.
                 </p>
 
             </div>
 
             <div class="service-card">
 
-                <div class="service-icon">🛠️</div>
+                <div class="service-icon">
+                    🛠️
+                </div>
 
-                <h3>Getriebesoftware</h3>
+                <h3>
+                    Getriebesoftware
+                </h3>
 
                 <p>
-                    Optimierung kompatibler Automatikgetriebe für schnellere Schaltvorgänge und ein harmonischeres Fahrverhalten.
+                    Optimierung kompatibler Automatikgetriebe für schnellere
+                    Schaltvorgänge und ein harmonischeres Fahrverhalten.
                 </p>
 
             </div>
 
             <div class="service-card">
 
-                <div class="service-icon">📊</div>
+                <div class="service-icon">
+                    📊
+                </div>
 
-                <h3>Fahrzeuganalyse</h3>
+                <h3>
+                    Fahrzeuganalyse
+                </h3>
 
                 <p>
-                    Prüfung der Fahrzeugsoftware und Auswahl der passenden Optimierung auf Basis der vorhandenen Hardware.
+                    Prüfung der Fahrzeugsoftware und Auswahl der passenden
+                    Optimierung auf Basis der vorhandenen Hardware.
                 </p>
 
             </div>
 
             <div class="service-card">
 
-                <div class="service-icon">🔄</div>
+                <div class="service-icon">
+                    🔄
+                </div>
 
-                <h3>Serienzustand</h3>
+                <h3>
+                    Serienzustand
+                </h3>
 
                 <p>
-                    Auf Wunsch kann die Originalsoftware jederzeit wieder auf das Fahrzeug aufgespielt werden.
+                    Auf Wunsch kann die Originalsoftware jederzeit wieder
+                    auf das Fahrzeug aufgespielt werden.
                 </p>
 
             </div>
@@ -380,15 +633,22 @@ LEISTUNGEN
 
         <div class="about-left">
 
-            <span>Über ZD PERFORMANCE49</span>
+            <span>
+                Über ZD PERFORMANCE49
+            </span>
 
-            <h2>PRÄZISION STATT STANDARD.</h2>
+            <h2>
+                PRÄZISION STATT STANDARD.
+            </h2>
 
             <p>
 
-                ZD PERFORMANCE49 steht seit 2025 für professionelle Softwareoptimierung mit Fokus auf Qualität, Transparenz und Zuverlässigkeit.
+                ZD PERFORMANCE49 steht seit 2025 für professionelle
+                Softwareoptimierung mit Fokus auf Qualität,
+                Transparenz und Zuverlässigkeit.
 
-                Jede Optimierung wird sorgfältig ausgewählt und auf das jeweilige Fahrzeug abgestimmt.
+                Jede Optimierung wird sorgfältig ausgewählt und
+                auf das jeweilige Fahrzeug abgestimmt.
 
             </p>
 
@@ -396,7 +656,9 @@ LEISTUNGEN
 
         <div class="about-right">
 
-            <img src="images/about.PNG" alt="ZD PERFORMANCE49">
+            <img
+                src="images/about.PNG"
+                alt="ZD PERFORMANCE49">
 
         </div>
 
@@ -426,7 +688,9 @@ KONTAKT
 
                 <h3>Instagram</h3>
 
-                <p>@zdperformance49</p>
+                <p>
+                    @zdperformance49
+                </p>
 
             </div>
 
@@ -434,7 +698,9 @@ KONTAKT
 
                 <h3>TikTok</h3>
 
-                <p>@zdperformance49</p>
+                <p>
+                    @zdperformance49
+                </p>
 
             </div>
 
@@ -442,7 +708,9 @@ KONTAKT
 
                 <h3>E-Mail</h3>
 
-                <p>info@zdperformance49.de</p>
+                <p>
+                    info@zdperformance49.de
+                </p>
 
             </div>
 
@@ -450,7 +718,9 @@ KONTAKT
 
                 <h3>Antwortzeit</h3>
 
-                <p>In der Regel innerhalb von 24 Stunden.</p>
+                <p>
+                    In der Regel innerhalb von 24 Stunden.
+                </p>
 
             </div>
 
@@ -468,9 +738,10 @@ FOOTER
 
     <div class="container">
 
-        <img src="images/logo.png"
-             alt="ZD PERFORMANCE49"
-             class="footer-logo">
+        <img
+            src="images/logo.png"
+            alt="ZD PERFORMANCE49"
+            class="footer-logo">
 
         <p>
 
