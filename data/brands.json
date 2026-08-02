@@ -208,7 +208,20 @@
     "name": "Skoda",
     "slug": "skoda",
     "datei": "skoda.json",
-    "aktiv": false
+    "aktiv": true,
+    "dateien": [
+      "skoda/skoda_citigo.json",
+      "skoda/skoda_fabia.json",
+      "skoda/skoda_kamiq.json",
+      "skoda/skoda_karoq.json",
+      "skoda/skoda_kodiaq.json",
+      "skoda/skoda_octavia.json",
+      "skoda/skoda_rapid.json",
+      "skoda/skoda_roomster.json",
+      "skoda/skoda_scala.json",
+      "skoda/skoda_superb.json",
+      "skoda/skoda_yeti.json"
+    ]
   },
   {
     "name": "Toyota",
