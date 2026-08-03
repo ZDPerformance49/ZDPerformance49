@@ -1,1054 +1,1639 @@
-/* ==================================================
-   ZD PERFORMANCE49 – Fahrzeug-Finder
-   Auswahl: Marke → Modellreihe → Generation → Motor
-   GitHub-Pages-kompatibel, ohne Serververzeichnis-Scan
-   ================================================== */
-
 (() => {
+
     "use strict";
 
+
+    if ("scrollRestoration" in history) {
+        history.scrollRestoration = "manual";
+    }
+
+
+    if (window.location.hash) {
+
+        history.replaceState(
+            null,
+            "",
+            `${window.location.pathname}${window.location.search}`
+        );
+
+    }
+
+
+    window.addEventListener("pageshow", () => {
+
+        window.scrollTo(0, 0);
+
+    });
+
+
+    window.addEventListener("load", () => {
+
+        requestAnimationFrame(() => {
+
+            window.scrollTo(0, 0);
+
+        });
+
+    });
+
+
     const DATA_ROOT = "data/";
-    const DEFAULT_IMAGE = "images/hero.png";
+
+    const DEFAULT_IMAGE = "images/logo.png";
+
+    const WHATSAPP_NUMBER = "4954118551025";
+
+
+    const BRAND_IMAGES = {
+
+        "audi":
+            "images/brands/audi.png",
+
+        "bmw":
+            "images/brands/bmw.png",
+
+        "mercedes":
+            "images/brands/mercedes.png",
+
+        "mercedes-benz":
+            "images/brands/mercedes.png",
+
+        "porsche":
+            "images/brands/porsche.png",
+
+        "seat":
+            "images/brands/seat.png",
+
+        "volkswagen":
+            "images/brands/volkswagen.png",
+
+        "vw":
+            "images/brands/volkswagen.png",
+
+        "skoda":
+            "images/brands/skoda.png",
+
+        "škoda":
+            "images/brands/skoda.png",
+
+        "cupra":
+            "images/brands/cupra.png",
+
+        "ford":
+            "images/brands/ford.png",
+
+        "opel":
+            "images/brands/opel.png",
+
+        "mini":
+            "images/brands/mini.png",
+
+        "hyundai":
+            "images/brands/hyundai.png"
+
+    };
+
 
     const state = {
+
         brands: [],
+
         vehicles: [],
+
         brand: "",
+
         series: "",
+
         generation: "",
+
         selectedVehicle: null,
-        currentStep: "brand",
-        options: []
+
+        currentStep: null
+
     };
+
 
     const elements = {};
 
+
     const stepConfig = {
+
         brand: {
             eyebrow: "SCHRITT 1 VON 4",
             prompt: "Welche Marke fährst du?",
             placeholder: "Marke suchen, z. B. Mercedes"
         },
+
         series: {
             eyebrow: "SCHRITT 2 VON 4",
             prompt: "Welche Modellreihe?",
             placeholder: "Modellreihe suchen, z. B. E-Klasse"
         },
+
         generation: {
             eyebrow: "SCHRITT 3 VON 4",
             prompt: "Welche Generation / Baureihe?",
             placeholder: "Generation suchen, z. B. W213"
         },
+
         engine: {
             eyebrow: "SCHRITT 4 VON 4",
             prompt: "Welche Motorisierung?",
-            placeholder: "Motorisierung suchen, z. B. E 220 d"
+            placeholder: "Motorisierung suchen"
         }
+
     };
 
-    document.addEventListener("DOMContentLoaded", init);
+
+    document.addEventListener(
+        "DOMContentLoaded",
+        init
+    );
+
 
     async function init() {
+
         cacheElements();
 
-        if (!requiredElementsExist()) {
-            console.error("ZD PERFORMANCE49: Benötigte Elemente für den Fahrzeug-Finder fehlen.");
-            return;
-        }
-
         bindEvents();
+
         hideVehicleCard();
+
         await loadBrands();
+
     }
+
 
     function cacheElements() {
-        elements.search = document.getElementById("searchInput");
-        elements.reset = document.getElementById("finderReset");
-        elements.eyebrow = document.getElementById("finderEyebrow");
-        elements.prompt = document.getElementById("finderPrompt");
-        elements.status = document.getElementById("finderStatus");
+
+        elements.searchPanel =
+            document.getElementById("finderSearch");
+
+        elements.search =
+            document.getElementById("searchInput");
+
+        elements.reset =
+            document.getElementById("finderReset");
+
+        elements.eyebrow =
+            document.getElementById("finderEyebrow");
+
+        elements.prompt =
+            document.getElementById("finderPrompt");
+
+        elements.status =
+            document.getElementById("finderStatus");
+
 
         elements.steps = {
-            brand: document.getElementById("brandStep"),
-            series: document.getElementById("seriesStep"),
-            generation: document.getElementById("generationStep"),
-            engine: document.getElementById("engineStep")
+
+            brand:
+                document.getElementById("brandStep"),
+
+            series:
+                document.getElementById("seriesStep"),
+
+            generation:
+                document.getElementById("generationStep"),
+
+            engine:
+                document.getElementById("engineStep")
+
         };
+
 
         elements.options = {
-            brand: document.getElementById("brandOptions"),
-            series: document.getElementById("seriesOptions"),
-            generation: document.getElementById("generationOptions"),
-            engine: document.getElementById("engineOptions")
+
+            brand:
+                document.getElementById("brandOptions"),
+
+            series:
+                document.getElementById("seriesOptions"),
+
+            generation:
+                document.getElementById("generationOptions"),
+
+            engine:
+                document.getElementById("engineOptions")
+
         };
+
 
         elements.summary = {
-            brand: document.getElementById("brandSummary"),
-            series: document.getElementById("seriesSummary"),
-            generation: document.getElementById("generationSummary"),
-            engine: document.getElementById("engineSummary")
+
+            brand:
+                document.getElementById("brandSummary"),
+
+            series:
+                document.getElementById("seriesSummary"),
+
+            generation:
+                document.getElementById("generationSummary"),
+
+            engine:
+                document.getElementById("engineSummary")
+
         };
 
-        elements.card = document.getElementById("vehicleCard");
-        elements.image = document.getElementById("vehicleImage");
-        elements.title = document.getElementById("vehicleTitle");
-        elements.motorText = document.getElementById("vehicleMotor");
-        elements.stockPs = document.getElementById("seriePs");
-        elements.stockNm = document.getElementById("serieNm");
-        elements.stagePs = document.getElementById("stagePs");
-        elements.stageNm = document.getElementById("stageNm");
-        elements.price = document.getElementById("price");
-        elements.note = document.getElementById("hinweis");
+
+        elements.card =
+            document.getElementById("vehicleCard");
+
+        elements.image =
+            document.getElementById("vehicleImage");
+
+        elements.title =
+            document.getElementById("vehicleTitle");
+
+        elements.motorText =
+            document.getElementById("vehicleMotor");
+
+        elements.stockPs =
+            document.getElementById("seriePs");
+
+        elements.stockNm =
+            document.getElementById("serieNm");
+
+        elements.stagePs =
+            document.getElementById("stagePs");
+
+        elements.stageNm =
+            document.getElementById("stageNm");
+
+        elements.price =
+            document.getElementById("price");
+
+        elements.note =
+            document.getElementById("hinweis");
+
+        elements.whatsapp =
+            document.getElementById("vehicleWhatsapp");
+
     }
 
-    function requiredElementsExist() {
-        return Boolean(
-            elements.search &&
-            elements.reset &&
-            elements.eyebrow &&
-            elements.prompt &&
-            elements.status &&
-            Object.values(elements.steps).every(Boolean) &&
-            Object.values(elements.options).every(Boolean) &&
-            Object.values(elements.summary).every(Boolean) &&
-            elements.card
-        );
-    }
 
     function bindEvents() {
-        elements.search.addEventListener("input", debounce(renderCurrentStep, 100));
-        elements.reset.addEventListener("click", resetFinder);
 
-        document.querySelectorAll("[data-edit]").forEach(button => {
-            button.addEventListener("click", () => editStep(button.dataset.edit));
-        });
-    }
-
-    async function loadBrands() {
-        setStatus("Marken werden geladen …");
-
-        try {
-            const brands = await fetchJson(`${DATA_ROOT}brands.json`);
-
-            if (!Array.isArray(brands)) {
-                throw new Error("brands.json muss ein Array enthalten.");
-            }
-
-            state.brands = brands
-                .filter(brand => brand && brand.aktiv !== false)
-                .sort((a, b) => sortText(a.name, b.name));
-
-            setStep("brand");
-            setStatus("");
-        } catch (error) {
-            console.error("ZD PERFORMANCE49: Marken konnten nicht geladen werden.", error);
-            setStatus("Datenbank konnte nicht geladen werden. Bitte Seite neu laden.", true);
-        }
-    }
-
-    function renderCurrentStep() {
-        const query = normalizeText(elements.search.value);
-
-        if (state.currentStep === "brand") {
-            renderBrands(query);
-        } else if (state.currentStep === "series") {
-            renderSeries(query);
-        } else if (state.currentStep === "generation") {
-            renderGenerations(query);
-        } else if (state.currentStep === "engine") {
-            renderEngines(query);
-        }
-    }
-
-    function renderBrands(query = "") {
-        const options = state.brands
-            .map(brand => ({
-                value: brand.name,
-                label: brand.name,
-                meta: "Marke",
-                search: [
-                    brand.name,
-                    brand.slug,
-                    brand.name === "Mercedes-Benz" ? "Mercedes" : ""
-                ].join(" ")
-            }))
-            .filter(option => matchesQuery(option.search, query));
-
-        renderOptions("brand", options, option => selectBrand(option.value));
-    }
-
-    function renderSeries(query = "") {
-        const counts = countBy(
-            state.vehicles,
-            vehicle => vehicle.baureihe
+        elements.search.addEventListener(
+            "input",
+            renderCurrentStep
         );
 
-        const options = uniqueSorted(
-            state.vehicles.map(vehicle => vehicle.baureihe)
-        )
-            .map(series => ({
-                value: series,
-                label: series,
-                meta: pluralize(
-                    counts.get(series),
-                    "Motorisierung",
-                    "Motorisierungen"
-                ),
-                search: series
-            }))
-            .filter(option => matchesQuery(option.search, query));
+
+        elements.reset.addEventListener(
+            "click",
+            resetFinder
+        );
+
+
+        document
+            .querySelectorAll("[data-edit]")
+            .forEach(button => {
+
+                button.addEventListener(
+                    "click",
+                    event => {
+
+                        event.stopPropagation();
+
+                        editStep(
+                            button.dataset.edit
+                        );
+
+                    }
+                );
+
+            });
+
+
+        document
+            .querySelectorAll("[data-open-step]")
+            .forEach(header => {
+
+                header.addEventListener(
+                    "click",
+                    event => {
+
+                        if (
+                            event.target.closest("button")
+                        ) {
+                            return;
+                        }
+
+                        openStepFromHeader(
+                            header.dataset.openStep
+                        );
+
+                    }
+                );
+
+            });
+
+    }
+
+
+    async function loadBrands() {
+
+        setStatus(
+            "Marken werden geladen …"
+        );
+
+
+        try {
+
+            const brands =
+                await fetchJson(
+                    `${DATA_ROOT}brands.json`
+                );
+
+
+            state.brands =
+                brands
+                    .filter(
+                        brand =>
+                            brand &&
+                            brand.aktiv !== false
+                    )
+                    .sort(
+                        (a, b) =>
+                            sortText(
+                                a.name,
+                                b.name
+                            )
+                    );
+
+
+            prepareFinderClosed();
+
+
+            setStatus(
+                "Tippe auf „Marke“, um die Fahrzeugauswahl zu öffnen."
+            );
+
+        }
+
+        catch (error) {
+
+            console.error(error);
+
+            setStatus(
+                "Datenbank konnte nicht geladen werden.",
+                true
+            );
+
+        }
+
+    }
+
+
+    function renderCurrentStep() {
+
+        const query =
+            normalizeText(
+                elements.search.value
+            );
+
+
+        if (
+            state.currentStep === "brand"
+        ) {
+
+            renderBrands(query);
+
+        }
+
+        else if (
+            state.currentStep === "series"
+        ) {
+
+            renderSeries(query);
+
+        }
+
+        else if (
+            state.currentStep === "generation"
+        ) {
+
+            renderGenerations(query);
+
+        }
+
+        else if (
+            state.currentStep === "engine"
+        ) {
+
+            renderEngines(query);
+
+        }
+
+    }
+
+
+    function renderBrands(
+        query = ""
+    ) {
+
+        const options =
+            state.brands
+                .map(
+                    brand => ({
+
+                        value: brand.name,
+
+                        label: brand.name,
+
+                        meta: "Marke",
+
+                        search:
+                            `${brand.name} ${brand.slug || ""}`
+
+                    })
+                )
+                .filter(
+                    option =>
+                        matchesQuery(
+                            option.search,
+                            query
+                        )
+                );
+
+
+        renderOptions(
+            "brand",
+            options,
+            option =>
+                selectBrand(
+                    option.value
+                )
+        );
+
+    }
+
+
+    function renderSeries(
+        query = ""
+    ) {
+
+        const counts =
+            countBy(
+                state.vehicles,
+                vehicle =>
+                    vehicle.baureihe
+            );
+
+
+        const options =
+            uniqueSorted(
+                state.vehicles.map(
+                    vehicle =>
+                        vehicle.baureihe
+                )
+            )
+            .map(
+                series => ({
+
+                    value: series,
+
+                    label: series,
+
+                    meta:
+                        `${counts.get(series)} Motorisierungen`,
+
+                    search:
+                        series
+
+                })
+            )
+            .filter(
+                option =>
+                    matchesQuery(
+                        option.search,
+                        query
+                    )
+            );
+
 
         renderOptions(
             "series",
             options,
-            option => selectSeries(option.value)
+            option =>
+                selectSeries(
+                    option.value
+                )
         );
+
     }
 
-    function renderGenerations(query = "") {
-        const vehicles = state.vehicles.filter(
-            vehicle => vehicle.baureihe === state.series
-        );
 
-        const counts = countBy(
-            vehicles,
-            vehicle => vehicle.generation || "Ohne Generationsangabe"
-        );
+    function renderGenerations(
+        query = ""
+    ) {
 
-        const options = uniqueSorted(
-            vehicles.map(
+        const vehicles =
+            state.vehicles.filter(
                 vehicle =>
-                    vehicle.generation ||
-                    "Ohne Generationsangabe"
+                    vehicle.baureihe ===
+                    state.series
+            );
+
+
+        const options =
+            uniqueSorted(
+                vehicles.map(
+                    vehicle =>
+                        vehicle.generation ||
+                        "Ohne Generationsangabe"
+                )
             )
-        )
-            .map(generation => ({
-                value: generation,
-                label: formatGeneration(generation),
-                meta: pluralize(
-                    counts.get(generation),
-                    "Motorisierung",
-                    "Motorisierungen"
-                ),
-                search: generation
-            }))
-            .filter(option => matchesQuery(option.search, query));
+            .map(
+                generation => ({
+
+                    value: generation,
+
+                    label:
+                        formatGeneration(
+                            generation
+                        ),
+
+                    meta:
+                        `${vehicles.filter(v =>
+                            (v.generation || "Ohne Generationsangabe") === generation
+                        ).length} Motorisierungen`,
+
+                    search:
+                        generation
+
+                })
+            )
+            .filter(
+                option =>
+                    matchesQuery(
+                        option.search,
+                        query
+                    )
+            );
+
 
         renderOptions(
             "generation",
             options,
-            option => selectGeneration(option.value)
+            option =>
+                selectGeneration(
+                    option.value
+                )
         );
+
     }
 
-    function renderEngines(query = "") {
-        const options = state.vehicles
-            .filter(vehicle =>
-                vehicle.baureihe === state.series &&
-                (
-                    vehicle.generation ||
-                    "Ohne Generationsangabe"
-                ) === state.generation
-            )
-            .sort(sortVehicles)
-            .map(vehicle => ({
-                value: vehicle.id,
-                label: vehicle.modell,
-                meta: buildEngineMeta(vehicle),
-                badges: buildEngineBadges(vehicle),
-                search: searchableText(vehicle),
-                vehicle
-            }))
-            .filter(option =>
-                matchesQuery(option.search, query)
-            );
+
+    function renderEngines(
+        query = ""
+    ) {
+
+        const options =
+            state.vehicles
+                .filter(
+                    vehicle =>
+
+                        vehicle.baureihe ===
+                        state.series &&
+
+                        (
+                            vehicle.generation ||
+                            "Ohne Generationsangabe"
+                        ) ===
+                        state.generation
+                )
+                .sort(sortVehicles)
+                .map(
+                    vehicle => ({
+
+                        label:
+                            vehicle.modell,
+
+                        meta:
+                            [
+                                vehicle.motorcode,
+                                vehicle.baujahr
+                            ]
+                            .filter(Boolean)
+                            .join(" · "),
+
+                        badges: [
+
+                            vehicle.leistungSeriePS
+                                ? `${vehicle.leistungSeriePS} PS`
+                                : "",
+
+                            vehicle.leistungSerieNM
+                                ? `${vehicle.leistungSerieNM} Nm`
+                                : "",
+
+                            vehicle.kraftstoff
+
+                        ].filter(Boolean),
+
+                        search:
+                            searchableText(
+                                vehicle
+                            ),
+
+                        vehicle:
+                            vehicle
+
+                    })
+                )
+                .filter(
+                    option =>
+                        matchesQuery(
+                            option.search,
+                            query
+                        )
+                );
+
 
         renderOptions(
             "engine",
             options,
-            option => selectEngine(option.vehicle)
+            option =>
+                selectEngine(
+                    option.vehicle
+                )
         );
+
     }
 
-    function renderOptions(step, options, onSelect) {
-        const container = elements.options[step];
+
+    function renderOptions(
+        step,
+        options,
+        onSelect
+    ) {
+
+        const container =
+            elements.options[step];
+
 
         container.innerHTML = "";
-        state.options = options;
 
-        if (options.length === 0) {
-            const empty = document.createElement("div");
 
-            empty.className = "finder-empty";
+        if (
+            options.length === 0
+        ) {
 
-            empty.innerHTML = `
-                <strong>Keine Treffer</strong>
-                <span>
-                    Suchbegriff ändern oder Auswahl zurückgehen.
-                </span>
-            `;
+            container.innerHTML =
+                `
+                    <div class="finder-empty">
+                        <strong>Keine Treffer</strong>
+                        <span>Suchbegriff ändern.</span>
+                    </div>
+                `;
 
-            container.appendChild(empty);
+            return;
+
+        }
+
+
+        options.forEach(
+            option => {
+
+                const button =
+                    document.createElement(
+                        "button"
+                    );
+
+
+                button.type =
+                    "button";
+
+
+                button.className =
+                    step === "engine"
+                        ? "finder-option engine-option"
+                        : "finder-option";
+
+
+                button.addEventListener(
+                    "click",
+                    () =>
+                        onSelect(
+                            option
+                        )
+                );
+
+
+                const copy =
+                    document.createElement(
+                        "span"
+                    );
+
+
+                copy.className =
+                    "finder-option-copy";
+
+
+                copy.innerHTML =
+                    `
+                        <strong>${escapeHtml(option.label)}</strong>
+                        ${
+                            option.meta
+                                ? `<small>${escapeHtml(option.meta)}</small>`
+                                : ""
+                        }
+                    `;
+
+
+                if (
+                    option.badges
+                ) {
+
+                    const badges =
+                        document.createElement(
+                            "span"
+                        );
+
+
+                    badges.className =
+                        "engine-badges";
+
+
+                    option.badges.forEach(
+                        text => {
+
+                            const badge =
+                                document.createElement(
+                                    "span"
+                                );
+
+
+                            badge.textContent =
+                                text;
+
+
+                            badges.appendChild(
+                                badge
+                            );
+
+                        }
+                    );
+
+
+                    copy.appendChild(
+                        badges
+                    );
+
+                }
+
+
+                const arrow =
+                    document.createElement(
+                        "span"
+                    );
+
+
+                arrow.className =
+                    "finder-option-arrow";
+
+
+                arrow.textContent =
+                    "→";
+
+
+                button.append(
+                    copy,
+                    arrow
+                );
+
+
+                container.appendChild(
+                    button
+                );
+
+            }
+        );
+
+    }
+
+
+    async function selectBrand(
+        brandName
+    ) {
+
+        const brand =
+            state.brands.find(
+                item =>
+                    item.name ===
+                    brandName
+            );
+
+
+        if (!brand) {
             return;
         }
 
-        options.forEach(option => {
-            const button = document.createElement("button");
 
-            button.type = "button";
+        state.brand =
+            brandName;
 
-            button.className =
-                step === "engine"
-                    ? "finder-option engine-option"
-                    : "finder-option";
+        state.series =
+            "";
 
-            button.addEventListener(
-                "click",
-                () => onSelect(option)
-            );
+        state.generation =
+            "";
 
-            const copy = document.createElement("span");
-            copy.className = "finder-option-copy";
+        state.selectedVehicle =
+            null;
 
-            const label = document.createElement("strong");
-            label.textContent = option.label;
-
-            copy.appendChild(label);
-
-            if (option.meta) {
-                const meta = document.createElement("small");
-
-                meta.textContent = option.meta;
-
-                copy.appendChild(meta);
-            }
-
-            if (
-                Array.isArray(option.badges) &&
-                option.badges.length
-            ) {
-                const badges =
-                    document.createElement("span");
-
-                badges.className = "engine-badges";
-
-                option.badges.forEach(text => {
-                    const badge =
-                        document.createElement("span");
-
-                    badge.textContent = text;
-
-                    badges.appendChild(badge);
-                });
-
-                copy.appendChild(badges);
-            }
-
-            const arrow =
-                document.createElement("span");
-
-            arrow.className = "finder-option-arrow";
-
-            arrow.setAttribute(
-                "aria-hidden",
-                "true"
-            );
-
-            arrow.textContent = "→";
-
-            button.append(copy, arrow);
-
-            container.appendChild(button);
-        });
-    }
-
-    async function selectBrand(brandName) {
-        const brand = state.brands.find(
-            item => item.name === brandName
-        );
-
-        if (!brand) return;
-
-        state.brand = brandName;
-        state.series = "";
-        state.generation = "";
-        state.selectedVehicle = null;
-        state.vehicles = [];
 
         hideVehicleCard();
+
 
         updateSummary(
             "brand",
             brandName
         );
 
-        collapseStep("brand");
+
+        collapseStep(
+            "brand"
+        );
+
 
         setStatus(
             `${brandName}: Fahrzeugdaten werden geladen …`
         );
 
-        const files = normalizeBrandFiles(brand);
 
-        if (files.length === 0) {
-            setStatus(
-                `Für ${brandName} sind noch keine Fahrzeugdateien eingetragen.`,
-                true
+        const files =
+            normalizeBrandFiles(
+                brand
             );
 
-            editStep("brand");
-            return;
-        }
 
         try {
+
             const results =
-                await Promise.allSettled(
-                    files.map(file =>
-                        fetchJson(
-                            `${DATA_ROOT}${file}`
-                        )
+                await Promise.all(
+
+                    files.map(
+                        file =>
+                            fetchJson(
+                                `${DATA_ROOT}${file}`
+                            )
                     )
+
                 );
 
-            const vehicles = [];
-            const failedFiles = [];
 
-            results.forEach(
-                (result, index) => {
-                    if (
-                        result.status === "fulfilled" &&
-                        Array.isArray(result.value)
-                    ) {
-                        vehicles.push(
-                            ...result.value
-                        );
-                    } else {
-                        failedFiles.push(
-                            files[index]
-                        );
-                    }
-                }
-            );
+            state.vehicles =
+                results
+                    .flat()
+                    .filter(isValidVehicle)
+                    .map(normalizeVehicle);
 
-            state.vehicles = vehicles
-                .filter(isValidVehicle)
-                .map(normalizeVehicle);
-
-            if (
-                state.vehicles.length === 0
-            ) {
-                throw new Error(
-                    "Keine gültigen Fahrzeugdatensätze gefunden."
-                );
-            }
-
-            if (failedFiles.length) {
-                console.warn(
-                    "Nicht geladene Fahrzeugdateien:",
-                    failedFiles
-                );
-            }
 
             setStatus("");
 
-            setStep("series");
-        } catch (error) {
-            console.error(
-                `ZD PERFORMANCE49: Daten für ${brandName} konnten nicht geladen werden.`,
-                error
+
+            setStep(
+                "series"
             );
+
+        }
+
+        catch (error) {
+
+            console.error(error);
 
             setStatus(
                 "Fahrzeugdaten konnten nicht geladen werden.",
                 true
             );
 
-            editStep("brand");
         }
+
     }
 
-    function selectSeries(series) {
-        state.series = series;
-        state.generation = "";
-        state.selectedVehicle = null;
+
+    function selectSeries(
+        series
+    ) {
+
+        state.series =
+            series;
+
+        state.generation =
+            "";
+
+        state.selectedVehicle =
+            null;
+
 
         hideVehicleCard();
+
 
         updateSummary(
             "series",
             series
         );
 
-        collapseStep("series");
 
-        setStep("generation");
+        collapseStep(
+            "series"
+        );
+
+
+        setStep(
+            "generation"
+        );
+
     }
 
-    function selectGeneration(generation) {
-        state.generation = generation;
-        state.selectedVehicle = null;
+
+    function selectGeneration(
+        generation
+    ) {
+
+        state.generation =
+            generation;
+
+        state.selectedVehicle =
+            null;
+
 
         hideVehicleCard();
 
+
         updateSummary(
             "generation",
-            formatGeneration(generation)
+            formatGeneration(
+                generation
+            )
         );
 
-        collapseStep("generation");
 
-        setStep("engine");
+        collapseStep(
+            "generation"
+        );
+
+
+        setStep(
+            "engine"
+        );
+
     }
 
-    function selectEngine(vehicle) {
-        state.selectedVehicle = vehicle;
+
+    function selectEngine(
+        vehicle
+    ) {
+
+        state.selectedVehicle =
+            vehicle;
+
 
         updateSummary(
             "engine",
-            buildEngineSummary(vehicle)
+            `${vehicle.modell} · ${vehicle.leistungSeriePS || ""} PS`
         );
 
-        collapseStep("engine");
 
-        elements.search.value = "";
-        elements.search.blur();
+        collapseStep(
+            "engine"
+        );
 
-        elements.prompt.textContent =
-            "Fahrzeug gefunden";
 
-        elements.eyebrow.textContent =
-            "AUSWAHL ABGESCHLOSSEN";
+        elements.searchPanel.hidden =
+            true;
 
-        elements.search.placeholder =
-            "Auswahl abgeschlossen";
 
-        showVehicle(vehicle);
+        showVehicle(
+            vehicle
+        );
+
 
         setStatus("");
+
     }
 
-    function setStep(step) {
-        state.currentStep = step;
 
-        elements.search.value = "";
+    function setStep(
+        step
+    ) {
+
+        state.currentStep =
+            step;
+
+
+        elements.searchPanel.hidden =
+            false;
+
+
+        elements.search.value =
+            "";
+
 
         elements.reset.hidden =
             !state.brand;
 
+
         Object.entries(
             elements.steps
-        ).forEach(([key, element]) => {
-            element.classList.toggle(
-                "active",
-                key === step
-            );
+        )
+        .forEach(
+            ([key, element]) => {
 
-            element.classList.toggle(
-                "locked",
-                stepIndex(key) >
+                element.classList.remove(
+                    "ready"
+                );
+
+
+                element.classList.toggle(
+                    "active",
+                    key === step
+                );
+
+
+                element.classList.toggle(
+                    "locked",
+                    stepIndex(key) >
                     stepIndex(step)
-            );
-        });
+                );
 
-        const config =
-            stepConfig[step];
+            }
+        );
+
 
         elements.eyebrow.textContent =
-            config.eyebrow;
+            stepConfig[step].eyebrow;
+
 
         elements.prompt.textContent =
-            config.prompt;
+            stepConfig[step].prompt;
+
 
         elements.search.placeholder =
-            config.placeholder;
+            stepConfig[step].placeholder;
 
-        elements.search.disabled = false;
 
         renderCurrentStep();
 
-        requestAnimationFrame(() => {
-            elements.steps[step]
-                .scrollIntoView({
-                    behavior: "smooth",
-                    block: "nearest"
-                });
-        });
     }
 
-    function collapseStep(step) {
+
+    function prepareFinderClosed() {
+
+        state.currentStep =
+            null;
+
+
+        elements.searchPanel.hidden =
+            true;
+
+
+        Object.entries(
+            elements.steps
+        )
+        .forEach(
+            ([key, element]) => {
+
+                element.classList.remove(
+                    "active"
+                );
+
+
+                element.classList.toggle(
+                    "ready",
+                    key === "brand"
+                );
+
+
+                element.classList.toggle(
+                    "locked",
+                    key !== "brand"
+                );
+
+            }
+        );
+
+    }
+
+
+    function openStepFromHeader(
+        step
+    ) {
+
+        const element =
+            elements.steps[step];
+
+
+        if (
+            element.classList.contains(
+                "locked"
+            )
+        ) {
+
+            return;
+
+        }
+
+
+        if (
+            state.currentStep === step
+        ) {
+
+            return;
+
+        }
+
+
+        editStep(
+            step
+        );
+
+    }
+
+
+    function collapseStep(
+        step
+    ) {
+
         elements.steps[step]
             .classList.remove(
                 "active",
                 "locked"
             );
 
+
         const editButton =
             elements.steps[step]
-                .querySelector("[data-edit]");
+                .querySelector(
+                    "[data-edit]"
+                );
 
-        if (editButton) {
-            editButton.hidden = false;
+
+        if (
+            editButton
+        ) {
+
+            editButton.hidden =
+                false;
+
         }
+
     }
 
-    function editStep(step) {
+
+    function editStep(
+        step
+    ) {
+
         hideVehicleCard();
 
-        setStatus("");
 
-        if (step === "brand") {
+        if (
+            step === "brand"
+        ) {
+
             state.brand = "";
             state.series = "";
             state.generation = "";
             state.selectedVehicle = null;
             state.vehicles = [];
 
-            resetSummary("brand");
-            resetSummary("series");
-            resetSummary("generation");
-            resetSummary("engine");
+        }
 
-            resetEditButtonsFrom("brand");
 
-        } else if (step === "series") {
+        if (
+            step === "series"
+        ) {
+
             state.series = "";
             state.generation = "";
             state.selectedVehicle = null;
 
-            resetSummary("series");
-            resetSummary("generation");
-            resetSummary("engine");
+        }
 
-            resetEditButtonsFrom("series");
 
-        } else if (step === "generation") {
+        if (
+            step === "generation"
+        ) {
+
             state.generation = "";
             state.selectedVehicle = null;
 
-            resetSummary("generation");
-            resetSummary("engine");
-
-            resetEditButtonsFrom("generation");
-
-        } else if (step === "engine") {
-            state.selectedVehicle = null;
-
-            resetSummary("engine");
-
-            resetEditButtonsFrom("engine");
         }
 
-        setStep(step);
+
+        if (
+            step === "engine"
+        ) {
+
+            state.selectedVehicle = null;
+
+        }
+
+
+        setStep(
+            step
+        );
+
     }
 
+
     function resetFinder() {
+
         state.brand = "";
         state.series = "";
         state.generation = "";
         state.selectedVehicle = null;
         state.vehicles = [];
 
+
         hideVehicleCard();
 
-        setStatus("");
 
-        [
-            "brand",
-            "series",
-            "generation",
-            "engine"
-        ].forEach(step => {
-            resetSummary(step);
+        elements.summary.brand.textContent =
+            "Marke auswählen";
 
-            const editButton =
-                elements.steps[step]
-                    .querySelector(
-                        "[data-edit]"
-                    );
+        elements.summary.series.textContent =
+            "z. B. E-Klasse";
 
-            if (editButton) {
-                editButton.hidden = true;
-            }
-        });
+        elements.summary.generation.textContent =
+            "z. B. W213";
 
-        setStep("brand");
+        elements.summary.engine.textContent =
+            "Motor auswählen";
+
+
+        prepareFinderClosed();
+
     }
 
-    function resetEditButtonsFrom(step) {
-        const start =
-            stepIndex(step);
 
-        Object.keys(
-            elements.steps
-        ).forEach(key => {
-            if (
-                stepIndex(key) >= start
-            ) {
-                const editButton =
-                    elements.steps[key]
-                        .querySelector(
-                            "[data-edit]"
-                        );
+    function updateSummary(
+        step,
+        text
+    ) {
 
-                if (editButton) {
-                    editButton.hidden = true;
-                }
-            }
-        });
-    }
-
-    function updateSummary(step, text) {
         elements.summary[step]
-            .textContent = text;
+            .textContent =
+            text;
+
     }
 
-    function resetSummary(step) {
-        const defaults = {
-            brand: "Marke auswählen",
-            series: "z. B. E-Klasse",
-            generation: "z. B. W213",
-            engine: "Motor auswählen"
-        };
 
-        updateSummary(
-            step,
-            defaults[step]
-        );
-    }
+    function showVehicle(
+        vehicle
+    ) {
 
-    function showVehicle(vehicle) {
-        if (elements.image) {
-            elements.image.src =
-                vehicle.bild ||
-                DEFAULT_IMAGE;
+        elements.image.src =
+            getBrandImage(
+                vehicle.marke
+            );
 
-            elements.image.alt =
-                `${vehicle.marke} ${vehicle.modell}`;
 
-            elements.image.onerror =
-                () => {
-                    elements.image.onerror =
-                        null;
+        elements.image.onerror =
+            () => {
 
-                    elements.image.src =
-                        DEFAULT_IMAGE;
-                };
-        }
+                elements.image.onerror =
+                    null;
 
-        if (elements.title) {
-            elements.title.textContent =
-                `${vehicle.marke} ${vehicle.modell}`.trim();
-        }
+                elements.image.src =
+                    DEFAULT_IMAGE;
 
-        if (elements.motorText) {
-            elements.motorText.textContent =
-                buildVehicleDescription(
-                    vehicle
-                );
-        }
+            };
 
-        if (elements.stockPs) {
-            elements.stockPs.textContent =
-                formatPower(
-                    vehicle.leistungSeriePS,
-                    "PS"
-                );
-        }
 
-        if (elements.stockNm) {
-            elements.stockNm.textContent =
-                formatPower(
-                    vehicle.leistungSerieNM,
-                    "Nm"
-                );
-        }
+        elements.title.textContent =
+            `${vehicle.marke} ${vehicle.modell}`;
 
-        if (elements.stagePs) {
-            elements.stagePs.textContent =
-                formatPower(
-                    vehicle.leistungStage1PS,
-                    "PS"
-                );
-        }
 
-        if (elements.stageNm) {
-            elements.stageNm.textContent =
-                formatPower(
-                    vehicle.leistungStage1NM,
-                    "Nm"
-                );
-        }
+        elements.motorText.textContent =
+            [
+                formatGeneration(
+                    vehicle.generation
+                ),
+                vehicle.baujahr,
+                vehicle.kraftstoff
+            ]
+            .filter(Boolean)
+            .join(" · ");
 
-        if (elements.price) {
-            elements.price.textContent =
-                formatPrice(vehicle.preis);
-        }
 
-        if (elements.note) {
-            elements.note.textContent =
-                buildNote(vehicle);
-        }
+        elements.stockPs.textContent =
+            formatPower(
+                vehicle.leistungSeriePS,
+                "PS"
+            );
+
+
+        elements.stockNm.textContent =
+            formatPower(
+                vehicle.leistungSerieNM,
+                "Nm"
+            );
+
+
+        elements.stagePs.textContent =
+            formatPower(
+                vehicle.leistungStage1PS,
+                "PS"
+            );
+
+
+        elements.stageNm.textContent =
+            formatPower(
+                vehicle.leistungStage1NM,
+                "Nm"
+            );
+
+
+        elements.price.textContent =
+            formatPrice(
+                vehicle.preis
+            );
+
+
+        elements.note.textContent =
+            buildNote(
+                vehicle
+            );
+
+
+        elements.whatsapp.href =
+            buildWhatsappUrl(
+                vehicle
+            );
+
 
         elements.card.classList.add(
             "active"
         );
 
-        elements.card.removeAttribute(
-            "hidden"
+
+        requestAnimationFrame(
+            () => {
+
+                elements.card.scrollIntoView({
+                    behavior: "smooth",
+                    block: "nearest"
+                });
+
+            }
         );
 
-        saveSelection(vehicle);
-
-        requestAnimationFrame(() => {
-            elements.card.scrollIntoView({
-                behavior: "smooth",
-                block: "nearest"
-            });
-        });
     }
 
+
     function hideVehicleCard() {
+
         elements.card.classList.remove(
             "active"
         );
+
     }
 
-    function buildVehicleDescription(vehicle) {
-        return [
-            formatGeneration(
-                vehicle.generation
-            ),
-            vehicle.baujahr,
-            vehicle.kraftstoff,
-            vehicle.hubraum
-                ? `${vehicle.hubraum} cm³`
-                : ""
-        ]
-            .filter(Boolean)
-            .join(" · ");
+
+    function getBrandImage(
+        brand
+    ) {
+
+        const key =
+            normalizeText(
+                brand
+            );
+
+
+        return (
+            BRAND_IMAGES[key] ||
+            DEFAULT_IMAGE
+        );
+
     }
 
-    function buildEngineSummary(vehicle) {
-        return [
-            vehicle.modell,
-            vehicle.leistungSeriePS
-                ? `${vehicle.leistungSeriePS} PS`
-                : ""
-        ]
-            .filter(Boolean)
-            .join(" · ");
+
+    function buildWhatsappUrl(
+        vehicle
+    ) {
+
+        const text = `Hallo ZD PERFORMANCE49,
+
+ich interessiere mich für eine Softwareoptimierung:
+
+Marke: ${vehicle.marke}
+Modellreihe: ${vehicle.baureihe}
+Generation: ${formatGeneration(vehicle.generation)}
+Motorisierung: ${vehicle.modell}
+
+Serie:
+${formatPower(vehicle.leistungSeriePS, "PS")} / ${formatPower(vehicle.leistungSerieNM, "Nm")}
+
+Stage 1:
+${formatPower(vehicle.leistungStage1PS, "PS")} / ${formatPower(vehicle.leistungStage1NM, "Nm")}
+
+Bitte schickt mir weitere Informationen.`;
+
+
+        return (
+            `https://wa.me/${WHATSAPP_NUMBER}?text=` +
+            encodeURIComponent(text)
+        );
+
     }
 
-    function buildEngineMeta(vehicle) {
-        return [
-            vehicle.motorcode &&
-            vehicle.motorcode !==
-                "Auf Anfrage"
-                ? vehicle.motorcode
-                : "",
-            vehicle.baujahr
-        ]
-            .filter(Boolean)
-            .join(" · ");
-    }
 
-    function buildEngineBadges(vehicle) {
-        return [
-            vehicle.leistungSeriePS
-                ? `${vehicle.leistungSeriePS} PS`
-                : "",
-            vehicle.leistungSerieNM
-                ? `${vehicle.leistungSerieNM} Nm`
-                : "",
-            vehicle.kraftstoff
-        ].filter(Boolean);
-    }
+    function buildNote(
+        vehicle
+    ) {
 
-    function buildNote(vehicle) {
         const parts = [];
 
-        if (vehicle.motorcode) {
+
+        if (
+            vehicle.motorcode
+        ) {
+
             parts.push(
                 `Motorcode: ${vehicle.motorcode}`
             );
+
         }
 
-        if (vehicle.ecu) {
+
+        if (
+            vehicle.ecu
+        ) {
+
             parts.push(
                 `ECU: ${vehicle.ecu}`
             );
+
         }
 
-        if (vehicle.getriebe) {
+
+        if (
+            vehicle.getriebe
+        ) {
+
             parts.push(
                 `Getriebe: ${vehicle.getriebe}`
             );
+
         }
+
 
         if (
-            Array.isArray(
-                vehicle.optionen
-            ) &&
-            vehicle.optionen.length
+            vehicle.hinweis
         ) {
-            parts.push(
-                `Optionen: ${vehicle.optionen.join(", ")}`
-            );
-        }
 
-        if (vehicle.hinweis) {
             parts.push(
                 vehicle.hinweis
             );
+
         }
+
 
         return (
             parts.join(" | ") ||
             "Weitere Details auf Anfrage"
         );
+
     }
 
-    function normalizeBrandFiles(brand) {
+
+    function normalizeBrandFiles(
+        brand
+    ) {
+
         if (
             Array.isArray(
                 brand.dateien
             )
         ) {
-            return brand.dateien
-                .filter(Boolean);
+
+            return brand.dateien;
+
         }
+
 
         if (
-            typeof brand.datei ===
-                "string" &&
-            brand.datei.trim()
+            brand.datei
         ) {
+
             return [
-                brand.datei.trim()
+                brand.datei
             ];
+
         }
 
+
         return [];
+
     }
+
 
     function normalizeVehicle(
-        vehicle,
-        index
+        vehicle
     ) {
-        const fallbackId = [
-            vehicle.marke,
-            vehicle.baureihe,
-            vehicle.generation,
-            vehicle.modell,
-            vehicle.motorcode,
-            vehicle.leistungSeriePS,
-            index
-        ]
-            .map(normalizeText)
-            .filter(Boolean)
-            .join("-");
 
         return {
+
             ...vehicle,
 
-            id: String(
-                vehicle.id ||
-                fallbackId
-            ),
+            marke:
+                String(
+                    vehicle.marke || ""
+                ),
 
-            marke: String(
-                vehicle.marke || ""
-            ),
+            baureihe:
+                String(
+                    vehicle.baureihe || ""
+                ),
 
-            baureihe: String(
-                vehicle.baureihe || ""
-            ),
+            generation:
+                String(
+                    vehicle.generation || ""
+                ),
 
-            generation: String(
-                vehicle.generation || ""
-            ),
+            modell:
+                String(
+                    vehicle.modell || ""
+                ),
 
-            modell: String(
-                vehicle.modell || ""
-            ),
+            motorcode:
+                String(
+                    vehicle.motorcode || ""
+                ),
 
-            motorcode: String(
-                vehicle.motorcode || ""
-            ),
+            baujahr:
+                String(
+                    vehicle.baujahr || ""
+                ),
 
-            baujahr: String(
-                vehicle.baujahr || ""
-            ),
+            kraftstoff:
+                String(
+                    vehicle.kraftstoff || ""
+                ),
 
-            hubraum: String(
-                vehicle.hubraum || ""
-            ),
+            ecu:
+                String(
+                    vehicle.ecu || ""
+                ),
 
-            kraftstoff: String(
-                vehicle.kraftstoff || ""
-            ),
-
-            ecu: String(
-                vehicle.ecu || ""
-            ),
-
-            getriebe: String(
-                vehicle.getriebe || ""
-            ),
+            getriebe:
+                String(
+                    vehicle.getriebe || ""
+                ),
 
             leistungSeriePS:
-                numberOrZero(
+                Number(
                     vehicle.leistungSeriePS
-                ),
+                ) || 0,
 
             leistungSerieNM:
-                numberOrZero(
+                Number(
                     vehicle.leistungSerieNM
-                ),
+                ) || 0,
 
             leistungStage1PS:
-                numberOrZero(
+                Number(
                     vehicle.leistungStage1PS
-                ),
+                ) || 0,
 
             leistungStage1NM:
-                numberOrZero(
+                Number(
                     vehicle.leistungStage1NM
-                ),
+                ) || 0,
 
             preis:
-                numberOrZero(
+                Number(
                     vehicle.preis
-                ) || 399,
+                ) || 399
 
-            hinweis: String(
-                vehicle.hinweis || ""
-            ),
-
-            bild: String(
-                vehicle.bild || ""
-            ),
-
-            optionen:
-                Array.isArray(
-                    vehicle.optionen
-                )
-                    ? vehicle.optionen
-                    : []
         };
+
     }
 
-    function isValidVehicle(vehicle) {
+
+    function isValidVehicle(
+        vehicle
+    ) {
+
         return Boolean(
             vehicle &&
-            typeof vehicle === "object" &&
             vehicle.marke &&
             vehicle.baureihe &&
             vehicle.modell
         );
+
     }
 
-    function searchableText(vehicle) {
+
+    function searchableText(
+        vehicle
+    ) {
+
         return [
             vehicle.marke,
             vehicle.baureihe,
@@ -1056,94 +1641,110 @@
             vehicle.modell,
             vehicle.motorcode,
             vehicle.baujahr,
-            vehicle.hubraum,
             vehicle.kraftstoff,
             vehicle.ecu,
-            vehicle.getriebe,
-            ...(vehicle.optionen || [])
-        ].join(" ");
+            vehicle.getriebe
+        ]
+        .join(" ");
+
     }
 
-    function formatGeneration(value) {
+
+    function formatGeneration(
+        value
+    ) {
+
         return String(
             value || ""
         )
-            .replaceAll(
-                "/",
-                " / "
-            )
-            .replace(
-                /\s+/g,
-                " "
-            )
-            .trim();
+        .replaceAll(
+            "/",
+            " / "
+        )
+        .trim();
+
     }
+
 
     function setStatus(
         message,
-        isError = false
+        error = false
     ) {
+
         elements.status.textContent =
             message;
 
+
         elements.status.classList.toggle(
             "error",
-            isError
+            error
         );
+
     }
+
 
     function matchesQuery(
         value,
         query
     ) {
+
         return (
             !query ||
             normalizeText(value)
                 .includes(query)
         );
+
     }
+
 
     function countBy(
         items,
         getKey
     ) {
-        const map = new Map();
 
-        items.forEach(item => {
-            const key =
-                getKey(item);
+        const map =
+            new Map();
 
-            map.set(
-                key,
-                (map.get(key) || 0) + 1
-            );
-        });
+
+        items.forEach(
+            item => {
+
+                const key =
+                    getKey(item);
+
+
+                map.set(
+                    key,
+                    (map.get(key) || 0) + 1
+                );
+
+            }
+        );
+
 
         return map;
+
     }
 
-    function pluralize(
-        count,
-        singular,
-        plural
+
+    function stepIndex(
+        step
     ) {
-        return `${count || 0} ${
-            count === 1
-                ? singular
-                : plural
-        }`;
-    }
 
-    function stepIndex(step) {
         return [
             "brand",
             "series",
             "generation",
             "engine"
         ].indexOf(step);
+
     }
 
-    async function fetchJson(url) {
+
+    async function fetchJson(
+        url
+    ) {
+
         const response =
             await fetch(
                 url,
@@ -1152,24 +1753,41 @@
                 }
             );
 
-        if (!response.ok) {
+
+        if (
+            !response.ok
+        ) {
+
             throw new Error(
-                `${response.status} ${response.statusText}: ${url}`
+                `${response.status}: ${url}`
             );
+
         }
 
+
         return response.json();
+
     }
 
-    function uniqueSorted(values) {
+
+    function uniqueSorted(
+        values
+    ) {
+
         return [
             ...new Set(
                 values.filter(Boolean)
             )
         ].sort(sortText);
+
     }
 
-    function sortText(a, b) {
+
+    function sortText(
+        a,
+        b
+    ) {
+
         return String(a)
             .localeCompare(
                 String(b),
@@ -1179,49 +1797,46 @@
                     sensitivity: "base"
                 }
             );
+
     }
 
-    function sortVehicles(a, b) {
-        return (
-            a.modell.localeCompare(
-                b.modell,
-                "de",
-                {
-                    numeric: true,
-                    sensitivity: "base"
-                }
-            ) ||
 
-            numberOrZero(
-                a.leistungSeriePS
-            ) -
-            numberOrZero(
-                b.leistungSeriePS
-            ) ||
+    function sortVehicles(
+        a,
+        b
+    ) {
 
-            a.baujahr.localeCompare(
-                b.baujahr,
-                "de",
-                {
-                    numeric: true
-                }
-            )
+        return a.modell.localeCompare(
+            b.modell,
+            "de",
+            {
+                numeric: true,
+                sensitivity: "base"
+            }
         );
+
     }
+
 
     function formatPower(
         value,
         unit
     ) {
+
         return value
             ? `${value} ${unit}`
             : "–";
+
     }
 
-    function formatPrice(value) {
+
+    function formatPrice(
+        value
+    ) {
+
         const amount =
-            numberOrZero(value) ||
-            399;
+            Number(value) || 399;
+
 
         return new Intl.NumberFormat(
             "de-DE",
@@ -1230,66 +1845,44 @@
                 currency: "EUR",
                 maximumFractionDigits: 0
             }
-        ).format(amount);
+        )
+        .format(amount);
+
     }
 
-    function numberOrZero(value) {
-        const number =
-            Number(value);
 
-        return Number.isFinite(number)
-            ? number
-            : 0;
-    }
+    function normalizeText(
+        value
+    ) {
 
-    function normalizeText(value) {
         return String(
             value || ""
         )
-            .toLocaleLowerCase(
-                "de-DE"
-            )
-            .normalize("NFD")
-            .replace(
-                /[\u0300-\u036f]/g,
-                ""
-            )
-            .trim();
+        .toLocaleLowerCase(
+            "de-DE"
+        )
+        .normalize("NFD")
+        .replace(
+            /[\u0300-\u036f]/g,
+            ""
+        )
+        .trim();
+
     }
 
-    function saveSelection(vehicle) {
-        try {
-            sessionStorage.setItem(
-                "zdSelectedVehicle",
-                JSON.stringify(vehicle)
-            );
-        } catch (error) {
-            console.warn(
-                "Fahrzeugauswahl konnte nicht gespeichert werden.",
-                error
-            );
-        }
-    }
 
-    function debounce(
-        callback,
-        delay
+    function escapeHtml(
+        text
     ) {
-        let timer;
 
-        return (...args) => {
-            window.clearTimeout(
-                timer
-            );
+        return String(text)
+            .replaceAll("&", "&amp;")
+            .replaceAll("<", "&lt;")
+            .replaceAll(">", "&gt;")
+            .replaceAll('"', "&quot;")
+            .replaceAll("'", "&#039;");
 
-            timer =
-                window.setTimeout(
-                    () =>
-                        callback(
-                            ...args
-                        ),
-                    delay
-                );
-        };
     }
+
+
 })();
