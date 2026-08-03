@@ -58,7 +58,13 @@
     "name": "Cupra",
     "slug": "cupra",
     "datei": "cupra.json",
-    "aktiv": false
+    "aktiv": true,
+    "dateien": [
+      "cupra/cupra_ateca.json",
+      "cupra/cupra_formentor.json",
+      "cupra/cupra_leon.json",
+      "cupra/cupra_terramar.json"
+    ]
   },
   {
     "name": "Fiat",
