@@ -1,0 +1,36 @@
+[
+  {
+    "id": "ford-f450-p558-6-7l-powerstroke-440-2017",
+    "marke": "Ford",
+    "baureihe": "F450",
+    "generation": "P558",
+    "modell": "6.7L PowerStroke",
+    "motorcode": "Auf Anfrage",
+    "baujahr": "2017+",
+    "hubraum": "6700",
+    "kraftstoff": "Diesel",
+    "ecu": "Bosch MD1CP006",
+    "getriebe": "Auf Anfrage",
+    "leistungSeriePS": 440,
+    "leistungSerieNM": 1170,
+    "leistungStage1PS": 510,
+    "leistungStage1NM": 1340,
+    "preis": 449,
+    "hinweis": "AutoTuner ist die Master-Quelle für Fahrzeug-/ECU-Kompatibilität. Stage-1-Werte sind öffentlich belegte bzw. konservativ aus derselben Motorfamilie abgeleitete Tuning-Richtwerte und werden am konkreten ECU-/Softwarestand validiert.",
+    "bild": "images/hero.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ],
+    "bildGeplant": "images/ford-f450.png",
+    "datenstatusStage1": "Direkte Modellreferenz",
+    "datenstatusAutoTuner": "ECU",
+    "quelle": "AutoTuner Compatibility – Ford",
+    "quelleUrl": "https://us.autotuner.com/pages/manufacturer/9-ford",
+    "stage1Quelle": "Shiftech – Ford Ranger 3.2 TDCI 200",
+    "stage1QuelleUrl": "https://www.shiftech.eu/en/chiptuning/car/ford/ranger/2011-mkiii/diesel/3.2-tdci-200",
+    "quellenPruefung": "AutoTuner = Kompatibilitätsbasis. Stage-1-Zielwert = Tuner-/Fileservice-Referenz; vor Flash ECU, Softwarestand, Kraftstoffqualität, Hardware und Getriebe prüfen."
+  }
+]
