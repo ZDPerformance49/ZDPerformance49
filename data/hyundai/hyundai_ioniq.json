@@ -1,0 +1,36 @@
+[
+  {
+    "id": "hyundai-ioniq-2017-1-6-gdi-phev-205ps-110",
+    "marke": "Hyundai",
+    "baureihe": "IONIQ",
+    "generation": "2017+",
+    "modell": "1.6 GDI PHEV",
+    "motorcode": "Auf Anfrage",
+    "baujahr": "2017+",
+    "hubraum": "1600",
+    "kraftstoff": "Hybrid petrol",
+    "ecu": "Bosch MED17.9.8 / ME17.9.11 / Kefico CPEGD2.20.3",
+    "getriebe": "Auf Anfrage",
+    "leistungSeriePS": 205,
+    "leistungSerieNM": 265,
+    "leistungStage1PS": 230,
+    "leistungStage1NM": 300,
+    "preis": 449,
+    "hinweis": "AutoTuner ist die Kompatibilitätsbasis. ECU kann je nach Markt, Baujahr und Softwarestand abweichen; Fahrzeugidentifikation vor Programmierung erforderlich.",
+    "bild": "images/hero.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ],
+    "bildGeplant": "images/hyundai-ioniq.png",
+    "datenstatusStage1": "Direkte Modellreferenz",
+    "datenstatusAutoTuner": "ECU",
+    "quelle": "AutoTuner Compatibility – Hyundai",
+    "quelleUrl": "https://us.autotuner.com/pages/manufacturer/47-hyundai",
+    "stage1Quelle": "Shiftech – Hyundai IONIQ 1.6 GDI PHEV 205",
+    "stage1QuelleUrl": "https://www.shiftech.eu/en/chiptuning/car/hyundai/ioniq/2017/hybrid-petrol/1.6-gdi-phev-205",
+    "quellenPruefung": "AutoTuner = Kompatibilitätsbasis. Stage-1-Zielwert = öffentliche Tuner-Referenz; konservative Motorfamilien-Referenzen sind gekennzeichnet."
+  }
+]

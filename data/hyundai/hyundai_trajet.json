@@ -1,0 +1,36 @@
+[
+  {
+    "id": "hyundai-trajet-2004-2-0-crdi-112ps-157",
+    "marke": "Hyundai",
+    "baureihe": "Trajet",
+    "generation": "2004+",
+    "modell": "2.0 CRDI",
+    "motorcode": "Auf Anfrage",
+    "baujahr": "2004+",
+    "hubraum": "2000",
+    "kraftstoff": "Diesel",
+    "ecu": "Bosch EDC16C39",
+    "getriebe": "Auf Anfrage",
+    "leistungSeriePS": 112,
+    "leistungSerieNM": 255,
+    "leistungStage1PS": 142,
+    "leistungStage1NM": 315,
+    "preis": 449,
+    "hinweis": "AutoTuner ist die Kompatibilitätsbasis. ECU kann je nach Markt, Baujahr und Softwarestand abweichen; Fahrzeugidentifikation vor Programmierung erforderlich.",
+    "bild": "images/hero.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ],
+    "bildGeplant": "images/hyundai-trajet.png",
+    "datenstatusStage1": "Konservative Motorfamilien-Referenz",
+    "datenstatusAutoTuner": "ECU",
+    "quelle": "AutoTuner Compatibility – Hyundai",
+    "quelleUrl": "https://us.autotuner.com/pages/manufacturer/47-hyundai",
+    "stage1Quelle": "Shiftech Hyundai – Motorfamilien-/Modellreferenz",
+    "stage1QuelleUrl": "https://www.shiftech.eu/en/chiptuning/car/hyundai",
+    "quellenPruefung": "AutoTuner = Kompatibilitätsbasis. Stage-1-Zielwert = öffentliche Tuner-Referenz; konservative Motorfamilien-Referenzen sind gekennzeichnet."
+  }
+]
