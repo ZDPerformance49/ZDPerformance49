@@ -53,7 +53,7 @@
         1500 Millisekunden = 1,5 Sekunden
     */
 
-    const PERFORMANCE_ANIMATION_DURATION = 1500;
+    const PERFORMANCE_ANIMATION_DURATION = 3000;
 
     let performanceAnimationId = 0;
 
