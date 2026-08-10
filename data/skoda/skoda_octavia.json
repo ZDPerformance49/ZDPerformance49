@@ -16,7 +16,7 @@
     "leistungStage1PS": 120,
     "leistungStage1NM": 280,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -48,7 +48,7 @@
     "leistungStage1PS": 140,
     "leistungStage1NM": 225,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -81,7 +81,7 @@
     "leistungStage1PS": 155,
     "leistungStage1NM": 270,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -114,7 +114,7 @@
     "leistungStage1PS": 125,
     "leistungStage1NM": 170,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -147,7 +147,7 @@
     "leistungStage1PS": 150,
     "leistungStage1NM": 330,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -179,7 +179,7 @@
     "leistungStage1PS": 210,
     "leistungStage1NM": 340,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -212,7 +212,7 @@
     "leistungStage1PS": 140,
     "leistungStage1NM": 320,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -244,7 +244,7 @@
     "leistungStage1PS": 180,
     "leistungStage1NM": 400,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -276,7 +276,7 @@
     "leistungStage1PS": 200,
     "leistungStage1NM": 420,
     "preis": 449,
-    "hinweis": "AutoTuner listet Octavia 2005+ 2.0 TDI IP 170 PS / 350 Nm mit Siemens PPD1.x MPC561. Stage-1-Referenzwert von BR-Performance.",
+    "hinweis": "Octavia 2005+ 2.0 TDI IP 170 PS / 350 Nm mit Siemens PPD1.x MPC561. Stage-1-Richtwert fahrzeugspezifisch prüfen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -308,7 +308,7 @@
     "leistungStage1PS": 205,
     "leistungStage1NM": 420,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Octavia II RS 2.0 TDI Common-Rail; Stage-1-Referenzwert von BR-Performance.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Octavia II RS 2.0 TDI Common-Rail; Stage-1-Richtwert fahrzeugspezifisch prüfen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -340,7 +340,7 @@
     "leistungStage1PS": 180,
     "leistungStage1NM": 400,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -372,7 +372,7 @@
     "leistungStage1PS": 170,
     "leistungStage1NM": 380,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -404,7 +404,7 @@
     "leistungStage1PS": 260,
     "leistungStage1NM": 380,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -437,7 +437,7 @@
     "leistungStage1PS": 135,
     "leistungStage1NM": 240,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -470,7 +470,7 @@
     "leistungStage1PS": 140,
     "leistungStage1NM": 225,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -503,7 +503,7 @@
     "leistungStage1PS": 140,
     "leistungStage1NM": 225,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -536,7 +536,7 @@
     "leistungStage1PS": 140,
     "leistungStage1NM": 230,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -569,7 +569,7 @@
     "leistungStage1PS": 140,
     "leistungStage1NM": 225,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -602,7 +602,7 @@
     "leistungStage1PS": 175,
     "leistungStage1NM": 320,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -635,7 +635,7 @@
     "leistungStage1PS": 150,
     "leistungStage1NM": 330,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -667,7 +667,7 @@
     "leistungStage1PS": 140,
     "leistungStage1NM": 320,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -699,7 +699,7 @@
     "leistungStage1PS": 140,
     "leistungStage1NM": 320,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -731,7 +731,7 @@
     "leistungStage1PS": 145,
     "leistungStage1NM": 330,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -763,7 +763,7 @@
     "leistungStage1PS": 145,
     "leistungStage1NM": 330,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -795,7 +795,7 @@
     "leistungStage1PS": 220,
     "leistungStage1NM": 370,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -828,7 +828,7 @@
     "leistungStage1PS": 195,
     "leistungStage1NM": 430,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -860,7 +860,7 @@
     "leistungStage1PS": 220,
     "leistungStage1NM": 450,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. 184-PS-TDI wird im Octavia III auch als RS angeboten; Stage-1-Referenzwert von BR-Performance.",
+    "hinweis": "ECU-Kompatibilität bestätigt. 184-PS-TDI wird im Octavia III auch als RS angeboten; Stage-1-Richtwert fahrzeugspezifisch prüfen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -892,7 +892,7 @@
     "leistungStage1PS": 300,
     "leistungStage1NM": 450,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -925,7 +925,7 @@
     "leistungStage1PS": 300,
     "leistungStage1NM": 440,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -958,7 +958,7 @@
     "leistungStage1PS": 130,
     "leistungStage1NM": 240,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -991,7 +991,7 @@
     "leistungStage1PS": 135,
     "leistungStage1NM": 240,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -1024,7 +1024,7 @@
     "leistungStage1PS": 140,
     "leistungStage1NM": 225,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -1057,7 +1057,7 @@
     "leistungStage1PS": 175,
     "leistungStage1NM": 320,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -1090,7 +1090,7 @@
     "leistungStage1PS": 160,
     "leistungStage1NM": 280,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -1123,7 +1123,7 @@
     "leistungStage1PS": 180,
     "leistungStage1NM": 335,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -1156,7 +1156,7 @@
     "leistungStage1PS": 140,
     "leistungStage1NM": 310,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -1188,7 +1188,7 @@
     "leistungStage1PS": 145,
     "leistungStage1NM": 310,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -1220,7 +1220,7 @@
     "leistungStage1PS": 145,
     "leistungStage1NM": 330,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -1252,7 +1252,7 @@
     "leistungStage1PS": 145,
     "leistungStage1NM": 330,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -1284,7 +1284,7 @@
     "leistungStage1PS": 220,
     "leistungStage1NM": 370,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -1317,7 +1317,7 @@
     "leistungStage1PS": 195,
     "leistungStage1NM": 430,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -1349,7 +1349,7 @@
     "leistungStage1PS": 220,
     "leistungStage1NM": 450,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. 184-PS-TDI wird im Octavia III auch als RS angeboten; Stage-1-Referenzwert von BR-Performance.",
+    "hinweis": "ECU-Kompatibilität bestätigt. 184-PS-TDI wird im Octavia III auch als RS angeboten; Stage-1-Richtwert fahrzeugspezifisch prüfen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -1381,7 +1381,7 @@
     "leistungStage1PS": 300,
     "leistungStage1NM": 450,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -1414,7 +1414,7 @@
     "leistungStage1PS": 240,
     "leistungStage1NM": 420,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -1447,7 +1447,7 @@
     "leistungStage1PS": 305,
     "leistungStage1NM": 430,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -1480,7 +1480,7 @@
     "leistungStage1PS": 130,
     "leistungStage1NM": 240,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -1513,7 +1513,7 @@
     "leistungStage1PS": 155,
     "leistungStage1NM": 250,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -1546,7 +1546,7 @@
     "leistungStage1PS": 180,
     "leistungStage1NM": 335,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -1579,7 +1579,7 @@
     "leistungStage1PS": 195,
     "leistungStage1NM": 430,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -1611,7 +1611,7 @@
     "leistungStage1PS": 195,
     "leistungStage1NM": 430,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -1643,7 +1643,7 @@
     "leistungStage1PS": 240,
     "leistungStage1NM": 460,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Octavia IV RS 2.0 TDI 200 PS / 400 Nm; Stage-1-Referenzwert von BR-Performance.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Octavia IV RS 2.0 TDI 200 PS / 400 Nm; Stage-1-Richtwert fahrzeugspezifisch prüfen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -1675,7 +1675,7 @@
     "leistungStage1PS": 240,
     "leistungStage1NM": 420,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -1708,7 +1708,7 @@
     "leistungStage1PS": 240,
     "leistungStage1NM": 420,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -1741,7 +1741,7 @@
     "leistungStage1PS": 305,
     "leistungStage1NM": 430,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",

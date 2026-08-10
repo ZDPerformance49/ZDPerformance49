@@ -16,7 +16,7 @@
     "leistungStage1PS": 67,
     "leistungStage1NM": 106,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -49,7 +49,7 @@
     "leistungStage1PS": 80,
     "leistungStage1NM": 103,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -82,7 +82,7 @@
     "leistungStage1PS": 75,
     "leistungStage1NM": 101,
     "preis": 449,
-    "hinweis": "AutoTuner-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
+    "hinweis": "ECU-Kompatibilität bestätigt. Stage-1-Leistungswerte werden fahrzeugindividuell geprüft.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
