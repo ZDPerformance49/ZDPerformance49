@@ -16,7 +16,7 @@
     "leistungStage1PS": 150,
     "leistungStage1NM": 182,
     "preis": 449,
-    "hinweis": "AutoTuner ist die Kompatibilitätsbasis. ECU kann je nach Markt, Baujahr und Softwarestand abweichen; Fahrzeugidentifikation vor Programmierung erforderlich.",
+    "hinweis": "ECU kann je nach Markt, Baujahr und Softwarestand abweichen; Fahrzeugidentifikation vor Programmierung erforderlich.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -51,7 +51,7 @@
     "leistungStage1PS": 218,
     "leistungStage1NM": 330,
     "preis": 449,
-    "hinweis": "AutoTuner ist die Kompatibilitätsbasis. ECU kann je nach Markt, Baujahr und Softwarestand abweichen; Fahrzeugidentifikation vor Programmierung erforderlich.",
+    "hinweis": "ECU kann je nach Markt, Baujahr und Softwarestand abweichen; Fahrzeugidentifikation vor Programmierung erforderlich.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -86,7 +86,7 @@
     "leistungStage1PS": 235,
     "leistungStage1NM": 340,
     "preis": 449,
-    "hinweis": "AutoTuner ist die Kompatibilitätsbasis. ECU kann je nach Markt, Baujahr und Softwarestand abweichen; Fahrzeugidentifikation vor Programmierung erforderlich.",
+    "hinweis": "ECU kann je nach Markt, Baujahr und Softwarestand abweichen; Fahrzeugidentifikation vor Programmierung erforderlich.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -121,7 +121,7 @@
     "leistungStage1PS": 300,
     "leistungStage1NM": 430,
     "preis": 449,
-    "hinweis": "AutoTuner ist die Kompatibilitätsbasis. ECU kann je nach Markt, Baujahr und Softwarestand abweichen; Fahrzeugidentifikation vor Programmierung erforderlich.",
+    "hinweis": "ECU kann je nach Markt, Baujahr und Softwarestand abweichen; Fahrzeugidentifikation vor Programmierung erforderlich.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
