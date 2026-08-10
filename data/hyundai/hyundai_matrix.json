@@ -1,0 +1,36 @@
+[
+  {
+    "id": "hyundai-matrix-2002-1-5-crdi-82ps-138",
+    "marke": "Hyundai",
+    "baureihe": "Matrix",
+    "generation": "2002+",
+    "modell": "1.5 CRDI",
+    "motorcode": "Auf Anfrage",
+    "baujahr": "2002+",
+    "hubraum": "1500",
+    "kraftstoff": "Diesel",
+    "ecu": "Bosch EDC16C39 MPC562",
+    "getriebe": "Auf Anfrage",
+    "leistungSeriePS": 82,
+    "leistungSerieNM": 187,
+    "leistungStage1PS": 104,
+    "leistungStage1NM": 232,
+    "preis": 449,
+    "hinweis": "AutoTuner ist die Kompatibilitätsbasis. ECU kann je nach Markt, Baujahr und Softwarestand abweichen; Fahrzeugidentifikation vor Programmierung erforderlich.",
+    "bild": "images/hero.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF"
+    ],
+    "bildGeplant": "images/hyundai-matrix.png",
+    "datenstatusStage1": "Konservative Motorfamilien-Referenz",
+    "datenstatusAutoTuner": "ECU",
+    "quelle": "AutoTuner Compatibility – Hyundai",
+    "quelleUrl": "https://us.autotuner.com/pages/manufacturer/47-hyundai",
+    "stage1Quelle": "Shiftech Hyundai – Motorfamilien-/Modellreferenz",
+    "stage1QuelleUrl": "https://www.shiftech.eu/en/chiptuning/car/hyundai",
+    "quellenPruefung": "AutoTuner = Kompatibilitätsbasis. Stage-1-Zielwert = öffentliche Tuner-Referenz; konservative Motorfamilien-Referenzen sind gekennzeichnet."
+  }
+]

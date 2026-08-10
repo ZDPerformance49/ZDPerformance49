@@ -1,0 +1,37 @@
+[
+  {
+    "id": "hyundai-coupe-2010-2-0t-213ps-013",
+    "marke": "Hyundai",
+    "baureihe": "Coupe",
+    "generation": "2010+",
+    "modell": "2.0T",
+    "motorcode": "Auf Anfrage",
+    "baujahr": "2010+",
+    "hubraum": "2000",
+    "kraftstoff": "Petrol",
+    "ecu": "Continental SIM2K-141 MPC561",
+    "getriebe": "Auf Anfrage",
+    "leistungSeriePS": 213,
+    "leistungSerieNM": 302,
+    "leistungStage1PS": 248,
+    "leistungStage1NM": 367,
+    "preis": 449,
+    "hinweis": "AutoTuner ist die Kompatibilitätsbasis. ECU kann je nach Markt, Baujahr und Softwarestand abweichen; Fahrzeugidentifikation vor Programmierung erforderlich.",
+    "bild": "images/hero.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pops & Bangs"
+    ],
+    "bildGeplant": "images/hyundai-coupe.png",
+    "datenstatusStage1": "Konservative Motorfamilien-Referenz",
+    "datenstatusAutoTuner": "ECU",
+    "quelle": "AutoTuner Compatibility – Hyundai",
+    "quelleUrl": "https://us.autotuner.com/pages/manufacturer/47-hyundai",
+    "stage1Quelle": "Shiftech Hyundai – Motorfamilien-/Modellreferenz",
+    "stage1QuelleUrl": "https://www.shiftech.eu/en/chiptuning/car/hyundai",
+    "quellenPruefung": "AutoTuner = Kompatibilitätsbasis. Stage-1-Zielwert = öffentliche Tuner-Referenz; konservative Motorfamilien-Referenzen sind gekennzeichnet."
+  }
+]

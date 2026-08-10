@@ -1,0 +1,37 @@
+[
+  {
+    "id": "hyundai-exter-2023-1-2-mpi-eu6-84ps-032",
+    "marke": "Hyundai",
+    "baureihe": "Exter",
+    "generation": "2023+",
+    "modell": "1.2 MPI EU6",
+    "motorcode": "Auf Anfrage",
+    "baujahr": "2023+",
+    "hubraum": "1200",
+    "kraftstoff": "Petrol",
+    "ecu": "Kefico CPEGP3.20.2 / CPGPSH3.24.1",
+    "getriebe": "Auf Anfrage",
+    "leistungSeriePS": 84,
+    "leistungSerieNM": 118,
+    "leistungStage1PS": 94,
+    "leistungStage1NM": 133,
+    "preis": 449,
+    "hinweis": "AutoTuner ist die Kompatibilitätsbasis. ECU kann je nach Markt, Baujahr und Softwarestand abweichen; Fahrzeugidentifikation vor Programmierung erforderlich.",
+    "bild": "images/hero.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pops & Bangs"
+    ],
+    "bildGeplant": "images/hyundai-exter.png",
+    "datenstatusStage1": "Konservative Motorfamilien-Referenz",
+    "datenstatusAutoTuner": "ECU",
+    "quelle": "AutoTuner Compatibility – Hyundai",
+    "quelleUrl": "https://us.autotuner.com/pages/manufacturer/47-hyundai",
+    "stage1Quelle": "Shiftech Hyundai – Motorfamilien-/Modellreferenz",
+    "stage1QuelleUrl": "https://www.shiftech.eu/en/chiptuning/car/hyundai",
+    "quellenPruefung": "AutoTuner = Kompatibilitätsbasis. Stage-1-Zielwert = öffentliche Tuner-Referenz; konservative Motorfamilien-Referenzen sind gekennzeichnet."
+  }
+]
