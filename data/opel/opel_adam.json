@@ -16,7 +16,7 @@
     "leistungStage1PS": 175,
     "leistungStage1NM": 260,
     "preis": 449,
-    "hinweis": "Stage-1-Werte sind öffentlich belegte bzw. konservativ aus derselben Opel/GM-/Stellantis-Motorfamilie abgeleitete Tuning-Richtwerte und werden am konkreten ECU-/Softwarestand validiert.",
+    "hinweis": "Stage-1-Richtwerte aus derselben Opel/GM-/Stellantis-Motorfamilie; am konkreten ECU-/Softwarestand validieren.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -51,7 +51,7 @@
     "leistungStage1PS": 95,
     "leistungStage1NM": 145,
     "preis": 449,
-    "hinweis": "Stage-1-Werte sind öffentlich belegte bzw. konservativ aus derselben Opel/GM-/Stellantis-Motorfamilie abgeleitete Tuning-Richtwerte und werden am konkreten ECU-/Softwarestand validiert.",
+    "hinweis": "Stage-1-Richtwerte aus derselben Opel/GM-/Stellantis-Motorfamilie; am konkreten ECU-/Softwarestand validieren.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -86,7 +86,7 @@
     "leistungStage1PS": 135,
     "leistungStage1NM": 220,
     "preis": 449,
-    "hinweis": "Stage-1-Werte sind öffentlich belegte bzw. konservativ aus derselben Opel/GM-/Stellantis-Motorfamilie abgeleitete Tuning-Richtwerte und werden am konkreten ECU-/Softwarestand validiert.",
+    "hinweis": "Stage-1-Richtwerte aus derselben Opel/GM-/Stellantis-Motorfamilie; am konkreten ECU-/Softwarestand validieren.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -121,7 +121,7 @@
     "leistungStage1PS": 120,
     "leistungStage1NM": 210,
     "preis": 449,
-    "hinweis": "Stage-1-Werte sind öffentlich belegte bzw. konservativ aus derselben Opel/GM-/Stellantis-Motorfamilie abgeleitete Tuning-Richtwerte und werden am konkreten ECU-/Softwarestand validiert.",
+    "hinweis": "Stage-1-Richtwerte aus derselben Opel/GM-/Stellantis-Motorfamilie; am konkreten ECU-/Softwarestand validieren.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -156,7 +156,7 @@
     "leistungStage1PS": 110,
     "leistungStage1NM": 150,
     "preis": 449,
-    "hinweis": "Stage-1-Werte sind öffentlich belegte bzw. konservativ aus derselben Opel/GM-/Stellantis-Motorfamilie abgeleitete Tuning-Richtwerte und werden am konkreten ECU-/Softwarestand validiert.",
+    "hinweis": "Stage-1-Richtwerte aus derselben Opel/GM-/Stellantis-Motorfamilie; am konkreten ECU-/Softwarestand validieren.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -191,7 +191,7 @@
     "leistungStage1PS": 98,
     "leistungStage1NM": 145,
     "preis": 449,
-    "hinweis": "Stage-1-Werte sind öffentlich belegte bzw. konservativ aus derselben Opel/GM-/Stellantis-Motorfamilie abgeleitete Tuning-Richtwerte und werden am konkreten ECU-/Softwarestand validiert.",
+    "hinweis": "Stage-1-Richtwerte aus derselben Opel/GM-/Stellantis-Motorfamilie; am konkreten ECU-/Softwarestand validieren.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
