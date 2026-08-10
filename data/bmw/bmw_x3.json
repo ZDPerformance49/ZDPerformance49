@@ -1236,7 +1236,7 @@
     "leistungStage1PS": 260,
     "leistungStage1NM": 420,
     "preis": 449,
-    "hinweis": "Stage-1-Anbieterwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe und Freischaltbarkeit der ECU ab.",
+    "hinweis": "Stage-1-Richtwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe und Freischaltbarkeit der ECU ab.",
     "bild": "images/hero.png",
     "bildGeplant": "images/bmw-x3.png",
     "optionen": [
@@ -1272,7 +1272,7 @@
     "leistungStage1PS": 220,
     "leistungStage1NM": 480,
     "preis": 449,
-    "hinweis": "Stage-1-Anbieterwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe und Freischaltbarkeit der ECU ab.",
+    "hinweis": "Stage-1-Richtwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe und Freischaltbarkeit der ECU ab.",
     "bild": "images/hero.png",
     "bildGeplant": "images/bmw-x3.png",
     "optionen": [
@@ -1309,7 +1309,7 @@
     "leistungStage1PS": 400,
     "leistungStage1NM": 700,
     "preis": 449,
-    "hinweis": "Stage-1-Anbieterwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe und Freischaltbarkeit der ECU ab.",
+    "hinweis": "Stage-1-Richtwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe und Freischaltbarkeit der ECU ab.",
     "bild": "images/hero.png",
     "bildGeplant": "images/bmw-x3.png",
     "optionen": [
@@ -1344,7 +1344,7 @@
     "leistungStage1PS": 345,
     "leistungStage1NM": 730,
     "preis": 449,
-    "hinweis": "Stage-1-Anbieterwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe und Freischaltbarkeit der ECU ab.",
+    "hinweis": "Stage-1-Richtwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe und Freischaltbarkeit der ECU ab.",
     "bild": "images/hero.png",
     "bildGeplant": "images/bmw-x3.png",
     "optionen": [
@@ -1381,7 +1381,7 @@
     "leistungStage1PS": 452,
     "leistungStage1NM": 670,
     "preis": 449,
-    "hinweis": "Stage-1-Anbieterwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe und Freischaltbarkeit der ECU ab.",
+    "hinweis": "Stage-1-Richtwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe und Freischaltbarkeit der ECU ab.",
     "bild": "images/hero.png",
     "bildGeplant": "images/bmw-x3.png",
     "optionen": [

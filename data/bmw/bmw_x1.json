@@ -350,7 +350,7 @@
     "leistungStage1PS": 176,
     "leistungStage1NM": 410,
     "preis": 449,
-    "hinweis": "Tuningmodul-/Tuningbox-Richtwert als belastbarer Ersatzwert, weil kein öffentlich eindeutig zuordenbarer KAP- oder Hibert-ECU-Remap-Wert verfügbar war; Ergebnis kann abweichen.",
+    "hinweis": "Tuningmodul-/Tuningbox-Richtwert als Ersatzwert; ECU-Remap-Wert vor Auftrag separat prüfen; Ergebnis kann abweichen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -388,7 +388,7 @@
     "leistungStage1PS": 188,
     "leistungStage1NM": 433,
     "preis": 449,
-    "hinweis": "Tuningmodul-/Tuningbox-Richtwert als belastbarer Ersatzwert, weil kein öffentlich eindeutig zuordenbarer KAP- oder Hibert-ECU-Remap-Wert verfügbar war; Ergebnis kann abweichen.",
+    "hinweis": "Tuningmodul-/Tuningbox-Richtwert als Ersatzwert; ECU-Remap-Wert vor Auftrag separat prüfen; Ergebnis kann abweichen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -426,7 +426,7 @@
     "leistungStage1PS": 200,
     "leistungStage1NM": 325,
     "preis": 449,
-    "hinweis": "Stage-1-Anbieterwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe, Kraftstoffqualität und Freischaltbarkeit der ECU ab.",
+    "hinweis": "Stage-1-Richtwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe, Kraftstoffqualität und Freischaltbarkeit der ECU ab.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -462,7 +462,7 @@
     "leistungStage1PS": 260,
     "leistungStage1NM": 500,
     "preis": 449,
-    "hinweis": "Stage-1-Anbieterwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe, Kraftstoffqualität und Freischaltbarkeit der ECU ab.",
+    "hinweis": "Stage-1-Richtwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe, Kraftstoffqualität und Freischaltbarkeit der ECU ab.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -529,7 +529,7 @@
     "leistungStage1PS": 280,
     "leistungStage1NM": 515,
     "preis": 449,
-    "hinweis": "Stage-1-Anbieterwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe, Kraftstoffqualität und Freischaltbarkeit der ECU ab.",
+    "hinweis": "Stage-1-Richtwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe, Kraftstoffqualität und Freischaltbarkeit der ECU ab.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -565,7 +565,7 @@
     "leistungStage1PS": 352,
     "leistungStage1NM": 480,
     "preis": 449,
-    "hinweis": "Tuningmodul-/Tuningbox-Richtwert als belastbarer Ersatzwert, weil kein öffentlich eindeutig zuordenbarer KAP- oder Hibert-ECU-Remap-Wert verfügbar war; Ergebnis kann abweichen.",
+    "hinweis": "Tuningmodul-/Tuningbox-Richtwert als Ersatzwert; ECU-Remap-Wert vor Auftrag separat prüfen; Ergebnis kann abweichen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",

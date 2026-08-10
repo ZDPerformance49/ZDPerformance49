@@ -168,7 +168,7 @@
     "leistungStage1PS": 181,
     "leistungStage1NM": 420,
     "preis": 449,
-    "hinweis": "Tuningmodul-/Tuningbox-Richtwert als belastbarer Ersatzwert, weil kein öffentlich eindeutig zuordenbarer KAP- oder Hibert-ECU-Remap-Wert verfügbar war; Ergebnis kann abweichen.",
+    "hinweis": "Tuningmodul-/Tuningbox-Richtwert als Ersatzwert; ECU-Remap-Wert vor Auftrag separat prüfen; Ergebnis kann abweichen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -206,7 +206,7 @@
     "leistungStage1PS": 193,
     "leistungStage1NM": 440,
     "preis": 449,
-    "hinweis": "Tuningmodul-/Tuningbox-Richtwert als belastbarer Ersatzwert, weil kein öffentlich eindeutig zuordenbarer KAP- oder Hibert-ECU-Remap-Wert verfügbar war; Ergebnis kann abweichen.",
+    "hinweis": "Tuningmodul-/Tuningbox-Richtwert als Ersatzwert; ECU-Remap-Wert vor Auftrag separat prüfen; Ergebnis kann abweichen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -244,7 +244,7 @@
     "leistungStage1PS": 200,
     "leistungStage1NM": 325,
     "preis": 449,
-    "hinweis": "Stage-1-Anbieterwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe, Kraftstoffqualität und Freischaltbarkeit der ECU ab.",
+    "hinweis": "Stage-1-Richtwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe, Kraftstoffqualität und Freischaltbarkeit der ECU ab.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -280,7 +280,7 @@
     "leistungStage1PS": 352,
     "leistungStage1NM": 480,
     "preis": 449,
-    "hinweis": "Tuningmodul-/Tuningbox-Richtwert als belastbarer Ersatzwert, weil kein öffentlich eindeutig zuordenbarer KAP- oder Hibert-ECU-Remap-Wert verfügbar war; Ergebnis kann abweichen.",
+    "hinweis": "Tuningmodul-/Tuningbox-Richtwert als Ersatzwert; ECU-Remap-Wert vor Auftrag separat prüfen; Ergebnis kann abweichen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
