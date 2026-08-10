@@ -16,7 +16,7 @@
     "leistungStage1PS": 145,
     "leistungStage1NM": 250,
     "preis": 449,
-    "hinweis": "Stage-1-Werte sind öffentlich belegte bzw. konservativ aus derselben Motorfamilie abgeleitete Tuning-Richtwerte und werden am konkreten ECU-/Softwarestand validiert.",
+    "hinweis": "Stage-1-Richtwerte aus derselben Motorfamilie; am konkreten ECU-/Softwarestand validieren.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
