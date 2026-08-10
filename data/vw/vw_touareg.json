@@ -809,7 +809,7 @@
     "leistungStage1PS": 320,
     "leistungStage1NM": 660,
     "preis": 449,
-    "hinweis": "Stage-1-Anbieterwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe, Kraftstoffqualität und Freischaltbarkeit der ECU ab.",
+    "hinweis": "Stage-1-Richtwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe, Kraftstoffqualität und Freischaltbarkeit der ECU ab.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -847,7 +847,7 @@
     "leistungStage1PS": 350,
     "leistungStage1NM": 720,
     "preis": 449,
-    "hinweis": "Stage-1-Anbieterwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe, Kraftstoffqualität und Freischaltbarkeit der ECU ab.",
+    "hinweis": "Stage-1-Richtwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe, Kraftstoffqualität und Freischaltbarkeit der ECU ab.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -885,7 +885,7 @@
     "leistungStage1PS": 400,
     "leistungStage1NM": 650,
     "preis": 449,
-    "hinweis": "Stage-1-Anbieterwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe, Kraftstoffqualität und Freischaltbarkeit der ECU ab.",
+    "hinweis": "Stage-1-Richtwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe, Kraftstoffqualität und Freischaltbarkeit der ECU ab.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -922,7 +922,7 @@
     "leistungStage1PS": 420,
     "leistungStage1NM": 660,
     "preis": 449,
-    "hinweis": "Stage-1-Anbieterwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe, Kraftstoffqualität und Freischaltbarkeit der ECU ab.",
+    "hinweis": "Stage-1-Richtwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe, Kraftstoffqualität und Freischaltbarkeit der ECU ab.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -958,7 +958,7 @@
     "leistungStage1PS": 579,
     "leistungStage1NM": 850,
     "preis": 449,
-    "hinweis": "Stage-1-Anbieterwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe, Kraftstoffqualität und Freischaltbarkeit der ECU ab.",
+    "hinweis": "Stage-1-Richtwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe, Kraftstoffqualität und Freischaltbarkeit der ECU ab.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",

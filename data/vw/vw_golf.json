@@ -3482,7 +3482,7 @@
     "leistungStage1PS": 170,
     "leistungStage1NM": 300,
     "preis": 449,
-    "hinweis": "Stage-1-Anbieterwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe und Freischaltbarkeit der ECU ab.",
+    "hinweis": "Stage-1-Richtwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe und Freischaltbarkeit der ECU ab.",
     "bild": "images/hero.png",
     "bildGeplant": "images/vw-golf.png",
     "optionen": [
@@ -3518,7 +3518,7 @@
     "leistungStage1PS": 170,
     "leistungStage1NM": 300,
     "preis": 449,
-    "hinweis": "Stage-1-Anbieterwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe und Freischaltbarkeit der ECU ab.",
+    "hinweis": "Stage-1-Richtwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe und Freischaltbarkeit der ECU ab.",
     "bild": "images/hero.png",
     "bildGeplant": "images/vw-golf.png",
     "optionen": [
@@ -3554,7 +3554,7 @@
     "leistungStage1PS": 195,
     "leistungStage1NM": 430,
     "preis": 449,
-    "hinweis": "Stage-1-Anbieterwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe und Freischaltbarkeit der ECU ab.",
+    "hinweis": "Stage-1-Richtwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe und Freischaltbarkeit der ECU ab.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -3591,7 +3591,7 @@
     "leistungStage1PS": 180,
     "leistungStage1NM": 335,
     "preis": 449,
-    "hinweis": "Stage-1-Anbieterwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe und Freischaltbarkeit der ECU ab.",
+    "hinweis": "Stage-1-Richtwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe und Freischaltbarkeit der ECU ab.",
     "bild": "images/hero.png",
     "bildGeplant": "images/vw-golf.png",
     "optionen": [
@@ -3627,7 +3627,7 @@
     "leistungStage1PS": 180,
     "leistungStage1NM": 320,
     "preis": 449,
-    "hinweis": "Stage-1-Anbieterwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe und Freischaltbarkeit der ECU ab.",
+    "hinweis": "Stage-1-Richtwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe und Freischaltbarkeit der ECU ab.",
     "bild": "images/hero.png",
     "bildGeplant": "images/vw-golf.png",
     "optionen": [
@@ -3663,7 +3663,7 @@
     "leistungStage1PS": 195,
     "leistungStage1NM": 430,
     "preis": 449,
-    "hinweis": "Stage-1-Anbieterwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe und Freischaltbarkeit der ECU ab.",
+    "hinweis": "Stage-1-Richtwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe und Freischaltbarkeit der ECU ab.",
     "bild": "images/hero.png",
     "bildGeplant": "images/vw-golf.png",
     "optionen": [
@@ -3790,7 +3790,7 @@
     "leistungStage1PS": 380,
     "leistungStage1NM": 500,
     "preis": 449,
-    "hinweis": "Stage-1-Anbieterwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe, Kraftstoffqualität und Freischaltbarkeit der ECU ab.",
+    "hinweis": "Stage-1-Richtwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe, Kraftstoffqualität und Freischaltbarkeit der ECU ab.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",

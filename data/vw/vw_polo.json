@@ -1049,7 +1049,7 @@
     "leistungStage1PS": 140,
     "leistungStage1NM": 240,
     "preis": 449,
-    "hinweis": "Stage-1-Anbieterwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe, Kraftstoffqualität und Freischaltbarkeit der ECU ab.",
+    "hinweis": "Stage-1-Richtwert; das tatsächliche Ergebnis hängt von Fahrzeugzustand, Kraftstoff, Softwarestand, Hardware, Getriebe, Kraftstoffqualität und Freischaltbarkeit der ECU ab.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
