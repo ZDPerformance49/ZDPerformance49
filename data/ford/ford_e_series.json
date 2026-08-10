@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ford-e-series-2025-7-3l-v8-350-2025",
+    "marke": "Ford",
+    "baureihe": "E-Series",
+    "generation": "2025+",
+    "modell": "7.3L V8",
+    "motorcode": "Auf Anfrage",
+    "baujahr": "2025+",
+    "hubraum": "7300",
+    "kraftstoff": "Benzin",
+    "ecu": "Bosch MG1CS019",
+    "getriebe": "Auf Anfrage",
+    "leistungSeriePS": 350,
+    "leistungSerieNM": 610,
+    "leistungStage1PS": 375,
+    "leistungStage1NM": 650,
+    "preis": 449,
+    "hinweis": "Stage-1-Werte sind öffentlich belegte bzw. konservativ aus derselben Motorfamilie abgeleitete Tuning-Richtwerte und werden am konkreten ECU-/Softwarestand validiert.",
+    "bild": "images/hero.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pops & Bangs"
+    ],
+    "bildGeplant": "images/ford-e-series.png",
+    "datenstatusStage1": "Direkte Modellreferenz",
+    "datenstatusAutoTuner": "ECU",
+    "quelle": "AutoTuner Compatibility – Ford",
+    "quelleUrl": "https://us.autotuner.com/pages/manufacturer/9-ford",
+    "stage1Quelle": "Shiftech – Ford F150 5.0 V8 400",
+    "stage1QuelleUrl": "https://www.shiftech.eu/en/chiptuning/car/ford/f150/2020/petrol/5.0l-ti-vct-v8-400",
+    "quellenPruefung": "AutoTuner = Kompatibilitätsbasis. Stage-1-Zielwert = Tuner-/Fileservice-Referenz; vor Flash ECU, Softwarestand, Kraftstoffqualität, Hardware und Getriebe prüfen."
+  }
+]
