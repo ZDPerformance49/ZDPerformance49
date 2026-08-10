@@ -1,0 +1,37 @@
+[
+  {
+    "id": "opel-ampera-ampera-1-4-hybrid-86",
+    "marke": "Opel",
+    "baureihe": "Ampera",
+    "generation": "Ampera",
+    "modell": "1.4 Hybrid",
+    "motorcode": "Auf Anfrage",
+    "baujahr": "2011+",
+    "hubraum": "1400",
+    "kraftstoff": "Hybrid petrol",
+    "ecu": "Delco E78",
+    "getriebe": "Auf Anfrage",
+    "leistungSeriePS": 86,
+    "leistungSerieNM": 130,
+    "leistungStage1PS": 95,
+    "leistungStage1NM": 145,
+    "preis": 449,
+    "hinweis": "Stage-1-Werte sind öffentlich belegte bzw. konservativ aus derselben Opel/GM-/Stellantis-Motorfamilie abgeleitete Tuning-Richtwerte und werden am konkreten ECU-/Softwarestand validiert.",
+    "bild": "images/hero.png",
+    "optionen": [
+      "Stage 1",
+      "DTC Removal",
+      "Start/Stop OFF",
+      "Vmax OFF",
+      "Pops & Bangs"
+    ],
+    "bildGeplant": "images/opel-ampera.png",
+    "datenstatusStage1": "Konservative Motorfamilien-Referenz",
+    "datenstatusAutoTuner": "ECU",
+    "quelle": "AutoTuner Compatibility – Opel",
+    "quelleUrl": "https://us.autotuner.com/pages/manufacturer/14-opel",
+    "stage1Quelle": "Shiftech – Opel Astra J 1.4 16v VVT 100",
+    "stage1QuelleUrl": "https://www.shiftech.eu/en/chiptuning/car/opel/astra/2009-j/petrol/1.4-16v-vvt-100",
+    "quellenPruefung": "AutoTuner = Kompatibilitätsbasis. Stage-1-Zielwert = Tuner-/Fileservice-Referenz; vor Flash ECU, Softwarestand, Kraftstoffqualität, Hardware und Getriebe prüfen."
+  }
+]
