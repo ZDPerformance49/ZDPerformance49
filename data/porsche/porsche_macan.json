@@ -16,7 +16,7 @@
     "leistungStage1PS": 290,
     "leistungStage1NM": 450,
     "preis": 449,
-    "hinweis": "Stage-1-Richtwert. KAP Tuningfiles wird bei der Auftragsprüfung priorisiert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
+    "hinweis": "Stage-1-Richtwert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -49,7 +49,7 @@
     "leistungStage1PS": 275,
     "leistungStage1NM": 680,
     "preis": 449,
-    "hinweis": "Stage-1-Richtwert. KAP Tuningfiles wird bei der Auftragsprüfung priorisiert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
+    "hinweis": "Stage-1-Richtwert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -83,7 +83,7 @@
     "leistungStage1PS": 430,
     "leistungStage1NM": 650,
     "preis": 449,
-    "hinweis": "Stage-1-Richtwert. KAP Tuningfiles wird bei der Auftragsprüfung priorisiert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
+    "hinweis": "Stage-1-Richtwert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -116,7 +116,7 @@
     "leistungStage1PS": 360,
     "leistungStage1NM": 600,
     "preis": 449,
-    "hinweis": "Öffentlich sichtbarer Stage-1-Anbieterwert; konkrete ECU-, Softwarestand-, Kraftstoff- und Fahrzeugkompatibilität vor Angebot prüfen.",
+    "hinweis": "Stage-1-Richtwert; konkrete ECU-, Softwarestand-, Kraftstoff- und Fahrzeugkompatibilität vor Angebot prüfen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -153,7 +153,7 @@
     "leistungStage1PS": 315,
     "leistungStage1NM": 690,
     "preis": 449,
-    "hinweis": "Stage-1-Richtwert. KAP Tuningfiles wird bei der Auftragsprüfung priorisiert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
+    "hinweis": "Stage-1-Richtwert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -187,7 +187,7 @@
     "leistungStage1PS": 480,
     "leistungStage1NM": 700,
     "preis": 449,
-    "hinweis": "Stage-1-Richtwert. KAP Tuningfiles wird bei der Auftragsprüfung priorisiert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
+    "hinweis": "Stage-1-Richtwert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -220,7 +220,7 @@
     "leistungStage1PS": 520,
     "leistungStage1NM": 750,
     "preis": 449,
-    "hinweis": "Stage-1-Richtwert. KAP Tuningfiles wird bei der Auftragsprüfung priorisiert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
+    "hinweis": "Stage-1-Richtwert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -253,7 +253,7 @@
     "leistungStage1PS": 300,
     "leistungStage1NM": 470,
     "preis": 449,
-    "hinweis": "Stage-1-Richtwert. KAP Tuningfiles wird bei der Auftragsprüfung priorisiert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
+    "hinweis": "Stage-1-Richtwert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -286,7 +286,7 @@
     "leistungStage1PS": 460,
     "leistungStage1NM": 680,
     "preis": 449,
-    "hinweis": "Stage-1-Richtwert. KAP Tuningfiles wird bei der Auftragsprüfung priorisiert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
+    "hinweis": "Stage-1-Richtwert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -319,7 +319,7 @@
     "leistungStage1PS": 425,
     "leistungStage1NM": 620,
     "preis": 449,
-    "hinweis": "Stage-1-Richtwert. KAP Tuningfiles wird bei der Auftragsprüfung priorisiert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
+    "hinweis": "Stage-1-Richtwert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -352,7 +352,7 @@
     "leistungStage1PS": 520,
     "leistungStage1NM": 720,
     "preis": 449,
-    "hinweis": "Stage-1-Richtwert. KAP Tuningfiles wird bei der Auftragsprüfung priorisiert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
+    "hinweis": "Stage-1-Richtwert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -385,7 +385,7 @@
     "leistungStage1PS": 300,
     "leistungStage1NM": 450,
     "preis": 449,
-    "hinweis": "Öffentlich sichtbarer Stage-1-Anbieterwert; konkrete ECU-, Softwarestand-, Kraftstoff- und Fahrzeugkompatibilität vor Angebot prüfen.",
+    "hinweis": "Stage-1-Richtwert; konkrete ECU-, Softwarestand-, Kraftstoff- und Fahrzeugkompatibilität vor Angebot prüfen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -422,7 +422,7 @@
     "leistungStage1PS": 510,
     "leistungStage1NM": 720,
     "preis": 449,
-    "hinweis": "Öffentlich sichtbarer Stage-1-Anbieterwert; konkrete ECU-, Softwarestand-, Kraftstoff- und Fahrzeugkompatibilität vor Angebot prüfen.",
+    "hinweis": "Stage-1-Richtwert; konkrete ECU-, Softwarestand-, Kraftstoff- und Fahrzeugkompatibilität vor Angebot prüfen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -459,7 +459,7 @@
     "leistungStage1PS": 460,
     "leistungStage1NM": 680,
     "preis": 449,
-    "hinweis": "Stage-1-Richtwert. KAP Tuningfiles wird bei der Auftragsprüfung priorisiert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
+    "hinweis": "Stage-1-Richtwert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",

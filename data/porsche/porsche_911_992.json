@@ -16,7 +16,7 @@
     "leistungStage1PS": 470,
     "leistungStage1NM": 620,
     "preis": 449,
-    "hinweis": "Öffentlich sichtbarer Stage-1-Anbieterwert; konkrete ECU-, Softwarestand-, Kraftstoff- und Fahrzeugkompatibilität vor Angebot prüfen.",
+    "hinweis": "Stage-1-Richtwert; konkrete ECU-, Softwarestand-, Kraftstoff- und Fahrzeugkompatibilität vor Angebot prüfen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -53,7 +53,7 @@
     "leistungStage1PS": 550,
     "leistungStage1NM": 700,
     "preis": 449,
-    "hinweis": "Stage-1-Richtwert. KAP Tuningfiles wird bei der Auftragsprüfung priorisiert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
+    "hinweis": "Stage-1-Richtwert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -86,7 +86,7 @@
     "leistungStage1PS": 520,
     "leistungStage1NM": 660,
     "preis": 449,
-    "hinweis": "Stage-1-Richtwert. KAP Tuningfiles wird bei der Auftragsprüfung priorisiert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
+    "hinweis": "Stage-1-Richtwert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -119,7 +119,7 @@
     "leistungStage1PS": 550,
     "leistungStage1NM": 700,
     "preis": 449,
-    "hinweis": "Stage-1-Richtwert. KAP Tuningfiles wird bei der Auftragsprüfung priorisiert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
+    "hinweis": "Stage-1-Richtwert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -152,7 +152,7 @@
     "leistungStage1PS": 530,
     "leistungStage1NM": 500,
     "preis": 449,
-    "hinweis": "Öffentlich sichtbarer Stage-1-Anbieterwert; konkrete ECU-, Softwarestand-, Kraftstoff- und Fahrzeugkompatibilität vor Angebot prüfen.",
+    "hinweis": "Stage-1-Richtwert; konkrete ECU-, Softwarestand-, Kraftstoff- und Fahrzeugkompatibilität vor Angebot prüfen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -189,7 +189,7 @@
     "leistungStage1PS": 540,
     "leistungStage1NM": 500,
     "preis": 449,
-    "hinweis": "Öffentlich sichtbarer Stage-1-Anbieterwert; konkrete ECU-, Softwarestand-, Kraftstoff- und Fahrzeugkompatibilität vor Angebot prüfen.",
+    "hinweis": "Stage-1-Richtwert; konkrete ECU-, Softwarestand-, Kraftstoff- und Fahrzeugkompatibilität vor Angebot prüfen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -259,7 +259,7 @@
     "leistungStage1PS": 630,
     "leistungStage1NM": 750,
     "preis": 449,
-    "hinweis": "Stage-1-Richtwert. KAP Tuningfiles wird bei der Auftragsprüfung priorisiert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
+    "hinweis": "Stage-1-Richtwert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -292,7 +292,7 @@
     "leistungStage1PS": 660,
     "leistungStage1NM": 880,
     "preis": 449,
-    "hinweis": "Stage-1-Richtwert. KAP Tuningfiles wird bei der Auftragsprüfung priorisiert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
+    "hinweis": "Stage-1-Richtwert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -325,7 +325,7 @@
     "leistungStage1PS": 730,
     "leistungStage1NM": 930,
     "preis": 449,
-    "hinweis": "Stage-1-Richtwert. KAP Tuningfiles wird bei der Auftragsprüfung priorisiert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
+    "hinweis": "Stage-1-Richtwert; Ergebnis abhängig von ECU, Softwarestand, Kraftstoff, Hardware, Getriebe und Fahrzeugzustand.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -358,7 +358,7 @@
     "leistungStage1PS": 394,
     "leistungStage1NM": 450,
     "preis": 449,
-    "hinweis": "Für diese neue, limitierte oder technisch besondere Motorisierung liegt keine belastbare öffentliche Stage-1-Freigabe vor. Werte bleiben bis zur ECU-/Softwareprüfung auf Serienniveau.",
+    "hinweis": "Für diese neue, limitierte oder technisch besondere Motorisierung liegt keine pauschale Stage-1-Freigabe vor. Werte bleiben bis zur ECU-/Softwareprüfung auf Serienniveau.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -391,7 +391,7 @@
     "leistungStage1PS": 541,
     "leistungStage1NM": 610,
     "preis": 449,
-    "hinweis": "Für diese neue, limitierte oder technisch besondere Motorisierung liegt keine belastbare öffentliche Stage-1-Freigabe vor. Werte bleiben bis zur ECU-/Softwareprüfung auf Serienniveau.",
+    "hinweis": "Für diese neue, limitierte oder technisch besondere Motorisierung liegt keine pauschale Stage-1-Freigabe vor. Werte bleiben bis zur ECU-/Softwareprüfung auf Serienniveau.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -424,7 +424,7 @@
     "leistungStage1PS": 480,
     "leistungStage1NM": 530,
     "preis": 449,
-    "hinweis": "Für diese neue, limitierte oder technisch besondere Motorisierung liegt keine belastbare öffentliche Stage-1-Freigabe vor. Werte bleiben bis zur ECU-/Softwareprüfung auf Serienniveau.",
+    "hinweis": "Für diese neue, limitierte oder technisch besondere Motorisierung liegt keine pauschale Stage-1-Freigabe vor. Werte bleiben bis zur ECU-/Softwareprüfung auf Serienniveau.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -457,7 +457,7 @@
     "leistungStage1PS": 510,
     "leistungStage1NM": 450,
     "preis": 449,
-    "hinweis": "Für diese neue, limitierte oder technisch besondere Motorisierung liegt keine belastbare öffentliche Stage-1-Freigabe vor. Werte bleiben bis zur ECU-/Softwareprüfung auf Serienniveau.",
+    "hinweis": "Für diese neue, limitierte oder technisch besondere Motorisierung liegt keine pauschale Stage-1-Freigabe vor. Werte bleiben bis zur ECU-/Softwareprüfung auf Serienniveau.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -490,7 +490,7 @@
     "leistungStage1PS": 525,
     "leistungStage1NM": 465,
     "preis": 449,
-    "hinweis": "Für diese neue, limitierte oder technisch besondere Motorisierung liegt keine belastbare öffentliche Stage-1-Freigabe vor. Werte bleiben bis zur ECU-/Softwareprüfung auf Serienniveau.",
+    "hinweis": "Für diese neue, limitierte oder technisch besondere Motorisierung liegt keine pauschale Stage-1-Freigabe vor. Werte bleiben bis zur ECU-/Softwareprüfung auf Serienniveau.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -523,7 +523,7 @@
     "leistungStage1PS": 711,
     "leistungStage1NM": 800,
     "preis": 449,
-    "hinweis": "Für diese neue, limitierte oder technisch besondere Motorisierung liegt keine belastbare öffentliche Stage-1-Freigabe vor. Werte bleiben bis zur ECU-/Softwareprüfung auf Serienniveau.",
+    "hinweis": "Für diese neue, limitierte oder technisch besondere Motorisierung liegt keine pauschale Stage-1-Freigabe vor. Werte bleiben bis zur ECU-/Softwareprüfung auf Serienniveau.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
