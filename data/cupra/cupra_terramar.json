@@ -16,7 +16,7 @@
     "leistungStage1PS": 250,
     "leistungStage1NM": 400,
     "preis": 449,
-    "hinweis": "Serienwerte und AutoTuner-Kompatibilität nach der aktuellen Cupra-Kompatibilitätsliste. Stage-1-Wert ist ein externer Tuning-Richtwert und wird am konkreten Fahrzeug/Softwarestand geprüft. AutoTuner listet diese Variante derzeit nur über die Getriebesteuerung (TCU); ECU-Flashing für Stage 1 muss vor Auftrag separat geprüft werden.",
+    "hinweis": "Stage-1-Richtwert; am konkreten Fahrzeug- und Softwarestand prüfen. Diese Variante ist derzeit nur über die Getriebesteuerung (TCU) bestätigt; ECU-Flashing für Stage 1 muss vor Auftrag separat geprüft werden.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -51,7 +51,7 @@
     "leistungStage1PS": 300,
     "leistungStage1NM": 440,
     "preis": 449,
-    "hinweis": "Serienwerte und AutoTuner-Kompatibilität nach der aktuellen Cupra-Kompatibilitätsliste. Stage-1-Wert ist ein externer Tuning-Richtwert und wird am konkreten Fahrzeug/Softwarestand geprüft. AutoTuner listet diese Variante derzeit nur über die Getriebesteuerung (TCU); ECU-Flashing für Stage 1 muss vor Auftrag separat geprüft werden. Die ABT-Referenz führt 400 Nm Serien-Systemdrehmoment; AutoTuner nennt 350 Nm. In der Datenbank bleibt AutoTuner als Serienwert-Master.",
+    "hinweis": "Stage-1-Richtwert; am konkreten Fahrzeug- und Softwarestand prüfen. Diese Variante ist derzeit nur über die Getriebesteuerung (TCU) bestätigt; ECU-Flashing für Stage 1 muss vor Auftrag separat geprüft werden. Serien-Systemdrehmoment vor Auftrag fahrzeugspezifisch prüfen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",

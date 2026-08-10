@@ -16,7 +16,7 @@
     "leistungStage1PS": 180,
     "leistungStage1NM": 335,
     "preis": 449,
-    "hinweis": "Serienwerte und AutoTuner-Kompatibilität nach der aktuellen Cupra-Kompatibilitätsliste. Stage-1-Wert ist ein externer Tuning-Richtwert und wird am konkreten Fahrzeug/Softwarestand geprüft.",
+    "hinweis": "Stage-1-Richtwert; am konkreten Fahrzeug- und Softwarestand prüfen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -52,7 +52,7 @@
     "leistungStage1PS": 390,
     "leistungStage1NM": 510,
     "preis": 449,
-    "hinweis": "Serienwerte und AutoTuner-Kompatibilität nach der aktuellen Cupra-Kompatibilitätsliste. Stage-1-Wert ist ein externer Tuning-Richtwert und wird am konkreten Fahrzeug/Softwarestand geprüft.",
+    "hinweis": "Stage-1-Richtwert; am konkreten Fahrzeug- und Softwarestand prüfen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -88,7 +88,7 @@
     "leistungStage1PS": 185,
     "leistungStage1NM": 430,
     "preis": 449,
-    "hinweis": "Serienwerte und AutoTuner-Kompatibilität nach der aktuellen Cupra-Kompatibilitätsliste. Stage-1-Wert ist ein externer Tuning-Richtwert und wird am konkreten Fahrzeug/Softwarestand geprüft. Einige andere Tuning-Datenbanken führen diese Motorisierung mit 340–360 Nm Serie; für die Datenbank bleibt der AutoTuner-Wert 320 Nm maßgeblich.",
+    "hinweis": "Stage-1-Richtwert; am konkreten Fahrzeug- und Softwarestand prüfen. Serien-Drehmoment 320 Nm; fahrzeugspezifisch vor Auftrag prüfen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -123,7 +123,7 @@
     "leistungStage1PS": 450,
     "leistungStage1NM": 590,
     "preis": 449,
-    "hinweis": "Serienwerte und AutoTuner-Kompatibilität nach der aktuellen Cupra-Kompatibilitätsliste. Stage-1-Wert ist ein externer Tuning-Richtwert und wird am konkreten Fahrzeug/Softwarestand geprüft.",
+    "hinweis": "Stage-1-Richtwert; am konkreten Fahrzeug- und Softwarestand prüfen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -159,7 +159,7 @@
     "leistungStage1PS": 240,
     "leistungStage1NM": 420,
     "preis": 449,
-    "hinweis": "Serienwerte und AutoTuner-Kompatibilität nach der aktuellen Cupra-Kompatibilitätsliste. Stage-1-Wert ist ein externer Tuning-Richtwert und wird am konkreten Fahrzeug/Softwarestand geprüft. AutoTuner listet diese Variante derzeit nur über die Getriebesteuerung (TCU); ECU-Flashing für Stage 1 muss vor Auftrag separat geprüft werden.",
+    "hinweis": "Stage-1-Richtwert; am konkreten Fahrzeug- und Softwarestand prüfen. Diese Variante ist derzeit nur über die Getriebesteuerung (TCU) bestätigt; ECU-Flashing für Stage 1 muss vor Auftrag separat geprüft werden.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -195,7 +195,7 @@
     "leistungStage1PS": 330,
     "leistungStage1NM": 480,
     "preis": 449,
-    "hinweis": "Serienwerte und AutoTuner-Kompatibilität nach der aktuellen Cupra-Kompatibilitätsliste. Stage-1-Wert ist ein externer Tuning-Richtwert und wird am konkreten Fahrzeug/Softwarestand geprüft.",
+    "hinweis": "Stage-1-Richtwert; am konkreten Fahrzeug- und Softwarestand prüfen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -231,7 +231,7 @@
     "leistungStage1PS": 380,
     "leistungStage1NM": 500,
     "preis": 449,
-    "hinweis": "Serienwerte und AutoTuner-Kompatibilität nach der aktuellen Cupra-Kompatibilitätsliste. Stage-1-Wert ist ein externer Tuning-Richtwert und wird am konkreten Fahrzeug/Softwarestand geprüft.",
+    "hinweis": "Stage-1-Richtwert; am konkreten Fahrzeug- und Softwarestand prüfen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -267,7 +267,7 @@
     "leistungStage1PS": 250,
     "leistungStage1NM": 400,
     "preis": 449,
-    "hinweis": "Serienwerte und AutoTuner-Kompatibilität nach der aktuellen Cupra-Kompatibilitätsliste. Stage-1-Wert ist ein externer Tuning-Richtwert und wird am konkreten Fahrzeug/Softwarestand geprüft. AutoTuner listet diese Variante derzeit nur über die Getriebesteuerung (TCU); ECU-Flashing für Stage 1 muss vor Auftrag separat geprüft werden.",
+    "hinweis": "Stage-1-Richtwert; am konkreten Fahrzeug- und Softwarestand prüfen. Diese Variante ist derzeit nur über die Getriebesteuerung (TCU) bestätigt; ECU-Flashing für Stage 1 muss vor Auftrag separat geprüft werden.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -302,7 +302,7 @@
     "leistungStage1PS": 300,
     "leistungStage1NM": 440,
     "preis": 449,
-    "hinweis": "Serienwerte und AutoTuner-Kompatibilität nach der aktuellen Cupra-Kompatibilitätsliste. Stage-1-Wert ist ein externer Tuning-Richtwert und wird am konkreten Fahrzeug/Softwarestand geprüft. AutoTuner listet diese Variante derzeit nur über die Getriebesteuerung (TCU); ECU-Flashing für Stage 1 muss vor Auftrag separat geprüft werden. Die ABT-Referenz führt 400 Nm Serien-Systemdrehmoment; AutoTuner nennt 350 Nm. In der Datenbank bleibt AutoTuner als Serienwert-Master.",
+    "hinweis": "Stage-1-Richtwert; am konkreten Fahrzeug- und Softwarestand prüfen. Diese Variante ist derzeit nur über die Getriebesteuerung (TCU) bestätigt; ECU-Flashing für Stage 1 muss vor Auftrag separat geprüft werden. Serien-Systemdrehmoment vor Auftrag fahrzeugspezifisch prüfen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -337,7 +337,7 @@
     "leistungStage1PS": 450,
     "leistungStage1NM": 590,
     "preis": 449,
-    "hinweis": "Serienwerte und AutoTuner-Kompatibilität nach der aktuellen Cupra-Kompatibilitätsliste. Stage-1-Wert ist ein externer Tuning-Richtwert und wird am konkreten Fahrzeug/Softwarestand geprüft. AutoTuner unterstützt die neue MG1CS164 inzwischen nach Mail-in-Unlock. Der Stage-1-Zielwert ist konservativ aus der identischen 390-PS-VZ5-Motorfamilie übernommen und muss für MG1CS164 vor Auftrag bestätigt werden.",
+    "hinweis": "Stage-1-Richtwert; am konkreten Fahrzeug- und Softwarestand prüfen. MG1CS164 benötigt Mail-in-Unlock. Der Stage-1-Zielwert ist aus der identischen 390-PS-VZ5-Motorfamilie abgeleitet und muss vor Auftrag bestätigt werden.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",

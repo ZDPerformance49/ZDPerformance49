@@ -16,7 +16,7 @@
     "leistungStage1PS": 350,
     "leistungStage1NM": 460,
     "preis": 449,
-    "hinweis": "Serienwerte und AutoTuner-Kompatibilität nach der aktuellen Cupra-Kompatibilitätsliste. Stage-1-Wert ist ein externer Tuning-Richtwert und wird am konkreten Fahrzeug/Softwarestand geprüft.",
+    "hinweis": "Stage-1-Richtwert; am konkreten Fahrzeug- und Softwarestand prüfen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
@@ -52,7 +52,7 @@
     "leistungStage1PS": 390,
     "leistungStage1NM": 510,
     "preis": 449,
-    "hinweis": "Serienwerte und AutoTuner-Kompatibilität nach der aktuellen Cupra-Kompatibilitätsliste. Stage-1-Wert ist ein externer Tuning-Richtwert und wird am konkreten Fahrzeug/Softwarestand geprüft.",
+    "hinweis": "Stage-1-Richtwert; am konkreten Fahrzeug- und Softwarestand prüfen.",
     "bild": "images/hero.png",
     "optionen": [
       "Stage 1",
